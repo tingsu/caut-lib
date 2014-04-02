@@ -1,0 +1,113 @@
+
+Thanks for downloading and trying CAUT.
+
+You can get the latest version of CAUT, as well as news and announcements at CAUT's homepage: 
+	http://www.lab205.org/caut/
+	
+--What it does? 
+	
+	CAUT is a DSE(dynamic symbolic execution)-based tool to automatically generate test data for C program at unit/program testing level.
+	It currently supports the coverage-driven testing on branch and MC/DC criteria.
+	And it's easy to be extended to support other logical coverage criteria, like condition, condition/decision or multiple coverage.
+	Up to now, serveral path exploration strategies have been implemented on CAUT. 
+
+--What does it need before building CAUT?
+
+	Install Ocaml 3.11 --> sudo apt-get install ocaml
+	gcc and/or g++.
+	
+	We use lpsolve as the underlying constraint solver.
+	Now we default use the Linux-32bit version of lpsolve library.
+	Please change to Linux-64bit version if your platform is 64bit version.
+		lpsolve library: http://sourceforge.net/projects/lpsolve/
+		or see tools/lpsolve for linux64
+
+	Up to now, CAUT is only tested on Linux-Ubuntu 32 bit.
+	But we think it is easy to port it to other unix supported platforms with a little modification.
+
+-- How to build the source code (or directly use caut library) ?
+
+Note: If encountering some building errors, you can contact tsuletgo@gmail.com
+
+	1. (necessary for both usages) build c-ocaml-sqlite-lib, which is used to create an sqlite interface in Ocaml. 
+	   step1: cd ./tools/c-ocaml-sqlite-lib
+           step2: make clean --> make --> sudo make install
+	   default lib directory : /usr/lib/ocaml, refer to ./tools/c-ocaml-sqlite-lib for details.
+
+    2. CAUT includes a modified version of CIL executable. 
+
+	  CIL source code is available at: http://kerneis.github.com/cil/doc/html/cil/. 
+	  It is distributed under the revised BSD license. See cil/LICENSE for details.
+
+
+	3. It may need to export lpsolve library path in $(HOME)/.bashrc
+		 like this:
+			export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/work/caut-lib/lpsolve
+	   You should also export caut include path:
+	   	  like this:
+			export C_INCLUDE_PATH=$C_INCLUDE_PATH:/work/caut-lib
+
+
+-- How to run CAUT on a unit/program under test ?
+	
+   	A simple example: refer to benchmarks/bubble.c
+	A simple tutorial : refer to "tutorial"
+		
+		xx.c --> the file name of the program under test
+	Generated file including:
+		xx.cil.c --> the instrumented c file
+		xx.orig.cil.c --> the original c file 
+		xx.i --> the preprocessed c file
+		xx.c.db --> cfg related info. db file
+
+
+-- CAUT's source code directory
+
+	README --> this file
+	tutorial --> a simple tutorial
+	caut.h  --> caut header file
+	
+	benchmarks/  --> some benchmarks from GNU Coreutils
+		./caut.sh --> invoke cilly.byte.exe
+		./reg.sh  --> build the UUT with the caut library
+		./Makefile --> makefile
+		./caut_br_testing.sh --> run branch testing
+	lib/ --> caut library
+	cil/ --> CIL
+	tools/  --> some utility tools
+	lpsolve --> lpsolve library
+
+--Which search strategies on CAUT?
+
+	1. CREST cfg-guided search strategy
+
+	   For details: http://www.eecs.berkeley.edu/Pubs/TechRpts/2008/EECS-2008-123.html
+
+	input --> p= p0,p1,p2,..pi,..,pn
+        for all pk, typeof(pk)== _branch_, cal. UncoveredDistance(!pk)=min dist(!pk,b') (b' is uncovered branch)
+	init. tries(!pk)=0;
+        choose !pk with minimal UncoveredDistance(!pk)+tries(!pk) to force a new path prefix
+	If the new path p', has not covered any uncovered branches, then tries(!pk)++, restart the search on p.
+	If the new path p', has covered some uncovered branches, then p <- p' , recal. UncoveredDistance(!pk') and reinit. tries(!pk')=0
+
+	2. KLEE rp-md2u search strategy
+		
+	   For details: http://klee.llvm.org/klee-options.html
+	   
+	Interleave the Random Path strategy with Min-Dist-to-Uncovered heuristic.
+	The Random Path strategy is actually a probabilistic version of breadth-first search, which weights a path candidate of length l by 2^-l and randomly chooses candidates with the same length. The Min-Dist-to-Uncovered heuristic prefers the path candidate with minimal distance to uncovered goals in the CFG.
+	   
+	3. Predictive Path Search strategy based on the Coverage Structure
+
+	   For details: refer to our technical report
+
+	4. other search strategies: DFS (depth-first search)
+				    BFS (breath-first search)
+			            LSF (local shortest first)
+				    LLF (local longest first)
+			            RANDOM (uniform random path search)
+
+	5. fitness guided search strategy(experimental stage, not stable)
+
+	   For details: Fitness-Guided Path Exploration in Dynamic Symbolic Execution. Xie et al.
+
