@@ -1,0 +1,37 @@
+#!/bash/sh
+
+SRC_FILE_NAME=$1
+UNIT_NAME=$2
+SRC_PART_NAME=${1%.c}
+CIL_PATH=../cil-1.5.1/obj/x86_LINUX/
+
+echo "->caut init..."
+echo "remove old files..."
+rm -rf $SRC_FILE_NAME.db $SRC_PART_NAME.cil.orig.c $SRC_PART_NAME.cil.c
+
+echo "->preprocess file..."
+gcc -E -I ../ $SRC_FILE_NAME > $SRC_PART_NAME.i
+
+echo "->extract cfg info and insert cover function --> P"
+$CIL_PATH/cilly.byte.exe --noInsertImplicitCasts --useLogicalOperators --domakeCFG --docautcover -file $SRC_FILE_NAME -bc 1 --out $SRC_PART_NAME.cil.orig.c $SRC_PART_NAME.i
+
+#echo "->create caut types function"
+#Generate the function  "__CAUT_register_types"
+#$CIL_PATH/cilly.byte.exe --out $SRC_PART_NAME.typ.c --docauttyps $SRC_PART_NAME.i
+
+
+#echo "-> insert runtime interfaces --> P' (the simplest version of coverage-driven testing)"
+#$CIL_PATH/cilly.byte.exe --domakeCFG --dotcg -cff $SRC_FILE_NAME -cfunit $UNIT_NAME --out $SRC_PART_NAME.cil.c $SRC_PART_NAME.i > $SRC_PART_NAME.append
+
+#echo "-> insert runtime interfaces --> P' (generate type system and print test case)"
+$CIL_PATH/cilly.byte.exe --domakeCFG --dotcg -cff $SRC_FILE_NAME -pt print -cfunit $UNIT_NAME --out $SRC_PART_NAME.cil.c $SRC_PART_NAME.i > $SRC_PART_NAME.append
+
+echo "->append code..."
+cat $SRC_PART_NAME.append >> $SRC_PART_NAME.cil.c
+
+#comment "#line" line
+sed -i "s/\#line/\/\/\#line/g" $SRC_PART_NAME.cil.c
+sed -i "s/\#line/\/\/\#line/g" $SRC_PART_NAME.cil.orig.c
+
+echo "->add caut header file \"caut.h\""
+sed -i "1 i\\#include\"../caut.h\"" $SRC_PART_NAME.cil.c

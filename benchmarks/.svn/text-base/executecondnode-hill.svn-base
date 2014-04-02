@@ -1,0 +1,33 @@
+id: 0, iteration: 1, covered: 2
+id: 1, iteration: 2, covered: 9
+id: 2, iteration: 3, covered: 13
+id: 3, iteration: 4, covered: 15
+id: 4, iteration: 5, covered: 17
+id: 5, iteration: 6, covered: 24
+id: 6, iteration: 7, covered: 25
+id: 7, iteration: 8, covered: 26
+id: 8, iteration: 9, covered: 27
+id: 9, iteration: 10, covered: 28
+id: 10, iteration: 11, covered: 30
+id: 11, iteration: 12, covered: 31
+id: 12, iteration: 13, covered: 35
+id: 13, iteration: 14, covered: 36
+id: 14, iteration: 15, covered: 36
+id: 15, iteration: 16, covered: 36
+id: 16, iteration: 17, covered: 36
+id: 17, iteration: 18, covered: 36
+id: 18, iteration: 19, covered: 36
+id: 19, iteration: 20, covered: 36
+#49[0] YES #52[0] YES #52[1] YES #55[0] YES #55[1] YES #58[0] YES #58[1] YES #66[0] YES #66[1] YES #74[0] YES #74[1] YES #88[0] YES #88[1] YES #126[0] YES #126[1] NO #128[0] NO #128[1] NO #90[0] YES #90[1] YES #97[0] YES #97[1] YES #101[0] YES #101[1] YES #104[0] YES #104[1] YES #112[0] YES #112[1] YES #115[0] YES #115[1] YES #78[0] YES #78[1] YES #80[0] YES #80[1] YES #84[0] YES #84[1] YES #70[0] YES #70[1] YES #62[0] YES #62[1] YES 
+
+Branch Coverage Testing:
+all/covered branch: 39/36 
+Coverage:92.307692%
+All explored execution paths: 20
+Explored execution paths[no duplicate]: 20
+Program Iteration: 20
+Constraint Solved: 229
+Test Cases: 20
+Average Search Depth: 11.550000
+total ineffective path prefix: 0
+ineffective path prefix filtered by isSuccCover: 0

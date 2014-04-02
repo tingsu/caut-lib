@@ -1,0 +1,18 @@
+id: 0, iteration: 1, covered: 3
+id: 1, iteration: 2, covered: 4
+id: 2, iteration: 3, covered: 8
+id: 3, iteration: 4, covered: 9
+id: 4, iteration: 5, covered: 10
+#8[0] YES #8[1] YES #10[0] YES #10[1] YES #23[0] YES #23[1] YES #13[0] YES #13[1] YES #17[0] YES #17[1] YES 
+
+Branch Coverage Testing:
+all/covered branch: 10/10 
+Coverage:100.000000%
+All explored execution paths: 5
+Explored execution paths[no duplicate]: 5
+Program Iteration: 5
+Constraint Solved: 13
+Test Cases: 5
+Average Search Depth: 2.600000
+total ineffective path prefix: 0
+ineffective path prefix filtered by isSuccCover: 1

@@ -1,0 +1,13 @@
+#Makefile to build benchmarks
+
+CC=gcc
+EXE=$(FILE)
+SRC=$(FILE).cil.c
+
+all:clean $(EXE)
+clean:
+	rm -rf $(EXE) *.tpl *.lst *.cautlog *.append *.*~ *.i *~ cover_status.txt Testcase
+	
+
+$(EXE):$(SRC)
+	$(CC) -g -o $@ -I .. -L ../lpsolve $? ../src/core/caut-bc.a -llpsolve55 -ldl -lpthread 

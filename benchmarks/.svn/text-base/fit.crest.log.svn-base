@@ -1,0 +1,570 @@
+rm -rf *.o *.a
+gcc -g -I ../../include/core/ -c branch_coverage.c
+gcc -g -I ../../include/core/ -c cfg.c
+gcc -g -I ../../include/core/ -c path.c
+gcc -g -I ../../include/core/ -c dump.c
+gcc -g -I ../../include/core/ -c symbolic.c
+gcc -g -I ../../include/core/ -c constraint_solve.c
+gcc -g -I ../../include/core/ -c constraint_optimize.c
+gcc -g -I ../../include/core/ -c get_test_case.c
+gcc -g -I ../../include/core/ -c runtime.c
+gcc -g -I ../../include/core/ -c fitness.c
+ar -rcs caut-bc.a branch_coverage.o cfg.o path.o dump.o symbolic.o constraint_solve.o constraint_optimize.o get_test_case.o runtime.o fitness.o ../../Sqlite/sqlite3.o ../DataStructure/list.o ../DataStructure/stack.o
+fit
+rm -rf fit *.tpl *.lst *.cautlog *.append *.cil.orig.c *.*~ *.i *~ cover_status.txt
+gcc -g -o fit -I .. -L ../lpsolve fit.cil.c ../src/core/caut-bc.a -llpsolve55 -ldl -lpthread 
+[cfg.c->create_cfg_from_database_file()] load database file ...
+[cfg.c->create_cfg_from_database_file()] malloc CFG structure ... 
+[cfg.c->create_cfg_from_database_file()] node_count = 6
+[cfg.c->create_cfg_from_database_file()] create cfg successfully!
+[branchcoverage.c->cs_create()] create cs successfully!
+
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 01 
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 01 1 0 1 0 1 0 1 0 1 0 1 0 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 1 0 1 0 1 0 1 0 1 1 1 1 0 1 0 1 0 1 1 1 1 0 1 0 1 1 1 1 0 1 1 1 1 1 
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[2])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[2])-3))(0xdf-2)((0xdf-2)+(*(0xf7[2])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 01 1 0 1 0 1 1 1 0 1 0 1 0 0 1 1 1 0 1 0 1 1 1 0 1 0 1 1 1 1 0 1 0 1 1 1 0 1 1 1 1 0 1 0 1 1 1 1 
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))(*(0xf7[2])-3)((*(0xf7[2])-3)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))
+WARNING: INFEASIBLE PATH!
+
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(*(0xf7[4])-3))(*(0xf7[2])-3)((*(0xf7[2])-3)+(*(0xf7[4])-3))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[4])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[4])-3))(0xdf-2)((0xdf-2)+(*(0xf7[4])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+(*(0xf7[2])-3)((*(0xf7[2])-3)+(*(0xf7[3])-3))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[3])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[3])-3))(0xdf-2)((0xdf-2)+(*(0xf7[3])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(*(0xf7[5])-3))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(*(0xf7[5])-3))(*(0xf7[2])-3)((*(0xf7[2])-3)+(*(0xf7[5])-3))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[5])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[5])-3))(0xdf-2)((0xdf-2)+(*(0xf7[5])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(*(0xf7[4])-3))(*(0xf7[2])-3)((*(0xf7[2])-3)+(*(0xf7[4])-3))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[4])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[4])-3))(0xdf-2)((0xdf-2)+(*(0xf7[4])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(*(0xf7[5])-3))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(*(0xf7[5])-3))(*(0xf7[2])-3)((*(0xf7[2])-3)+(*(0xf7[5])-3))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[5])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[5])-3))(0xdf-2)((0xdf-2)+(*(0xf7[5])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+(*(0xf7[2])-3)((*(0xf7[2])-3)+(*(0xf7[3])-3))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[3])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[3])-3))(0xdf-2)((0xdf-2)+(*(0xf7[3])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(*(0xf7[4])-3))(*(0xf7[2])-3)((*(0xf7[2])-3)+(*(0xf7[4])-3))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[4])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[4])-3))(0xdf-2)((0xdf-2)+(*(0xf7[4])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(*(0xf7[5])-3))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(*(0xf7[5])-3))(*(0xf7[2])-3)((*(0xf7[2])-3)+(*(0xf7[5])-3))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[5])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[5])-3))(0xdf-2)((0xdf-2)+(*(0xf7[5])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+(*(0xf7[2])-3)((*(0xf7[2])-3)+(*(0xf7[3])-3))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[3])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[3])-3))(0xdf-2)((0xdf-2)+(*(0xf7[3])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+(0xdf-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(0xdf-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(0xdf-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(0xdf-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(0xdf-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+(0xdf-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(0xdf-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(0xdf-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(0xdf-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+(0xdf-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+(0xdf-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(0xdf-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(0xdf-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+(0xdf-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(0xdf-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+(0xdf-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(0xdf-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(0xdf-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+(0xdf-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+(0xdf-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+(0xdf-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(0xdf-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+(0xdf-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(0xdf-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(0xdf-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+(0xdf-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(0xdf-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+(0xdf-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(0xdf-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+(0xdf-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+(0xdf-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(0xdf-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+(0xdf-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+(0xdf-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(0xdf-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+(0xdf-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(0xdf-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+(0xdf-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+(0xdf-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+(0xdf-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+(0xdf-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+(0xdf-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(0xdf-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(0xdf-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(0xdf-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+(0xdf-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+(0xdf-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(0xdf-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(0xdf-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+(0xdf-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+(0xdf-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+(0xdf-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(0xdf-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+(0xdf-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(0xdf-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+(0xdf-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+(0xdf-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(0xdf-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+(0xdf-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+(0xdf-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+(0xdf-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+(0xdf-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+(0xdf-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(0xdf-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(0xdf-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+(0xdf-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+(0xdf-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+(0xdf-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(0xdf-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+(0xdf-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+(0xdf-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+(0xdf-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+(0xdf-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+(0xdf-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(0xdf-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+(0xdf-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+(0xdf-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+(0xdf-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+(0xdf-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+(0xdf-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+(0xdf-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(0xdf-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(0xdf-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(0xdf-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(0xdf-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+(0xdf-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(0xdf-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(0xdf-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(0xdf-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+(0xdf-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+(0xdf-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(0xdf-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(0xdf-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+(0xdf-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(0xdf-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+(0xdf-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(0xdf-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(0xdf-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+(0xdf-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+(0xdf-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+(0xdf-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(0xdf-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+(0xdf-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(0xdf-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(0xdf-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+(0xdf-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(0xdf-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+(0xdf-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(0xdf-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+(0xdf-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+(0xdf-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(0xdf-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+(0xdf-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+(0xdf-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(0xdf-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+(0xdf-6))((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(0xdf-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+(0xdf-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+(0xdf-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+(0xdf-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+(0xdf-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+(0xdf-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(0xdf-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(0xdf-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(0xdf-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+(0xdf-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+(0xdf-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(0xdf-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(0xdf-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+(0xdf-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+(0xdf-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+(0xdf-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(0xdf-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+(0xdf-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(0xdf-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+(0xdf-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+(0xdf-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(0xdf-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+(0xdf-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+(0xdf-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+(0xdf-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+(0xdf-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+(0xdf-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(0xdf-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(0xdf-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+(0xdf-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+(0xdf-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+(0xdf-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(0xdf-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+(0xdf-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+(0xdf-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+(0xdf-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+(0xdf-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+(0xdf-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(0xdf-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+(0xdf-6))((3-*(0xf7[4]))-1)(((3-*(0xf7[4]))-1)+(0xdf-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+(0xdf-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+(0xdf-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+(0xdf-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(0xdf-6))(0xdf-2)((0xdf-2)+(0xdf-6))
+WARNING: INFEASIBLE PATH!
+
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(*(0xf7[3])-3))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[3])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[3])-3))(0xdf-2)((0xdf-2)+(*(0xf7[3])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[1])-3))(0xdf-2)((0xdf-2)+(*(0xf7[1])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+(0xdf-2)((0xdf-2)+(*(0xf7[0])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(*(0xf7[4])-3))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(*(0xf7[4])-3))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[4])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[4])-3))(0xdf-2)((0xdf-2)+(*(0xf7[4])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(*(0xf7[5])-3))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(*(0xf7[5])-3))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(*(0xf7[5])-3))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[5])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[5])-3))(0xdf-2)((0xdf-2)+(*(0xf7[5])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[1])-3))(0xdf-2)((0xdf-2)+(*(0xf7[1])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(*(0xf7[3])-3))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[3])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[3])-3))(0xdf-2)((0xdf-2)+(*(0xf7[3])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(*(0xf7[4])-3))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(*(0xf7[4])-3))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[4])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[4])-3))(0xdf-2)((0xdf-2)+(*(0xf7[4])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(*(0xf7[5])-3))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(*(0xf7[5])-3))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(*(0xf7[5])-3))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[5])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[5])-3))(0xdf-2)((0xdf-2)+(*(0xf7[5])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+(0xdf-2)((0xdf-2)+(*(0xf7[0])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[1])-3))(0xdf-2)((0xdf-2)+(*(0xf7[1])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(*(0xf7[3])-3))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[3])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[3])-3))(0xdf-2)((0xdf-2)+(*(0xf7[3])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+(0xdf-2)((0xdf-2)+(*(0xf7[0])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[4])-3)-1)(((*(0xf7[4])-3)-1)+(*(0xf7[5])-3))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(*(0xf7[5])-3))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(*(0xf7[5])-3))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[5])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[5])-3))(0xdf-2)((0xdf-2)+(*(0xf7[5])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(*(0xf7[4])-3))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(*(0xf7[4])-3))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[4])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[4])-3))(0xdf-2)((0xdf-2)+(*(0xf7[4])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 0
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((*(0xf7[5])-3)-1)(((*(0xf7[5])-3)-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+((0xdf+1)-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+((0xdf+1)-6))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))((3-*(0xf7[5]))-1)(((3-*(0xf7[5]))-1)+((0xdf+1)-6))(*(0xf7[4])-3)((*(0xf7[4])-3)+((0xdf+1)-6))((3-*(0xf7[3]))-1)(((3-*(0xf7[3]))-1)+((0xdf+1)-6))((3-*(0xf7[2]))-1)(((3-*(0xf7[2]))-1)+((0xdf+1)-6))((3-*(0xf7[1]))-1)(((3-*(0xf7[1]))-1)+((0xdf+1)-6))((3-*(0xf7[0]))-1)(((3-*(0xf7[0]))-1)+((0xdf+1)-6))(0xdf-2)((0xdf-2)+((0xdf+1)-6))
+WARNING: INFEASIBLE PATH!
+
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+(*(0xf7[4])-3)((*(0xf7[4])-3)+(*(0xf7[5])-3))((*(0xf7[3])-3)-1)(((*(0xf7[3])-3)-1)+(*(0xf7[5])-3))((*(0xf7[2])-3)-1)(((*(0xf7[2])-3)-1)+(*(0xf7[5])-3))((*(0xf7[1])-3)-1)(((*(0xf7[1])-3)-1)+(*(0xf7[5])-3))((*(0xf7[0])-3)-1)(((*(0xf7[0])-3)-1)+(*(0xf7[5])-3))(0xdf-2)((0xdf-2)+(*(0xf7[5])-3))
+[branch_coverage.c --> cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> cs_update()] cfg_branch_id: 11 --> choice: 01 1 0 1 0 1 0 1 0 1 1 1 1 0 1 
+valid must-effective path prefix count : 0 
+valid may-effective path prefix count : 0 
+GAME OVER.
+No new test case!
+no new path!
+Avoid Program Iteration: 0
+Test Over! ;) 
+
+id: 0, iteration: 1, covered: 1
+id: 1, iteration: 2, covered: 6
+id: 2, iteration: 3, covered: 7
+id: 3, iteration: 4, covered: 7
+id: 4, iteration: 5, covered: 7
+id: 5, iteration: 6, covered: 7
+id: 6, iteration: 7, covered: 7
+id: 7, iteration: 8, covered: 7
+id: 8, iteration: 9, covered: 7
+id: 9, iteration: 10, covered: 7
+id: 10, iteration: 11, covered: 7
+id: 11, iteration: 12, covered: 7
+id: 12, iteration: 13, covered: 7
+id: 13, iteration: 14, covered: 7
+id: 14, iteration: 15, covered: 7
+id: 15, iteration: 16, covered: 7
+id: 16, iteration: 17, covered: 7
+id: 17, iteration: 18, covered: 7
+id: 18, iteration: 19, covered: 7
+id: 19, iteration: 20, covered: 7
+id: 20, iteration: 21, covered: 7
+id: 21, iteration: 22, covered: 7
+id: 22, iteration: 23, covered: 7
+id: 23, iteration: 24, covered: 7
+id: 24, iteration: 25, covered: 7
+id: 25, iteration: 26, covered: 7
+id: 26, iteration: 27, covered: 7
+id: 27, iteration: 28, covered: 7
+#7[0] YES #7[1] YES #9[0] YES #9[1] YES #12[0] YES #12[1] NO #10[0] YES #10[1] YES 
+
+Branch Coverage Testing:
+all/covered branch: 8/7 
+Coverage:87.500000%
+All explored execution paths: 28
+Explored execution paths[no duplicate]: 14
+Program Iteration: 28
+Constraint Solved: 159
+Test Cases: 28
+Average Search Depth: 10.285714

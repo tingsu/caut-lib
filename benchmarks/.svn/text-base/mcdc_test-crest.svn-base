@@ -1,0 +1,14 @@
+id: 0, iteration: 1, covered: 0
+id: 1, iteration: 2, covered: 0
+id: 2, iteration: 3, covered: 1
+#5 YES 
+
+MC/DC Testing:
+all/covered decisions: 1/1 
+Coverage:100.000000%
+All explored execution paths: 3
+Explored execution paths[no duplicate]: 3
+Program Iteration: 3
+Constraint Solved: 3
+Test Cases: 3
+Average Search Depth: 1.000000

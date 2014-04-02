@@ -1,0 +1,38 @@
+#!/bash/sh
+
+SRC_FILE_NAME=$1
+#iterate to split composite if stmt
+#ITER=$2
+SRC_PART_NAME=${1%.c}
+
+echo "->caut init..."
+echo "remove old files..."
+rm -rf $SRC_FILE_NAME.db $SRC_PART_NAME.cil.orig.c $SRC_PART_NAME.cil.c
+
+echo "->preprocess file..."
+gcc -E -I ../ $SRC_FILE_NAME > $SRC_PART_NAME.i
+
+echo "->extract cfg info and insert cover function --> P"
+cilly-1.5.1 --noInsertImplicitCasts --useLogicalOperators --domakeCFG --dosimplify --docautcover -file $SRC_FILE_NAME -bc 0 --out $SRC_PART_NAME.cil.orig.c $SRC_PART_NAME.i
+
+echo "->insert runtime interfaces --> P'"
+cilly-1.5.1 --domakeCFG --dotcg -f $SRC_FILE_NAME --out $SRC_PART_NAME.cil.c $SRC_PART_NAME.cil.orig.c > $SRC_PART_NAME.append
+
+echo "->append code..."
+cat $SRC_PART_NAME.append >> $SRC_PART_NAME.cil.c
+
+#comment "#line" line
+sed -i "s/\#line/\/\/\#line/g" $SRC_PART_NAME.cil.c
+sed -i "s/\#line/\/\/\#line/g" $SRC_PART_NAME.cil.orig.c
+
+echo "->add caut header file \"caut.h\""
+sed -i "1 i\\#include\"../caut.h\"" $SRC_PART_NAME.cil.c
+
+#echo "copy code to win directory"
+#sudo cp $SRC_PART_NAME.cil.after-sim.c $SRC_PART_NAME.i.db /media/sf_share
+
+
+
+
+
+

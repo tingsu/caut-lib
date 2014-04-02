@@ -1,0 +1,93 @@
+id: 0, iteration: 1, covered: 2
+id: 1, iteration: 2, covered: 4
+id: 2, iteration: 3, covered: 6
+id: 3, iteration: 4, covered: 8
+id: 4, iteration: 5, covered: 10
+id: 5, iteration: 6, covered: 23
+id: 6, iteration: 7, covered: 24
+id: 7, iteration: 8, covered: 24
+id: 8, iteration: 9, covered: 26
+id: 9, iteration: 10, covered: 26
+id: 10, iteration: 11, covered: 26
+id: 11, iteration: 12, covered: 26
+id: 12, iteration: 13, covered: 26
+id: 13, iteration: 14, covered: 26
+id: 14, iteration: 15, covered: 26
+id: 15, iteration: 16, covered: 26
+id: 16, iteration: 17, covered: 28
+id: 17, iteration: 18, covered: 28
+id: 18, iteration: 19, covered: 29
+id: 19, iteration: 20, covered: 29
+id: 20, iteration: 21, covered: 29
+id: 21, iteration: 22, covered: 29
+id: 22, iteration: 23, covered: 29
+id: 23, iteration: 24, covered: 29
+id: 24, iteration: 25, covered: 29
+id: 25, iteration: 26, covered: 29
+id: 26, iteration: 27, covered: 29
+id: 27, iteration: 28, covered: 29
+id: 28, iteration: 29, covered: 29
+id: 29, iteration: 30, covered: 29
+id: 30, iteration: 31, covered: 29
+id: 31, iteration: 32, covered: 29
+id: 32, iteration: 33, covered: 29
+id: 33, iteration: 34, covered: 29
+id: 34, iteration: 35, covered: 29
+id: 35, iteration: 36, covered: 29
+id: 36, iteration: 37, covered: 29
+id: 37, iteration: 38, covered: 29
+id: 38, iteration: 39, covered: 29
+id: 39, iteration: 40, covered: 29
+id: 40, iteration: 41, covered: 29
+id: 41, iteration: 42, covered: 29
+id: 42, iteration: 43, covered: 29
+id: 43, iteration: 44, covered: 29
+id: 44, iteration: 45, covered: 29
+id: 45, iteration: 46, covered: 29
+id: 46, iteration: 47, covered: 29
+id: 47, iteration: 48, covered: 29
+id: 48, iteration: 49, covered: 29
+id: 49, iteration: 50, covered: 29
+id: 50, iteration: 51, covered: 29
+id: 51, iteration: 52, covered: 29
+id: 52, iteration: 53, covered: 29
+id: 53, iteration: 54, covered: 29
+id: 54, iteration: 55, covered: 35
+id: 55, iteration: 56, covered: 35
+id: 56, iteration: 57, covered: 35
+id: 57, iteration: 58, covered: 35
+id: 58, iteration: 59, covered: 35
+id: 59, iteration: 60, covered: 35
+id: 60, iteration: 61, covered: 35
+id: 61, iteration: 62, covered: 35
+id: 62, iteration: 63, covered: 35
+id: 63, iteration: 64, covered: 35
+id: 64, iteration: 65, covered: 35
+id: 65, iteration: 66, covered: 35
+id: 66, iteration: 67, covered: 35
+id: 67, iteration: 68, covered: 35
+id: 68, iteration: 69, covered: 35
+id: 69, iteration: 70, covered: 35
+id: 70, iteration: 71, covered: 35
+id: 71, iteration: 72, covered: 35
+id: 72, iteration: 73, covered: 35
+id: 73, iteration: 74, covered: 35
+id: 74, iteration: 75, covered: 35
+id: 75, iteration: 76, covered: 35
+id: 76, iteration: 77, covered: 35
+id: 77, iteration: 78, covered: 35
+id: 78, iteration: 79, covered: 35
+id: 79, iteration: 80, covered: 35
+id: 80, iteration: 81, covered: 35
+id: 81, iteration: 82, covered: 35
+#968[0] YES #971[0] YES #971[1] YES #972[0] YES #972[1] YES #973[0] YES #973[1] YES #974[0] YES #974[1] YES #976[0] YES #976[1] YES #979[0] YES #979[1] YES #983[0] YES #983[1] YES #992[0] YES #992[1] YES #998[0] YES #998[1] YES #1005[0] YES #1005[1] YES #1015[0] YES #1015[1] YES #1034[0] YES #1034[1] YES #1038[0] YES #1038[1] YES #1041[0] YES #1041[1] NO #1019[0] YES #1019[1] YES #1022[0] NO #1022[1] YES #1009[0] YES #1009[1] YES #985[0] YES #985[1] YES 
+
+Branch Coverage Testing:
+all/covered branch: 37/35 
+Coverage:94.594595%
+All explored execution paths: 82
+Explored execution paths[no duplicate]: 39
+Program Iteration: 82
+Constraint Solved: 1518
+Test Cases: 82
+Average Search Depth: 31.195122

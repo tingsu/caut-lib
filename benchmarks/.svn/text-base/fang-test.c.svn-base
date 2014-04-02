@@ -1,0 +1,32 @@
+#include "caut.h"
+#define MAXL 100
+//typedef unsigned int size_t;
+typedef struct charA
+{
+	char charD[100];
+	unsigned int charL;
+}myStr;
+//typedef char * ptr_t;
+char* x(char* p, unsigned int n, myStr  *pD)
+{
+	if(p==0||pD==0)
+		return 0;
+	char* r = &(pD->charD[0]);
+	if(n <= 100/*MAXL*/)
+		pD->charL = n;
+	else
+		pD->charL = 0;
+	if (!r)	;
+	return r;
+}
+
+void testme()
+{
+	char* p;
+	unsigned int n;
+	myStr  *pD;
+	CAUT_INPUT(p);
+	CAUT_INPUT(n);
+	CAUT_INPUT(pD);
+	x(p,n,pD);
+}

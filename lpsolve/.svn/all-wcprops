@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/CAUT/!svn/ver/3/trunk/caut-lib/lpsolve
+END
+lp_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/CAUT/!svn/ver/3/trunk/caut-lib/lpsolve/lp_utils.h
+END
+lp_Hash.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/CAUT/!svn/ver/3/trunk/caut-lib/lpsolve/lp_Hash.h
+END
+lp_SOS.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/CAUT/!svn/ver/3/trunk/caut-lib/lpsolve/lp_SOS.h
+END
+lp_matrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/CAUT/!svn/ver/3/trunk/caut-lib/lpsolve/lp_matrix.h
+END
+lp_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/CAUT/!svn/ver/3/trunk/caut-lib/lpsolve/lp_types.h
+END
+lp_lib.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/CAUT/!svn/ver/3/trunk/caut-lib/lpsolve/lp_lib.h
+END
+lp_mipbb.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/CAUT/!svn/ver/3/trunk/caut-lib/lpsolve/lp_mipbb.h
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CAUT/!svn/ver/3/trunk/caut-lib/tools/c-ocaml-sqlite-lib
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CAUT/!svn/ver/3/trunk/caut-lib/tools/c-ocaml-sqlite-lib/Makefile
+END
+sqlite3.mli
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CAUT/!svn/ver/3/trunk/caut-lib/tools/c-ocaml-sqlite-lib/sqlite3.mli
+END
+sqlite3.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CAUT/!svn/ver/3/trunk/caut-lib/tools/c-ocaml-sqlite-lib/sqlite3.c
+END
+sqlite3_stubs.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/CAUT/!svn/ver/3/trunk/caut-lib/tools/c-ocaml-sqlite-lib/sqlite3_stubs.c
+END
+sqlite3.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CAUT/!svn/ver/3/trunk/caut-lib/tools/c-ocaml-sqlite-lib/sqlite3.h
+END
+sqlite3.ml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/CAUT/!svn/ver/3/trunk/caut-lib/tools/c-ocaml-sqlite-lib/sqlite3.ml
+END

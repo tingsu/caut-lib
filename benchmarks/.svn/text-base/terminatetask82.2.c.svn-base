@@ -1,0 +1,216 @@
+#include "task.h"
+#include "cfgobj.h"
+#include "caut.h"
+
+/* Global Variables */
+/* 8Î»×îžßÖÃÎ»Ó³Éä±í */
+/* ×ÖœÚžßÎ»Žú±íÓÅÏÈŒ¶žß */
+/* Ñ¡ÔñžßÎ»ŽÓžßÎ»µœµÍÎ» */
+/* For example, 00100001,×îžßÎª1µÄÎ»ÊÇ5 */
+u8 const osMapTable[]={
+		0,0,1,1,2,2,2,2,3,3,3,3,3,3,3,3,	/* 0x00 ¡« 0x0F */
+		4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,	/* 0x10 ¡« 0x1F */
+		5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,	/* 0x20 ¡« 0x2F */
+		5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,	/* 0x30 ¡« 0x3F */
+		6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,	/* 0x40 ¡« 0x4F */
+		6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,	/* 0x50 ¡« 0x5F */
+		6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,	/* 0x60 ¡« 0x6F */
+		6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,	/* 0x70 ¡« 0x7F */
+		7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,	/* 0x80 ¡« 0x8F */
+		7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,	/* 0x90 ¡« 0x9F */
+		7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,	/* 0xA0 ¡« 0xAF */
+		7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,	/* 0xB0 ¡« 0xBF */
+		7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,	/* 0xC0 ¡« 0xCF */
+		7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,	/* 0xD0 ¡« 0xDF */
+		7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,	/* 0xE0 ¡« 0xEF */
+		7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,	/* 0xF0 ¡« 0xFF */
+};
+
+/* Global Varialbes */
+/* ÓÅÏÈŒ¶°ŽÊýÖµŽóÐ¡ŽÓÐ¡µœŽóÒÀŽÎÉýžß */
+u8 osReadyIndex = 0;	/* ÓÅÏÈŒ¶Ë÷ÒýÎ»ÍŒ */
+u8 osReadyMap[PRIORITY_MAX/8+1];	/* ÓÅÏÈŒ¶Î»ÍŒ */
+u8 osLockDispatcher;
+u32 systembp[100];
+
+TaskType osRunningTask;	/* ÕýÔÚÔËÐÐµÄÈÎÎñ */
+ISRType osRunningISR;	/* ÕýÔÚŽŠÀíµÄISR */
+TaskType osRunningNext; /* ÕýÔÚÖŽÐÐµÄÈÎÎñ»òISR */
+LevelType osLevel;		/* µ±Ç°ÈÎÎñÔÚÈÎÎñŒ¶»¹ÊÇÖÐ¶ÏŒ¶ */
+BOOL osStart=0;	/* ²Ù×÷ÏµÍ³ÊÇ·ñÆô¶¯ */
+u32 osIntNestDepth =0; /* ÖÐ¶ÏÇ¶Ì×Êý*/
+StackType osSystemStack={systembp,100};
+void * osSystemSp;
+
+/* add by me */
+u8 osDisableAPI=0;
+#pragma INTO_ROM
+const TaskInfo osTask[TASK_MAX+ISR_MAX]={
+	{/*OSEK_TASK_InitTask*/0, InitTask, TASK_EXTENDED, 0, 1, 0,0},	
+	{/*OSEK_TASK_TaskA*/0, TaskA, TASK_EXTENDED, 1, 1, 0,1},	
+	{/*OSEK_TASK_TaskB*/0, TaskB, TASK_BASIC, 2, 1, 0,2}, 
+	{/*OSEK_TASK_TaskC*/0, TaskC, TASK_BASIC, 3, 1, 0,3},  
+};  /* 任务静态信息块 */
+
+TCB osTcb[TASK_MAX+ISR_MAX];	/* 任务控制块 */
+
+/* task management */
+#if (CC==BCC1)||(CC==ECC1)
+TaskType osReadyTable[PRIORITY_MAX];	/* 优先级表，其中元素指向osTcb中元素 */
+#else
+
+	TaskType osActivateQueue_0[2];
+	TaskType osActivateQueue_1[2];
+	TaskType osActivateQueue_2[2];
+	TaskType osActivateQueue_3[2];
+	TaskType osActivateQueue_4[2];
+	TaskType osActivateQueue_5[2];
+	TaskType osActivateQueue_6[2];
+	TaskType osActivateQueue_7[2];
+	TaskType osActivateQueue_8[2];
+
+	
+
+TaskType *osReadyQueue[PRIORITY_MAX]={
+			osActivateQueue_0,
+			osActivateQueue_1,
+			osActivateQueue_2,
+			osActivateQueue_3,
+			osActivateQueue_4,
+			osActivateQueue_5,
+			osActivateQueue_6,
+			osActivateQueue_7,
+			osActivateQueue_8,
+};
+
+Queue osReadyMark[PRIORITY_MAX]={
+		{0,0,2},
+		{0,0,2},
+		{0,0,2},
+		{0,0,2}, 
+		{0,0,2},
+		{0,0,2},
+		{0,0,2},
+		{0,0,2},
+		{0,0,2}, 
+};
+#endif
+
+/* Event Management */
+#if TASK_EXTENDED_NUM>0
+EventMaskType osTcbEventMask[TASK_EXTENDED_NUM];
+EventMaskType osTcbWaitEventMask[TASK_EXTENDED_NUM];
+#else
+EventMaskType osTcbEventMask[1];
+EventMaskType osTcbWaitEventMask[1];
+#endif
+/* end */
+
+/*-+--------------------------------------------------------------------------
+ / TerminateTask
+ / =============
+ /
+ / Syntax: StatusType TerminateTask ( void )
+ / Parameter (In): none
+ / Parameter (Out): none
+ / Description: This service causes the termination of the calling task. The
+ / calling task is transferred from the running state into the
+ / suspended state 13 .
+ / Particularities: An internal resource assigned to the calling task is
+ / automatically released. Other resources occupied by the task
+ / must have been released before the call to TerminateTask. If a
+ / resource is still occupied in standard status the behaviour is
+ / undefined.
+ / If the call was successful, TerminateTask does not return to the
+ / call level and the status can not be evaluated.
+ / If the version with extended status is used, the service returns
+ / in case of error, and provides a status which can be evaluated
+ / in the application.
+ / If the service TerminateTask is called successfully, it enforces a
+ / rescheduling.
+ / Ending a task function without call to TerminateTask or
+ / ChainTask is strictly forbidden and may leave the system in an
+ / undefined state.
+ / Status:
+ / Standard: No return to call level
+ / Extended: - Task still occupies resources, E_OS_RESOURCE
+ /           - Call at interrupt level, E_OS_CALLEVEL
+ / Conformance: BCC1, BCC2, ECC1, ECC2
+ /--------------------------------------------------------------------------*/
+
+
+StatusType TerminateTask(void)
+{
+  TaskType TaskID=osRunningTask;
+  int dg=0;
+#if STATUS == EXTENDED_STATUS
+	if(osDisableAPI!=0)
+	{
+		return E_OS_SYS_APIDISABLED;
+	}
+	if(osTcb[osRunningTask].resCount>0)
+	{
+	#if ERROR_HOOK
+		osAPIError(E_OS_RESOURCE, ErrTTResourcesOccupied);
+	#endif 			
+		return E_OS_RESOURCE;
+	}
+	if(osLevel!=LEVEL_TASK)
+	{
+	#if ERROR_HOOK
+		osAPIError(E_OS_CALLEVEL, ErrTTOnInterruptLevel);
+	#endif 			
+		return E_OS_CALLEVEL;
+	}
+#endif     	
+	
+#if POSTTASK_HOOK
+	PostTaskHook();
+#endif	
+//	OSDisableInterrupts();
+	osTcb[TaskID].actCount--;
+	if(osTcb[TaskID].actCount==0)
+	{
+		osTcb[TaskID].state=STATE_SUSPENDED;
+	}
+	else
+	{
+		osTcb[TaskID].state=STATE_START;
+	}
+	
+#if (CC==BCC2)||(CC==ECC2)
+//	osReadyMark[osTcb[TaskID].runPrio].head=(osReadyMark[osTcb[TaskID].runPrio].head+1)%osReadyMark[osTcb[TaskID].runPrio].max;
+	if(osReadyMark[osTcb[TaskID].runPrio].head==osReadyMark[osTcb[TaskID].runPrio].tail)
+	{
+#endif
+//		OSClrPrioBit(osTcb[TaskID].runPrio);
+		dg++;
+#if (CC==BCC2)||(CC==ECC2)
+	}
+#endif
+	
+	osTcb[TaskID].runPrio=osTask[TaskID].initPrio;
+	
+	osRunningTask=INVALID_TASK;
+	osRunningNext=INVALID_TASK;
+//	OSDeleteTaskStack(TaskID);
+//	OSDispatch();
+	return E_OK;
+}
+
+
+void testme(){
+
+	
+	
+	//global
+	CAUT_INPUT(osRunningTask);
+	CAUT_INPUT(osDisableAPI);
+	CAUT_INPUT(osTcb);
+	CAUT_INPUT(osLevel);
+	CAUT_INPUT(osReadyMark);
+
+	TerminateTask();
+	
+}
+

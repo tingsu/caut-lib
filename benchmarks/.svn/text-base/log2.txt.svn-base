@@ -1,0 +1,555 @@
+rm -rf *.o *.a
+gcc -g -I ../../include/core/ -c branch_coverage.c
+gcc -g -I ../../include/core/ -c cfg.c
+gcc -g -I ../../include/core/ -c path.c
+gcc -g -I ../../include/core/ -c dump.c
+gcc -g -I ../../include/core/ -c symbolic.c
+gcc -g -I ../../include/core/ -c constraint_solve.c
+gcc -g -I ../../include/core/ -c constraint_optimize.c
+gcc -g -I ../../include/core/ -c get_test_case.c
+gcc -g -I ../../include/core/ -c runtime.c
+gcc -g -I ../../include/core/ -c fitness.c
+ar -rcs caut-bc.a branch_coverage.o cfg.o path.o dump.o symbolic.o constraint_solve.o constraint_optimize.o get_test_case.o runtime.o fitness.o ../../Sqlite/sqlite3.o ../DataStructure/list.o ../DataStructure/stack.o
+fit
+rm -rf fit *.tpl *.lst *.cautlog
+gcc -g -o fit -I .. -L ../lpsolve fit.cil.c ../src/core/caut-bc.a -ldl -llpsolve55 -ldl -lpthread
+[cfg.c->create_cfg_from_database_file()] load database file ...
+[cfg.c->create_cfg_from_database_file()] malloc CFG structure ... 
+[cfg.c->create_cfg_from_database_file()] node_count = 6
+[cfg.c->create_cfg_from_database_file()] create cfg successfully!
+[branchcoverage.c->cs_create()] create cs successfully!
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 0 --> choice: 0
+
+(0xdf==2)  #6   1   0 
+
+[update effective path prefix pool...]
+
+[generating new path prefixes...]
+1 --> complete, must-effective
+##### 2
+must-effective count : 1 
+
+[choosing the Hill Climbing[must] prefix to run...] 
+1 
+uncovered cnt = 2 
+
+[collecting path constraints]
+(0xdf==2)
+
+
+[reduce irrelevant constraints]
+(0xdf==2)
+
+[conjuctive combination?]
+	 constraint 0:
+(0xdf==2)
+--------------------------------------
+[selected constraints]
+(0xdf==2)
+
+
+constraints: 
+operator coefficiency address expr 
+ == 
+	 { 1.000000, 0xdf, 0xdf  }
+	 { 2.000000, 0x0, 2  }
+
+Model name:  '' - run #1    
+Objective:   Minimize(R0)
+ 
+SUBMITTED
+Model size:        1 constraints,       1 variables,            1 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+ 
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+ 
+
+Relaxed solution                   0 after          1 iter is B&B base.
+ 
+Feasible solution                  0 after          1 iter,         0 nodes (gap 0.0%)
+ 
+Optimal solution                   0 after          1 iter.
+
+Excellent numeric accuracy ||*|| = 0
+
+ MEMO: lp_solve version 5.5.2.0 for 32 bit OS, with 64 bit REAL variables.
+      In the total iteration count 1, 0 (0.0%) were bound flips.
+      There were 0 refactorizations, 0 triggered by time and 0 by density.
+       ... on average 1.0 major pivots per refactorization.
+      The largest [LUSOL v2.2.1.0] fact(B) had 2 NZ entries, 1.0x largest basis.
+      The constraint matrix inf-norm is 1, with a dynamic range of 1.
+      Time to load data was 0.001 seconds, presolve used 0.000 seconds,
+       ... 0.000 seconds in simplex solver, in total 0.001 seconds.
+[branch_coverage.c ->dump_cs_node_list_cover_status()] dump cs_node_list_cover_status file
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 11 --> choice: 0
+
+(0xdf==2)  #6   1   1 
+
+(0<6)  #8   6   1 
+
+(*(0xf7[0])==3)  #9   10   0 
+
+(1<6)  #8   6   1 
+
+(*(0xf7[1])==3)  #9   10   0 
+
+(2<6)  #8   6   1 
+
+(*(0xf7[2])==3)  #9   10   0 
+
+(3<6)  #8   6   1 
+
+(*(0xf7[3])==3)  #9   10   0 
+
+(4<6)  #8   6   1 
+
+(*(0xf7[4])==3)  #9   10   0 
+
+(5<6)  #8   6   1 
+
+(*(0xf7[5])==3)  #9   10   0 
+
+(6<6)  #8   6   0 
+
+(0xdf==6)  #11   14   0 
+
+[update effective path prefix pool...]
+
+[generating new path prefixes...]
+1 1 0 1 0 1 0 1 0 1 0 1 0 0 1 --> complete, must-effective
+##### 0
+1 1 0 1 0 1 0 1 0 1 0 1 1 --> complete, must-effective
+##### 1
+1 1 0 1 0 1 0 1 0 1 1 --> complete, must-effective
+##### 1
+1 1 0 1 0 1 0 1 1 --> complete, must-effective
+##### 1
+1 1 0 1 0 1 1 --> complete, must-effective
+##### 1
+1 1 0 1 1 --> complete, must-effective
+##### 1
+1 1 1 --> complete, must-effective
+##### 1
+must-effective count : 7 
+
+[choosing the Hill Climbing[must] prefix to run...] 
+1 1 0 1 0 1 0 1 0 1 0 1 1 
+uncovered cnt = 1 
+
+[collecting path constraints]
+(0xdf==2)
+(*(0xf7[0])!=3)
+(*(0xf7[1])!=3)
+(*(0xf7[2])!=3)
+(*(0xf7[3])!=3)
+(*(0xf7[4])!=3)
+(*(0xf7[5])==3)
+
+
+[reduce irrelevant constraints]
+(*(0xf7[5])==3)
+
+[conjuctive combination?]
+	 constraint 0:
+(*(0xf7[5])==3)
+--------------------------------------
+[selected constraints]
+(*(0xf7[5])==3)
+
+
+constraints: 
+operator coefficiency address expr 
+ == 
+	 { 1.000000, 0xe3, *(0xf7[5])  }
+	 { 3.000000, 0x0, 3  }
+
+Model name:  '' - run #1    
+Objective:   Minimize(R0)
+ 
+SUBMITTED
+Model size:        1 constraints,       1 variables,            1 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+ 
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+ 
+
+Relaxed solution                   0 after          1 iter is B&B base.
+ 
+Feasible solution                  0 after          1 iter,         0 nodes (gap 0.0%)
+ 
+Optimal solution                   0 after          1 iter.
+
+Excellent numeric accuracy ||*|| = 0
+
+ MEMO: lp_solve version 5.5.2.0 for 32 bit OS, with 64 bit REAL variables.
+      In the total iteration count 1, 0 (0.0%) were bound flips.
+      There were 0 refactorizations, 0 triggered by time and 0 by density.
+       ... on average 1.0 major pivots per refactorization.
+      The largest [LUSOL v2.2.1.0] fact(B) had 2 NZ entries, 1.0x largest basis.
+      The constraint matrix inf-norm is 1, with a dynamic range of 1.
+      Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+       ... 0.000 seconds in simplex solver, in total 0.000 seconds.
+[branch_coverage.c ->dump_cs_node_list_cover_status()] dump cs_node_list_cover_status file
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 11 --> choice: 0
+
+(0xdf==2)  #6   1   1 
+
+(0<6)  #8   6   1 
+
+(*(0xf7[0])==3)  #9   10   1 
+
+(1<6)  #8   6   1 
+
+(*(0xf7[1])==3)  #9   10   0 
+
+(2<6)  #8   6   1 
+
+(*(0xf7[2])==3)  #9   10   0 
+
+(3<6)  #8   6   1 
+
+(*(0xf7[3])==3)  #9   10   0 
+
+(4<6)  #8   6   1 
+
+(*(0xf7[4])==3)  #9   10   0 
+
+(5<6)  #8   6   1 
+
+(*(0xf7[5])==3)  #9   10   1 
+
+(6<6)  #8   6   0 
+
+(((0xdf+1)+1)==6)  #11   14   0 
+
+[update effective path prefix pool...]
+1 1 0 1 0 1 0 1 0 1 0 1 0 0 1 --> complete, must-effective
+must-effective  --> must-effective,keep
+1 1 0 1 0 1 0 1 0 1 1 --> complete, may-effective
+must-effective  --> may-effective,keep
+1 1 0 1 0 1 0 1 1 --> complete, may-effective
+must-effective  --> may-effective,keep
+1 1 0 1 0 1 1 --> complete, may-effective
+must-effective  --> may-effective,keep
+1 1 0 1 1 --> complete, may-effective
+must-effective  --> may-effective,keep
+1 1 1 --> complete, may-effective
+must-effective  --> may-effective,keep
+
+[generating new path prefixes...]
+1 1 1 1 0 1 0 1 0 1 0 1 1 0 1 --> complete, must-effective
+##### 0
+1 1 1 1 0 1 0 1 0 1 0 1 0 --> complete, may-effective
+##### 0
+1 1 1 1 0 1 0 1 0 1 1 --> complete, may-effective
+##### 0
+1 1 1 1 0 1 0 1 1 --> complete, may-effective
+##### 0
+1 1 1 1 0 1 1 --> complete, may-effective
+##### 0
+1 1 1 1 1 --> complete, may-effective
+##### 0
+must-effective count : 2 
+
+[choosing the Hill Climbing[must] prefix to run...] 
+1 1 0 1 0 1 0 1 0 1 0 1 0 0 1 
+uncovered cnt = 0 
+
+[collecting path constraints]
+(0xdf==2)
+(*(0xf7[0])!=3)
+(*(0xf7[1])!=3)
+(*(0xf7[2])!=3)
+(*(0xf7[3])!=3)
+(*(0xf7[4])!=3)
+(*(0xf7[5])!=3)
+(0xdf==6)
+
+
+[reduce irrelevant constraints]
+(0xdf==2)
+(0xdf==6)
+
+[conjuctive combination?]
+	 constraint 0:
+(0xdf==2)
+--------------------------------------
+	 constraint 1:
+(0xdf==6)
+--------------------------------------
+[selected constraints]
+(0xdf==2)
+(0xdf==6)
+(0xdf-2)((0xdf-2)+(0xdf-6))
+
+constraints: 
+operator coefficiency address expr 
+ == 
+	 { 1.000000, 0xdf, 0xdf  }
+	 { 2.000000, 0x0, 2  }
+ == 
+	 { 1.000000, 0xdf, 0xdf  }
+	 { 6.000000, 0x0, 6  }
+
+Model name:  '' - run #1    
+Objective:   Minimize(R0)
+ 
+SUBMITTED
+Model size:        2 constraints,       1 variables,            2 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+ 
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+ 
+The model is INFEASIBLE
+lp_solve unsuccessful after 1 iter and a last best value of 1e+30
+
+ MEMO: lp_solve version 5.5.2.0 for 32 bit OS, with 64 bit REAL variables.
+      In the total iteration count 1, 0 (0.0%) were bound flips.
+      There were 0 refactorizations, 0 triggered by time and 0 by density.
+       ... on average 1.0 major pivots per refactorization.
+      The largest [LUSOL v2.2.1.0] fact(B) had 3 NZ entries, 1.0x largest basis.
+      The constraint matrix inf-norm is 1, with a dynamic range of 1.
+      Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+       ... 0.000 seconds in simplex solver, in total 0.000 seconds.
+
+WARNING: INFEASIBLE PATH!
+must-effective count : 1 
+
+[choosing the Hill Climbing[must] prefix to run...] 
+1 1 1 1 0 1 0 1 0 1 0 1 1 0 1 
+uncovered cnt = 0 
+
+[collecting path constraints]
+(0xdf==2)
+(*(0xf7[0])==3)
+(*(0xf7[1])!=3)
+(*(0xf7[2])!=3)
+(*(0xf7[3])!=3)
+(*(0xf7[4])!=3)
+(*(0xf7[5])==3)
+(((0xdf+1)+1)==6)
+
+
+[reduce irrelevant constraints]
+(0xdf==2)
+(((0xdf+1)+1)==6)
+
+[conjuctive combination?]
+	 constraint 0:
+(0xdf==2)
+--------------------------------------
+	 constraint 1:
+(((0xdf+1)+1)==6)
+--------------------------------------
+[selected constraints]
+(0xdf==2)
+(((0xdf+1)+1)==6)
+(0xdf-2)((0xdf-2)+(((0xdf+1)+1)-6))
+
+constraints: 
+operator coefficiency address expr 
+ == 
+	 { 1.000000, 0xdf, 0xdf  }
+	 { 2.000000, 0x0, 2  }
+ == 
+	 { 1.000000, 0xdf, 0xdf  } { 2.000000, 0xdf, 1  }
+	 { 6.000000, 0x0, 6  }
+
+Model name:  '' - run #1    
+Objective:   Minimize(R0)
+ 
+SUBMITTED
+Model size:        2 constraints,       1 variables,            2 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+ 
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+ 
+The model is INFEASIBLE
+lp_solve unsuccessful after 1 iter and a last best value of 1e+30
+
+ MEMO: lp_solve version 5.5.2.0 for 32 bit OS, with 64 bit REAL variables.
+      In the total iteration count 1, 0 (0.0%) were bound flips.
+      There were 0 refactorizations, 0 triggered by time and 0 by density.
+       ... on average 1.0 major pivots per refactorization.
+      The largest [LUSOL v2.2.1.0] fact(B) had 3 NZ entries, 1.0x largest basis.
+      The constraint matrix inf-norm is 1, with a dynamic range of 1.
+      Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+       ... 0.000 seconds in simplex solver, in total 0.000 seconds.
+
+WARNING: INFEASIBLE PATH!
+must-effective count : 0 
+FITNESS
+#6[0] 
+#6[1] #8[1] #9[0] #8[1] #9[0] #8[1] #9[0] #8[1] #9[0] #8[1] #9[0] #8[1] #9[0] #8[0] #11[0] 
+#6[1] #8[1] #9[1] #8[1] #9[0] #8[1] #9[0] #8[1] #9[0] #8[1] #9[0] #8[1] #9[1] #8[0] #11[0] 
+
+[choosing the Hill Climbing[may] prefix to run...] 
+1 1 0 1 0 1 0 1 0 1 1 
+uncovered cnt = 1 
+
+[collecting path constraints]
+(0xdf==2)
+(*(0xf7[0])!=3)
+(*(0xf7[1])!=3)
+(*(0xf7[2])!=3)
+(*(0xf7[3])!=3)
+(*(0xf7[4])==3)
+
+
+[reduce irrelevant constraints]
+(*(0xf7[4])==3)
+
+[conjuctive combination?]
+	 constraint 0:
+(*(0xf7[4])==3)
+--------------------------------------
+[selected constraints]
+(*(0xf7[4])==3)
+
+
+constraints: 
+operator coefficiency address expr 
+ == 
+	 { 1.000000, 0xe7, *(0xf7[4])  }
+	 { 3.000000, 0x0, 3  }
+
+Model name:  '' - run #1    
+Objective:   Minimize(R0)
+ 
+SUBMITTED
+Model size:        1 constraints,       1 variables,            1 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+ 
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+ 
+
+Relaxed solution                   0 after          1 iter is B&B base.
+ 
+Feasible solution                  0 after          1 iter,         0 nodes (gap 0.0%)
+ 
+Optimal solution                   0 after          1 iter.
+
+Excellent numeric accuracy ||*|| = 0
+
+ MEMO: lp_solve version 5.5.2.0 for 32 bit OS, with 64 bit REAL variables.
+      In the total iteration count 1, 0 (0.0%) were bound flips.
+      There were 0 refactorizations, 0 triggered by time and 0 by density.
+       ... on average 1.0 major pivots per refactorization.
+      The largest [LUSOL v2.2.1.0] fact(B) had 2 NZ entries, 1.0x largest basis.
+      The constraint matrix inf-norm is 1, with a dynamic range of 1.
+      Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+       ... 0.000 seconds in simplex solver, in total 0.000 seconds.
+[branch_coverage.c ->dump_cs_node_list_cover_status()] dump cs_node_list_cover_status file
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 0 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 7 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 1
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 7 --> choice: 0
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 5 --> choice: 0
+[branch_coverage.c --> bc_cs_update()] cfg_branch_id: 11 --> choice: 0
+
+(0xdf==2)  #6   1   1 
+
+(0<6)  #8   6   1 
+
+(*(0xf7[0])==3)  #9   10   0 
+
+(1<6)  #8   6   1 
+
+(*(0xf7[1])==3)  #9   10   0 
+
+(2<6)  #8   6   1 
+
+(*(0xf7[2])==3)  #9   10   0 
+
+(3<6)  #8   6   1 
+
+(*(0xf7[3])==3)  #9   10   0 
+
+(4<6)  #8   6   1 
+
+(*(0xf7[4])==3)  #9   10   1 
+
+(5<6)  #8   6   1 
+
+(*(0xf7[5])==3)  #9   10   0 
+
+(6<6)  #8   6   0 
+
+((0xdf+1)==6)  #11   14   0 
+
+[update effective path prefix pool...]
+1 1 0 1 0 1 0 1 1 --> complete, may-effective
+may-effective  --> may-effective,keep
+1 1 0 1 0 1 1 --> complete, may-effective
+may-effective  --> may-effective,keep
+1 1 0 1 1 --> complete, may-effective
+may-effective  --> may-effective,keep
+1 1 1 --> complete, may-effective
+may-effective  --> may-effective,keep
+1 1 1 1 0 1 0 1 0 1 0 1 0 --> complete, may-effective
+may-effective  --> may-effective,keep
+1 1 1 1 0 1 0 1 0 1 1 --> complete, may-effective
+may-effective  --> may-effective,keep
+1 1 1 1 0 1 0 1 1 --> complete, may-effective
+may-effective  --> may-effective,keep
+1 1 1 1 0 1 1 --> complete, may-effective
+may-effective  --> may-effective,keep
+1 1 1 1 1 --> complete, may-effective
+may-effective  --> may-effective,keep
+
+[generating new path prefixes...]
+1 1 0 1 0 1 0 1 0 1 1 1 0 0 1 --> complete, must-effective
+##### 0
+1 1 0 1 0 1 0 1 0 1 1 1 1 --> complete, may-effective
+##### 0
+must-effective count : 1 
+
+[choosing the Hill Climbing[must] prefix to run...] 
+1 1 0 1 0 1 0 1 0 1 1 1 0 0 1 
+uncovered cnt = 0 
+
+[collecting path constraints]
+(0xdf==2)
+(*(

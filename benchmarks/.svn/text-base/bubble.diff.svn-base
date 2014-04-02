@@ -1,0 +1,140 @@
+--- bubble.cil.c	2013-05-09 14:36:04.557467793 +0800
++++ bubble.cil.c.1	2013-05-09 13:52:32.348112954 +0800
+@@ -10,13 +10,47 @@
+ 
+ 
+   {
++  set_main_function_id(0);
++  para_pop((unsigned long )(& x));
++  {
++//#line 7
++  cover_condition_fun(1, x - 0, 11);
+ //#line 7
+   if (x > 0) {
++//#line 7
++    load_to_heap_int((unsigned long )(& x), (long )x, 11);
++//#line 7
++    load_to_heap_int(0UL, 0, 11);
++//#line 7
++    apply_op(1, 11);
++//#line 7
++    branch(7, 1, 1, 0);
++    {
++//#line 8
++    load_to_heap_int((unsigned long )(& x), (long )x, 11);
+ //#line 8
+     return (x);
++    }
+   } else {
++//#line 7
++    load_to_heap_int((unsigned long )(& x), (long )x, 11);
++//#line 7
++    load_to_heap_int(0UL, 0, 11);
++//#line 7
++    apply_op(1, 11);
++//#line 7
++    branch(7, 1, 0, 0);
++    {
++//#line 10
++    load_to_heap_int((unsigned long )(& x), (long )x, 11);
++//#line 10
++    load_to_heap_int(0UL, 1, 11);
++//#line 10
++    apply_op(2, 22);
+ //#line 10
+     return (x - 1);
++    }
++  }
+   }
+ }
+ }
+@@ -40,7 +74,7 @@
+   int *__cil_tmp19 ;
+ 
+   {
+-  set_main_function_id(0);
++  set_main_function_id(1);
+   para_pop((unsigned long )(& v));
+   para_pop((unsigned long )(& n));
+   para_pop((unsigned long )(& __cil_tmp7));
+@@ -66,7 +100,7 @@
+ //#line 19
+     apply_op(1, 12);
+ //#line 19
+-    branch(19, 6, 1, 0);
++    branch(19, 6, 1, 1);
+ //#line 20
+     return;
+   } else {
+@@ -77,7 +111,7 @@
+ //#line 19
+     apply_op(1, 12);
+ //#line 19
+-    branch(19, 6, 0, 0);
++    branch(19, 6, 0, 1);
+   }
+   }
+ //#line 21
+@@ -104,7 +138,7 @@
+ //#line 21
+       apply_op(1, 11);
+ //#line 21
+-      branch(21, 12, 1, 0);
++      branch(21, 12, 1, 1);
+     } else {
+ //#line 21
+       load_to_heap_int((unsigned long )(& i), (long )i, 11);
+@@ -113,7 +147,7 @@
+ //#line 21
+       apply_op(1, 11);
+ //#line 21
+-      branch(21, 12, 0, 0);
++      branch(21, 12, 0, 1);
+ //#line 21
+       goto while_break;
+     }
+@@ -142,7 +176,7 @@
+ //#line 22
+         apply_op(1, 16);
+ //#line 22
+-        branch(22, 18, 1, 0);
++        branch(22, 18, 1, 1);
+       } else {
+ //#line 22
+         load_to_heap_int((unsigned long )(& j), (long )j, 11);
+@@ -151,7 +185,7 @@
+ //#line 22
+         apply_op(1, 16);
+ //#line 22
+-        branch(22, 18, 0, 0);
++        branch(22, 18, 0, 1);
+ //#line 22
+         goto while_break___0;
+       }
+@@ -227,7 +261,7 @@
+ //#line 23
+         apply_op(1, 11);
+ //#line 23
+-        branch(23, 22, 1, 0);
++        branch(23, 22, 1, 1);
+ //#line 25
+         load_to_heap_int((unsigned long )(& v), (long )v, 14);
+ //#line 25
+@@ -338,7 +372,7 @@
+ //#line 23
+         apply_op(1, 11);
+ //#line 23
+-        branch(23, 22, 0, 0);
++        branch(23, 22, 0, 1);
+       }
+       }
+       }
+@@ -387,7 +421,7 @@
+   unsigned long __cil_tmp5 ;
+ 
+   {
+-  set_main_function_id(1);
++  set_main_function_id(2);
+ //#line 32
+   store_input_var("v", & v, "int *");
+ //#line 32

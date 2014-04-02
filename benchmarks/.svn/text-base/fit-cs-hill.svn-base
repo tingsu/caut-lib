@@ -1,0 +1,39 @@
+id: 0, iteration: 1, covered: 1
+id: 1, iteration: 2, covered: 6
+id: 2, iteration: 3, covered: 7
+id: 3, iteration: 4, covered: 7
+id: 4, iteration: 5, covered: 7
+id: 5, iteration: 6, covered: 7
+id: 6, iteration: 7, covered: 7
+id: 7, iteration: 8, covered: 7
+id: 8, iteration: 9, covered: 7
+id: 9, iteration: 10, covered: 7
+id: 10, iteration: 11, covered: 7
+id: 11, iteration: 12, covered: 7
+id: 12, iteration: 13, covered: 7
+id: 13, iteration: 14, covered: 7
+id: 14, iteration: 15, covered: 7
+id: 15, iteration: 16, covered: 7
+id: 16, iteration: 17, covered: 7
+id: 17, iteration: 18, covered: 7
+id: 18, iteration: 19, covered: 7
+id: 19, iteration: 20, covered: 7
+id: 20, iteration: 21, covered: 7
+id: 21, iteration: 22, covered: 7
+id: 22, iteration: 23, covered: 7
+id: 23, iteration: 24, covered: 7
+id: 24, iteration: 25, covered: 7
+id: 25, iteration: 26, covered: 8
+#7[0] YES #7[1] YES #9[0] YES #9[1] YES #12[0] YES #12[1] YES #10[0] YES #10[1] YES 
+
+Branch Coverage Testing:
+all/covered branch: 8/8 
+Coverage:100.000000%
+All explored execution paths: 26
+Explored execution paths[no duplicate]: 22
+Program Iteration: 26
+Constraint Solved: 283
+Test Cases: 26
+Average Search Depth: 20.038462
+total ineffective path prefix: 0
+ineffective path prefix filtered by isSuccCover: 0

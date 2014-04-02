@@ -1,0 +1,86 @@
+This is a simple tutorial to achieve white-box testing under branch/MCDC coverage by CAUT.
+
+1. Get the unit under test and do some preparing works 
+   (assume this file "bubble.c" under the benchmarks directory)
+
+#include "caut.h"	 //add caut.h
+#define MAXL 6
+
+/*
+int foo(int x){	
+
+	if(x>0)
+		return x;
+	else
+		return x-1;
+}
+*/
+
+void bubble( int v[MAXL], int n )
+{
+	int i, j, k;
+	//int tmp;	//comment function calls
+	//tmp = foo(n);
+	if(n >= MAXL)
+		return;
+	for ( i = n; i > 1; --i )
+		for ( j = 1; j < i; ++j )
+			if ( v[j] > v[j + 1] )	/* compare */
+			{
+				k = v[j];	/* exchange */
+				v[j] = v[j + 1];
+				v[j + 1] = k;
+			}
+}
+
+
+void testme()		//add test driver
+{
+	int v[MAXL];
+	int n;
+	CAUT_INPUT(v);	//CAUT_INPUT function parameters, global vars and etc.
+	CAUT_INPUT(n);
+	bubble(v,n);
+}
+
+
+2. invoke caut.sh to instrument the program under test
+
+	source caut.sh ./bubble.c (NOTE use ./bubble.c, do not use bubble.c)
+
+3. invoke reg.sh to compile with caut kernel
+
+	source reg.sh ./bubble.c 
+	
+4. invoke caut_br_testing.sh to start branch testing
+
+	source caut_br_testing.sh ./bubble.c $max_iter_cnt $path_search_strategy  $strategy_param
+
+	here, $path_search_strategy can be : random_path/klee/crest/pps
+	When using "pps", you could specify a positive number like 1,2,..., which will be used as a coverage gain prediction level.
+
+	e.g. source caut_br_testing.sh ./bubble.c 100 pps 2
+	
+	The testing result will be put in the directory ./obj-df-log/.
+
+4. If you want to do MC/DC testing, modify "Makefile" to load caut-mcdc.a
+   (This criterion is only supported at unit testing level currently).
+
+	$(EXE):$(SRC)
+		$(CC) -g -o $@ -I .. -L ../lpsolve $? ../lib/caut-mcdc.a -llpsolve55 -ldl -lpthread 
+	
+5. For details, you can refer to our SERE2014 paper:
+
+	Ting Su, Siyuan Jiang, Geguang Pu, Bin Fang, Jifeng He, Jun Yan, Jianjun Zhao. Coverage-Driven Test Data Generation Using Dynamic Symbolic Execution. The 8th International Conference on Software Security and Reliability, San Francisco, California, USA, June 30-July 2, 2014 (accepted, to appear)
+	
+	We will be very glad if you could cite our work:
+	@inproceedings{CAUTCOV,
+  		author    = {Ting Su, Siyuan Jiang, Geguang Pu, Bin Fang, Jifeng He, Jun Yan, Jianjun Zhao},
+  		title     = {Coverage-Driven Test Data Generation Using Dynamic Symbolic Execution},
+  		booktitle = {The 8th International Conference on Software Security and Reliability},
+  		location = {San Francisco, California, USA},
+  		year      = {2014},
+	}
+ 
+ 	Please feel free to contact me for any question about this tool:
+ 		Ting Su, tsuletgo@gmail.com

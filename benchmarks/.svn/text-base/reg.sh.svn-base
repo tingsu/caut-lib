@@ -1,0 +1,28 @@
+#!/bash/sh
+
+SRC_FILE_NAME=$1
+UNIT_NAME=$2
+SRC_MAIN_NAME=${1%.c}
+SEARCH=$3
+ITER=$4
+
+#skip to src dir
+cd ../src/core
+
+#remake
+make clean && make
+
+#skip back to benchmarks dir
+cd ../../benchmarks/
+
+#echo testing object
+echo $SRC_MAIN_NAME
+
+#gen exe
+make FILE=$SRC_MAIN_NAME
+
+#run regression testing
+./$SRC_MAIN_NAME --file $SRC_MAIN_NAME.c --unit $UNIT_NAME --db $SRC_MAIN_NAME.c.db --pps
+mv cover_status.txt $SRC_MAIN_NAME-pps
+
+

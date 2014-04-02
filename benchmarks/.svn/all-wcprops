@@ -1,0 +1,785 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/CAUT/!svn/ver/10/trunk/tingsucaut/benchmarks
+END
+dump_transitions100-klee
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/dump_transitions100-klee
+END
+bubble-data
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble-data
+END
+CaptureSunSmode5.typ.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/CaptureSunSmode5.typ.c
+END
+lpsolve.log
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/lpsolve.log
+END
+caut.sh
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/CAUT/!svn/ver/9/trunk/tingsucaut/benchmarks/caut.sh
+END
+bubble-ran
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble-ran
+END
+dump_transitions100-hill
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/dump_transitions100-hill
+END
+noticefinishedfile.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/noticefinishedfile.c
+END
+space.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/space.c
+END
+executecondnode
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/executecondnode
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/CAUT/!svn/ver/10/trunk/tingsucaut/benchmarks/Makefile
+END
+CaptureSunSmode5-bfs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/CaptureSunSmode5-bfs
+END
+dump_transitions100
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/dump_transitions100
+END
+check_print_testcase
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CAUT/!svn/ver/9/trunk/tingsucaut/benchmarks/check_print_testcase
+END
+executecondnode-dfs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/executecondnode-dfs
+END
+example
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/example
+END
+CaptureSunSmode5-cs-hill-orig
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/CaptureSunSmode5-cs-hill-orig
+END
+CaptureSunSmode5-cs-hill
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/CaptureSunSmode5-cs-hill
+END
+bubble.c.db
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CAUT/!svn/ver/9/trunk/tingsucaut/benchmarks/bubble.c.db
+END
+dump_transitions100.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/dump_transitions100.c
+END
+bubble-dfs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/CAUT/!svn/ver/9/trunk/tingsucaut/benchmarks/bubble-dfs
+END
+mcdc_test
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/mcdc_test
+END
+bubble-crest
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble-crest
+END
+example.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/example.c
+END
+bubble2
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble2
+END
+executecondnode.c.db
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/executecondnode.c.db
+END
+handlefunction.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/handlefunction.c
+END
+bubble.cil.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CAUT/!svn/ver/9/trunk/tingsucaut/benchmarks/bubble.cil.c
+END
+wang-space-test.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CAUT/!svn/ver/10/trunk/tingsucaut/benchmarks/wang-space-test.c
+END
+mcdc_test-crest
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/mcdc_test-crest
+END
+bubble-cs-hill
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble-cs-hill
+END
+reg.sh
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/reg.sh
+END
+terminatetask.i.db
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/terminatetask.i.db
+END
+fang-test
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/fang-test
+END
+bubble2.i.db
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble2.i.db
+END
+CaptureSunSmode5-lsf
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/CaptureSunSmode5-lsf
+END
+check_print_testcase.c.db
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CAUT/!svn/ver/9/trunk/tingsucaut/benchmarks/check_print_testcase.c.db
+END
+mcdc_test.cil.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/mcdc_test.cil.c
+END
+tags
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/tags
+END
+fit-klee
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/fit-klee
+END
+fang-test-dfs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/fang-test-dfs
+END
+fit-hill
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/fit-hill
+END
+bubble-log
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble-log
+END
+bubble-cs-ran
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble-cs-ran
+END
+pointer
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/pointer
+END
+bubble-cs-hill-orig
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble-cs-hill-orig
+END
+CaptureSunSmode5-crest
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/CaptureSunSmode5-crest
+END
+CaptureSunSmode5-klee
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/CaptureSunSmode5-klee
+END
+CaptureSunSmode5.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/CaptureSunSmode5.c
+END
+pointer-dfs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/pointer-dfs
+END
+CaptureSunSmode5-hill
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/CaptureSunSmode5-hill
+END
+CaptureSunSmode5.cil.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/CaptureSunSmode5.cil.c
+END
+executecondnode.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/executecondnode.c
+END
+CaptureSunEclipse.c.db
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/CaptureSunEclipse.c.db
+END
+executecondnode.cil.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/executecondnode.cil.c
+END
+bubble-cs-hill-log
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble-cs-hill-log
+END
+check_print_testcase.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/CAUT/!svn/ver/9/trunk/tingsucaut/benchmarks/check_print_testcase.c
+END
+Bsearch
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/Bsearch
+END
+bubble-cs-dfs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble-cs-dfs
+END
+caut-mcdc.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/caut-mcdc.sh
+END
+check_print_testcase.cil.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/CAUT/!svn/ver/9/trunk/tingsucaut/benchmarks/check_print_testcase.cil.c
+END
+Bsearch.c.db
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/Bsearch.c.db
+END
+fit.crest.log
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/fit.crest.log
+END
+MWControl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/MWControl
+END
+CaptureSunSmode5-ran
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/CaptureSunSmode5-ran
+END
+Bsearch.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/Bsearch.c
+END
+bubble-pps
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/CAUT/!svn/ver/9/trunk/tingsucaut/benchmarks/bubble-pps
+END
+log.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/log.txt
+END
+noticefinishedfile.c.db
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/noticefinishedfile.c.db
+END
+CaptureSunSmode5
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CAUT/!svn/ver/9/trunk/tingsucaut/benchmarks/CaptureSunSmode5
+END
+terminatetask82.2.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/terminatetask82.2.c
+END
+fang-test.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/fang-test.c
+END
+bubble-klee
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble-klee
+END
+fit-cs-hill
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/fit-cs-hill
+END
+fang-test.cil.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/fang-test.cil.c
+END
+CaptureSunSmode5-dfs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CAUT/!svn/ver/9/trunk/tingsucaut/benchmarks/CaptureSunSmode5-dfs
+END
+bubble.cil.c.orig
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble.cil.c.orig
+END
+bubble-hill
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble-hill
+END
+bubble-cs-dfs-log
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble-cs-dfs-log
+END
+dump_transitions100.c.db
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/dump_transitions100.c.db
+END
+MWControl.c.db
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/MWControl.c.db
+END
+bubble
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/CAUT/!svn/ver/9/trunk/tingsucaut/benchmarks/bubble
+END
+CaptureSunSmode5-cs-lsf
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/CaptureSunSmode5-cs-lsf
+END
+merge
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/merge
+END
+example.c.db
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/example.c.db
+END
+handlefunction
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/handlefunction
+END
+dump_transitions100-crest
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/dump_transitions100-crest
+END
+pointer.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/pointer.c
+END
+bubble.cil
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble.cil
+END
+executecondnode-hill
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/executecondnode-hill
+END
+bubble-bfs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble-bfs
+END
+merge.c.db
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/merge.c.db
+END
+pointer.cil.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/pointer.cil.c
+END
+dump_transitions100.cil.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/dump_transitions100.cil.c
+END
+bubble.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/CAUT/!svn/ver/9/trunk/tingsucaut/benchmarks/bubble.c
+END
+dump_transitions.i.db
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/dump_transitions.i.db
+END
+mcdc_test-dfs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/mcdc_test-dfs
+END
+condskipnewlines
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/condskipnewlines
+END
+merge.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/merge.c
+END
+condskipnewlines.c.db
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/condskipnewlines.c.db
+END
+mcdc_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/mcdc_test.c
+END
+core
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/CAUT/!svn/ver/10/trunk/tingsucaut/benchmarks/core
+END
+CaptureSunSmode5.db
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/CaptureSunSmode5.db
+END
+terminatetask82.2.c.db
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/terminatetask82.2.c.db
+END
+memleak.log
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/memleak.log
+END
+condskipnewlines.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/condskipnewlines.c
+END
+fit-crest
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/fit-crest
+END
+bubble.diff
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CAUT/!svn/ver/9/trunk/tingsucaut/benchmarks/bubble.diff
+END
+fit.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/fit.c
+END
+fit.pps.log
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/fit.pps.log
+END
+log.port
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/log.port
+END
+fit.cil.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/fit.cil.c
+END
+bubble-lsf
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble-lsf
+END
+CaptureSunEclipse.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/CaptureSunEclipse.c
+END
+fit.klee.log
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/fit.klee.log
+END
+log2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/log2.txt
+END
+bubble-dfs-log
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble-dfs-log
+END
+bubble.cil.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble.cil.cc
+END
+bubble.typ.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble.typ.c
+END
+fit.c.db
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/fit.c.db
+END
+fang-test.c.db
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/fang-test.c.db
+END
+handlefunction.c.db
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/handlefunction.c.db
+END
+bubble-cs-bfs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/bubble-cs-bfs
+END
+mcdc_test.c.db
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/mcdc_test.c.db
+END
+CaptureSunSmode5.c.db
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/CaptureSunSmode5.c.db
+END
+fit
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/fit
+END
+pointer.c.db
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/pointer.c.db
+END
+noticefinishedfile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/noticefinishedfile
+END
+fit-dfs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/fit-dfs
+END
+CaptureSunEclipse
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/CAUT/!svn/ver/4/trunk/tingsucaut/benchmarks/CaptureSunEclipse
+END

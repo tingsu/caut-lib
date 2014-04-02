@@ -1,0 +1,1609 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	CaptureSunSmode5.c	/^    float  A[3];             \/* ×ËÌ¬½Ç¹ÀÖµ *\/$/;"	m	struct:__anon3	file:
+A	CaptureSunSmode5.c	/^    float A[3];              \/* ×ÏÍâÂË²¨ÏµÊıµÄĞŞÕıÒò×Ó Phi,Theta,Psi *\/$/;"	m	struct:__anon15	file:
+A	CaptureSunSmode5.cil.after-sim.c	/^   float A[3] ;$/;"	m	struct:__anonstruct_ATTITUDEDATA_3	file:
+A	CaptureSunSmode5.cil.after-sim.c	/^   float A[3] ;$/;"	m	struct:__anonstruct_KPara_15	file:
+A0	CaptureSunSmode5.c	/^    float       A0[3];$/;"	m	struct:__anon2	file:
+A0	CaptureSunSmode5.cil.after-sim.c	/^   float A0[3] ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+A11	CaptureSunSmode5.c	/^    float   A11[3];           \/*  *\/$/;"	m	struct:__anon23	file:
+A11	CaptureSunSmode5.cil.after-sim.c	/^   float A11[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+A32	CaptureSunSmode5.c	/^    float   A32[3];           \/*  *\/$/;"	m	struct:__anon23	file:
+A32	CaptureSunSmode5.cil.after-sim.c	/^   float A32[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+A33	CaptureSunSmode5.c	/^    float   A33[3];           \/*  *\/$/;"	m	struct:__anon23	file:
+A33	CaptureSunSmode5.cil.after-sim.c	/^   float A33[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+A54	CaptureSunSmode5.c	/^    float   A54[3];           \/*  *\/$/;"	m	struct:__anon23	file:
+A54	CaptureSunSmode5.cil.after-sim.c	/^   float A54[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+A55	CaptureSunSmode5.c	/^    float   A55[3];           \/*  *\/$/;"	m	struct:__anon23	file:
+A55	CaptureSunSmode5.cil.after-sim.c	/^   float A55[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+A76	CaptureSunSmode5.c	/^    float   A76[3];           \/*  *\/$/;"	m	struct:__anon23	file:
+A76	CaptureSunSmode5.cil.after-sim.c	/^   float A76[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+A77	CaptureSunSmode5.c	/^    float   A77[3];           \/*  *\/$/;"	m	struct:__anon23	file:
+A77	CaptureSunSmode5.cil.after-sim.c	/^   float A77[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+AB	CaptureSunSmode5.c	/^    float AB[3][3];$/;"	m	struct:__anon28	file:
+AB	CaptureSunSmode5.cil.after-sim.c	/^   float AB[3][3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+ABI	CaptureSunSmode5.c	/^    float       ABI[3][3];$/;"	m	struct:__anon2	file:
+ABI	CaptureSunSmode5.cil.after-sim.c	/^   float ABI[3][3] ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+ABKeepZeroNum	CaptureSunSmode5.c	/^    unsigned int ABKeepZeroNum;     \/*  *\/$/;"	m	struct:__anon10	file:
+ABKeepZeroNum	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ABKeepZeroNum ;$/;"	m	struct:__anonstruct_GDADATA_10	file:
+ABO	CaptureSunSmode5.c	/^    float       ABO[3][3];$/;"	m	struct:__anon2	file:
+ABO	CaptureSunSmode5.cil.after-sim.c	/^   float ABO[3][3] ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+ABT	CaptureSunSmode5.c	/^    float       ABT[3][3];$/;"	m	struct:__anon2	file:
+ABT	CaptureSunSmode5.cil.after-sim.c	/^   float ABT[3][3] ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+AC	CaptureSunSmode5.c	/^    float  AC[3];            \/* ×ËÌ¬½Ç¿ØÖÆÁ¿ *\/$/;"	m	struct:__anon3	file:
+AC	CaptureSunSmode5.cil.after-sim.c	/^   float AC[3] ;$/;"	m	struct:__anonstruct_ATTITUDEDATA_3	file:
+ACCELERATE	CaptureSunSmode5.c	/^}ACCELERATE;$/;"	t	typeref:struct:__anon1	file:
+ACCELERATE	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_ACCELERATE_1 ACCELERATE;$/;"	t	typeref:struct:__anonstruct_ACCELERATE_1	file:
+ALL	CaptureSunSmode5.c	/^	unsigned int	ALL[3];					\/* Åç¹ÜÈ«¿ª±êÖ¾ *\/$/;"	m	struct:__anon14	file:
+ALL	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ALL[3] ;$/;"	m	struct:__anonstruct_JPC_DATA_14	file:
+AOI	CaptureSunSmode5.c	/^    float       AOI[3][3];$/;"	m	struct:__anon2	file:
+AOI	CaptureSunSmode5.cil.after-sim.c	/^   float AOI[3][3] ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+ASSAngle	CaptureSunSmode5.c	/^	float        ASSAngle[5];          \/* Ä£ÄâÌ«ÑôÊä³öµÄ×ËÌ¬½Ç¦ÁA1,¦ÁA21,¦ÁA22,¦ÁA31,¦ÁA32*\/$/;"	m	struct:__anon27	file:
+ASSAngle	CaptureSunSmode5.cil.after-sim.c	/^   float ASSAngle[5] ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+ASSAngleOld	CaptureSunSmode5.c	/^	float        ASSAngleOld[5];       \/* Ä£ÄâÌ«ÑôÊä³öµÄ×ËÌ¬½Ç¦ÁA1,¦ÁA21,¦ÁA22,¦ÁA31,¦ÁA32*\/$/;"	m	struct:__anon27	file:
+ASSAngleOld	CaptureSunSmode5.cil.after-sim.c	/^   float ASSAngleOld[5] ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+ASSBadNum2122	CaptureSunSmode5.c	/^unsigned int    ASSBadNum2122; 	        \/* ¿ØÖÆÖÜÆÚ¼ÆÊı *\/$/;"	v
+ASSBadNum2122	CaptureSunSmode5.cil.after-sim.c	/^unsigned int ASSBadNum2122  ;$/;"	v
+ASSBadNum3132	CaptureSunSmode5.c	/^unsigned int    ASSBadNum3132; 	        \/* ¿ØÖÆÖÜÆÚ¼ÆÊı *\/$/;"	v
+ASSBadNum3132	CaptureSunSmode5.cil.after-sim.c	/^unsigned int ASSBadNum3132  ;$/;"	v
+ASSSightValidFlg	CaptureSunSmode5.c	/^    unsigned int ASSSightValidFlg[5];  \/* Ä£ÄâÌ«ÑôÊÇ·ñÊÓ³¡ÓĞĞ§SA1,SA21+SA22,SA31+SA32 *\/$/;"	m	struct:__anon27	file:
+ASSSightValidFlg	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ASSSightValidFlg[5] ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+ATTI	CaptureSunSmode5.c	/^} ATTI;$/;"	t	typeref:struct:__anon2	file:
+ATTI	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_ATTI_2 ATTI;$/;"	t	typeref:struct:__anonstruct_ATTI_2	file:
+ATTITUDEDATA	CaptureSunSmode5.c	/^}ATTITUDEDATA;$/;"	t	typeref:struct:__anon3	file:
+ATTITUDEDATA	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_ATTITUDEDATA_3 ATTITUDEDATA;$/;"	t	typeref:struct:__anonstruct_ATTITUDEDATA_3	file:
+Acce	CaptureSunSmode5.c	/^ACCELERATE  Acce;$/;"	v
+Acce	CaptureSunSmode5.cil.after-sim.c	/^ACCELERATE Acce  ;$/;"	v
+AddrLastCmd	CaptureSunSmode5.c	83;"	d	file:
+Address	CaptureSunSmode5.c	/^        volatile unsigned Address    : 5;        \/* 6-10 ×ÓµØÖ·¡¢·½Ê½ *\/$/;"	m	struct:__anon25::__anon26	file:
+Address	CaptureSunSmode5.c	/^    volatile unsigned int Address;     \/* ÏÂ´«Êı¾İÊ×µØÖ· *\/$/;"	m	struct:__anon8	file:
+Address	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int volatile   Address ;$/;"	m	struct:__anonstruct_DOWNLOAD_8	file:
+AddressType	terminatetask.cil.after-sim.c	/^typedef u16 *AddressType;$/;"	t	file:
+Address_10_1553b	CaptureSunSmode5.c	93;"	d	file:
+Address_11_1553b	CaptureSunSmode5.c	94;"	d	file:
+Address_12_1553b	CaptureSunSmode5.c	95;"	d	file:
+Address_13_1553b	CaptureSunSmode5.c	96;"	d	file:
+Address_1_1553b	CaptureSunSmode5.c	84;"	d	file:
+Address_2_1553b	CaptureSunSmode5.c	85;"	d	file:
+Address_3_1553b	CaptureSunSmode5.c	86;"	d	file:
+Address_4_1553b	CaptureSunSmode5.c	87;"	d	file:
+Address_5_1553b	CaptureSunSmode5.c	88;"	d	file:
+Address_6_1553b	CaptureSunSmode5.c	89;"	d	file:
+Address_7_1553b	CaptureSunSmode5.c	90;"	d	file:
+Address_8_1553b	CaptureSunSmode5.c	91;"	d	file:
+Address_9_1553b	CaptureSunSmode5.c	92;"	d	file:
+Address_RE18_1553b	CaptureSunSmode5.c	101;"	d	file:
+Address_RE21_1553b	CaptureSunSmode5.c	102;"	d	file:
+Address_RE26_1553b	CaptureSunSmode5.c	103;"	d	file:
+Address_RE31_1553b	CaptureSunSmode5.c	104;"	d	file:
+Address_TIME_GPT	CaptureSunSmode5.c	107;"	d	file:
+Address_TR18_1553b	CaptureSunSmode5.c	97;"	d	file:
+Address_TR19_1553b	CaptureSunSmode5.c	98;"	d	file:
+Address_TR20_1553b	CaptureSunSmode5.c	99;"	d	file:
+Address_TR21_1553b	CaptureSunSmode5.c	100;"	d	file:
+Address_TR31_1553b	CaptureSunSmode5.c	105;"	d	file:
+AlphaF	CaptureSunSmode5.c	/^    float        AlphaF[2];            \/*  *\/$/;"	m	struct:__anon27	file:
+AlphaF	CaptureSunSmode5.cil.after-sim.c	/^   float AlphaF[2] ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+AlphaFS	CaptureSunSmode5.c	/^    float        AlphaFS;              \/*  *\/$/;"	m	struct:__anon27	file:
+AlphaFS	CaptureSunSmode5.cil.after-sim.c	/^   float AlphaFS ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+AlphaFT	CaptureSunSmode5.c	/^    unsigned int AlphaFT;\/* ·«°å×ª½ÇÉèÖÃ *\/$/;"	m	struct:__anon4	file:
+AlphaFT	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int AlphaFT ;$/;"	m	struct:__anonstruct_BAPTADATA_4	file:
+AlphaJS	CaptureSunSmode5.c	/^	float  AlphaJS;         \/* ³£Êı *\/$/;"	m	struct:__anon24	file:
+AlphaJS	CaptureSunSmode5.cil.after-sim.c	/^   float AlphaJS ;$/;"	m	struct:__anonstruct_PHASEPLANE_24	file:
+As	CaptureSunSmode5.c	/^    float  As[3];            \/* ÓÃÓÚÌ«Ñô¶¨ÏòÄ£Ê½ÖĞ *\/$/;"	m	struct:__anon3	file:
+As	CaptureSunSmode5.cil.after-sim.c	/^   float As[3] ;$/;"	m	struct:__anonstruct_ATTITUDEDATA_3	file:
+Asz	CaptureSunSmode5.c	/^    float  Asz[3];           \/*  *\/$/;"	m	struct:__anon3	file:
+Asz	CaptureSunSmode5.cil.after-sim.c	/^   float Asz[3] ;$/;"	m	struct:__anonstruct_ATTITUDEDATA_3	file:
+At	CaptureSunSmode5.c	/^    float  At[3];            \/* ×ËÌ¬½Ç *\/$/;"	m	struct:__anon3	file:
+At	CaptureSunSmode5.cil.after-sim.c	/^   float At[3] ;$/;"	m	struct:__anonstruct_ATTITUDEDATA_3	file:
+Atti	CaptureSunSmode5.c	/^ATTI    Atti;$/;"	v
+Atti	CaptureSunSmode5.cil.after-sim.c	/^ATTI Atti  ;$/;"	v
+AttiBadNum	CaptureSunSmode5.c	/^unsigned int    AttiBadNum;             \/* ×ËÌ¬³¬²î¼ÆÊıÆ÷ *\/$/;"	v
+AttiBadNum	CaptureSunSmode5.cil.after-sim.c	/^unsigned int AttiBadNum  ;$/;"	v
+AttiGoodNum	CaptureSunSmode5.c	/^unsigned int    AttiGoodNum;            \/* ×ËÌ¬ºÃ¼ÆÊıÆ÷ *\/$/;"	v
+AttiGoodNum	CaptureSunSmode5.cil.after-sim.c	/^unsigned int AttiGoodNum  ;$/;"	v
+Az	CaptureSunSmode5.c	/^    float  Az[3];            \/* ×ÏÍâÊä³ö *\/$/;"	m	struct:__anon3	file:
+Az	CaptureSunSmode5.cil.after-sim.c	/^   float Az[3] ;$/;"	m	struct:__anonstruct_ATTITUDEDATA_3	file:
+Az1	CaptureSunSmode5.c	/^	float  Az1[3];           \/* ×ÏÍâÊä³ö *\/$/;"	m	struct:__anon3	file:
+Az1	CaptureSunSmode5.cil.after-sim.c	/^   float Az1[3] ;$/;"	m	struct:__anonstruct_ATTITUDEDATA_3	file:
+Az2	CaptureSunSmode5.c	/^	float  Az2[3];           \/* ×ÏÍâÊä³ö *\/$/;"	m	struct:__anon3	file:
+Az2	CaptureSunSmode5.cil.after-sim.c	/^   float Az2[3] ;$/;"	m	struct:__anonstruct_ATTITUDEDATA_3	file:
+BAPTACTRL	CaptureSunSmode5.c	/^}BAPTACTRL;$/;"	t	typeref:struct:__anon5	file:
+BAPTACTRL	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_BAPTACTRL_5 BAPTACTRL;$/;"	t	typeref:struct:__anonstruct_BAPTACTRL_5	file:
+BAPTACtrl	CaptureSunSmode5.c	/^BAPTACTRL	   BAPTACtrl;$/;"	v
+BAPTACtrl	CaptureSunSmode5.cil.after-sim.c	/^BAPTACTRL BAPTACtrl  ;$/;"	v
+BAPTADATA	CaptureSunSmode5.c	/^}BAPTADATA;$/;"	t	typeref:struct:__anon4	file:
+BAPTADATA	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_BAPTADATA_4 BAPTADATA;$/;"	t	typeref:struct:__anonstruct_BAPTADATA_4	file:
+BAPTAData	CaptureSunSmode5.c	/^BAPTADATA      BAPTAData;$/;"	v
+BAPTAData	CaptureSunSmode5.cil.after-sim.c	/^BAPTADATA BAPTAData  ;$/;"	v
+BAPTAL	CaptureSunSmode5.c	/^	unsigned int BAPTAL;    \/* ×ó·«°å flg_valid\/flg_invalid£ºÖ÷·İ\/±¸·İ *\/$/;"	m	struct:__anon16	file:
+BAPTAL	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BAPTAL ;$/;"	m	struct:__anonstruct_LTUSelectFlg_16	file:
+BAPTAL1	CaptureSunSmode5.c	/^	unsigned int    BAPTAL1[2];    \/* ½ÓÊÕµ½µÄÌ«Ñô·«°å1Ö÷·İµÄ×Ô¼ìÊı¾İ *\/$/;"	m	struct:__anon19	file:
+BAPTAL1	CaptureSunSmode5.c	/^	unsigned int BAPTAL1;   	\/* ×ó·«°åÖ÷·İ *\/$/;"	m	struct:__anon18	file:
+BAPTAL1	CaptureSunSmode5.c	/^	unsigned int BAPTAL1[3];     \/* ×ó·«°åÖ÷·İ*\/$/;"	m	struct:__anon17	file:
+BAPTAL1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BAPTAL1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+BAPTAL1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BAPTAL1[2] ;$/;"	m	struct:__anonstruct_LTUSelfCheck_19	file:
+BAPTAL1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BAPTAL1[3] ;$/;"	m	struct:__anonstruct_LTUDATA_17	file:
+BAPTAL2	CaptureSunSmode5.c	/^	unsigned int    BAPTAL2[2];    \/* ½ÓÊÕµ½µÄÌ«Ñô·«°å1±¸·İµÄ×Ô¼ìÊı¾İ *\/$/;"	m	struct:__anon19	file:
+BAPTAL2	CaptureSunSmode5.c	/^	unsigned int BAPTAL2;   	\/* ×ó·«°å±¸·İ *\/$/;"	m	struct:__anon18	file:
+BAPTAL2	CaptureSunSmode5.c	/^	unsigned int BAPTAL2[3];     \/* ×ó·«°å±¸·İ *\/$/;"	m	struct:__anon17	file:
+BAPTAL2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BAPTAL2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+BAPTAL2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BAPTAL2[2] ;$/;"	m	struct:__anonstruct_LTUSelfCheck_19	file:
+BAPTAL2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BAPTAL2[3] ;$/;"	m	struct:__anonstruct_LTUDATA_17	file:
+BAPTAR	CaptureSunSmode5.c	/^	unsigned int BAPTAR;    \/* ÓÒ·«°å flg_valid\/flg_invalid£ºÖ÷·İ\/±¸·İ *\/$/;"	m	struct:__anon16	file:
+BAPTAR	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BAPTAR ;$/;"	m	struct:__anonstruct_LTUSelectFlg_16	file:
+BAPTAR1	CaptureSunSmode5.c	/^	unsigned int    BAPTAR1[2];    \/* ½ÓÊÕµ½µÄÌ«Ñô·«°å2Ö÷·İµÄ×Ô¼ìÊı¾İ *\/$/;"	m	struct:__anon19	file:
+BAPTAR1	CaptureSunSmode5.c	/^	unsigned int BAPTAR1;   	\/* ÓÒ·«°åÖ÷·İ *\/$/;"	m	struct:__anon18	file:
+BAPTAR1	CaptureSunSmode5.c	/^	unsigned int BAPTAR1[3];     \/* ÓÒ·«°åÖ÷·İ *\/$/;"	m	struct:__anon17	file:
+BAPTAR1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BAPTAR1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+BAPTAR1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BAPTAR1[2] ;$/;"	m	struct:__anonstruct_LTUSelfCheck_19	file:
+BAPTAR1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BAPTAR1[3] ;$/;"	m	struct:__anonstruct_LTUDATA_17	file:
+BAPTAR2	CaptureSunSmode5.c	/^	unsigned int    BAPTAR2[2];    \/* ½ÓÊÕµ½µÄÌ«Ñô·«°å2±¸·İµÄ×Ô¼ìÊı¾İ *\/$/;"	m	struct:__anon19	file:
+BAPTAR2	CaptureSunSmode5.c	/^	unsigned int BAPTAR2;   	\/* ÓÒ·«°å±¸·İ *\/$/;"	m	struct:__anon18	file:
+BAPTAR2	CaptureSunSmode5.c	/^	unsigned int BAPTAR2[3];     \/* ÓÒ·«°å±¸·İ *\/$/;"	m	struct:__anon17	file:
+BAPTAR2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BAPTAR2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+BAPTAR2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BAPTAR2[2] ;$/;"	m	struct:__anonstruct_LTUSelfCheck_19	file:
+BAPTAR2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BAPTAR2[3] ;$/;"	m	struct:__anonstruct_LTUDATA_17	file:
+BAPTATimeNum	CaptureSunSmode5.c	/^unsigned int    BAPTATimeNum;$/;"	v
+BAPTATimeNum	CaptureSunSmode5.cil.after-sim.c	/^unsigned int BAPTATimeNum  ;$/;"	v
+BAPTAZero	CaptureSunSmode5.c	/^	unsigned int BAPTAZero[2];         \/* ·«°åÔÚÁãÎ»±êÖ¾ *\/$/;"	m	struct:__anon27	file:
+BAPTAZero	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BAPTAZero[2] ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+BB	CaptureSunSmode5.c	/^    float BB[3][3];$/;"	m	struct:__anon28	file:
+BB	CaptureSunSmode5.cil.after-sim.c	/^   float BB[3][3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+BBranchPowerOnFlg	CaptureSunSmode5.c	/^unsigned int    BBranchPowerOnFlg;$/;"	v
+BBranchPowerOnFlg	CaptureSunSmode5.cil.after-sim.c	/^unsigned int BBranchPowerOnFlg  ;$/;"	v
+BBranchPowerOnNum	CaptureSunSmode5.c	/^unsigned int    BBranchPowerOnNum;      \/* ¿ªB·ÖÖ§¼ÆÊı *\/$/;"	v
+BBranchPowerOnNum	CaptureSunSmode5.cil.after-sim.c	/^unsigned int BBranchPowerOnNum  ;$/;"	v
+BC_CONTROLL_WORD_REG	CaptureSunSmode5.c	60;"	d	file:
+BC_FRAME_TIME_REG	CaptureSunSmode5.c	71;"	d	file:
+BC_FRAME_TIME_REMAINING_REG	CaptureSunSmode5.c	69;"	d	file:
+BC_MESSAGE_TIME_REMAINING_REG	CaptureSunSmode5.c	70;"	d	file:
+BOOT_490N_CS	CaptureSunSmode5.c	41;"	d	file:
+BOOT_490Nnum	CaptureSunSmode5.c	/^unsigned int    BOOT_490Nnum;           \/* ¹Ø±Õ¹ì¿Ø·¢¶¯»úÂö³å¼ÆÊı *\/$/;"	v
+BOOT_490Nnum	CaptureSunSmode5.cil.after-sim.c	/^unsigned int BOOT_490Nnum  ;$/;"	v
+BZ0	CaptureSunSmode5.c	/^    unsigned int    BZ0;$/;"	m	struct:__anon2	file:
+BZ0	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ0 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ1	CaptureSunSmode5.c	/^        unsigned BZ1    : 4;  \/* ¸ß0£­3 *\/$/;"	m	struct:__anon29::__anon32	file:
+BZ1	CaptureSunSmode5.c	/^    unsigned int    BZ1;$/;"	m	struct:__anon2	file:
+BZ1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ1 : 4 ;$/;"	m	struct:__anonstruct_Bit4_32	file:
+BZ1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ1 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ10	CaptureSunSmode5.c	/^    unsigned int    BZ10;$/;"	m	struct:__anon2	file:
+BZ10	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ10 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ11	CaptureSunSmode5.c	/^    unsigned int    BZ11;$/;"	m	struct:__anon2	file:
+BZ11	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ11 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ12	CaptureSunSmode5.c	/^    unsigned int    BZ12;$/;"	m	struct:__anon2	file:
+BZ12	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ12 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ13	CaptureSunSmode5.c	/^    unsigned int    BZ13;$/;"	m	struct:__anon2	file:
+BZ13	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ13 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ14	CaptureSunSmode5.c	/^    unsigned int    BZ14;$/;"	m	struct:__anon2	file:
+BZ14	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ14 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ15	CaptureSunSmode5.c	/^    unsigned int    BZ15;$/;"	m	struct:__anon2	file:
+BZ15	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ15 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ16	CaptureSunSmode5.c	/^    unsigned int    BZ16;$/;"	m	struct:__anon2	file:
+BZ16	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ16 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ17	CaptureSunSmode5.c	/^    unsigned int    BZ17;$/;"	m	struct:__anon2	file:
+BZ17	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ17 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ18	CaptureSunSmode5.c	/^    unsigned int    BZ18;$/;"	m	struct:__anon2	file:
+BZ18	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ18 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ19	CaptureSunSmode5.c	/^    unsigned int    BZ19;$/;"	m	struct:__anon2	file:
+BZ19	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ19 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ2	CaptureSunSmode5.c	/^        unsigned BZ2    : 4;  \/* ¸ß4£­7 *\/$/;"	m	struct:__anon29::__anon32	file:
+BZ2	CaptureSunSmode5.c	/^    unsigned int    BZ2;$/;"	m	struct:__anon2	file:
+BZ2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ2 : 4 ;$/;"	m	struct:__anonstruct_Bit4_32	file:
+BZ2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ2 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ20	CaptureSunSmode5.c	/^    unsigned int    BZ20;$/;"	m	struct:__anon2	file:
+BZ20	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ20 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ21	CaptureSunSmode5.c	/^    unsigned int    BZ21;$/;"	m	struct:__anon2	file:
+BZ21	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ21 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ22	CaptureSunSmode5.c	/^    unsigned int    BZ22;$/;"	m	struct:__anon2	file:
+BZ22	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ22 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ23	CaptureSunSmode5.c	/^    unsigned int    BZ23;$/;"	m	struct:__anon2	file:
+BZ23	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ23 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ24	CaptureSunSmode5.c	/^    unsigned int    BZ24;$/;"	m	struct:__anon2	file:
+BZ24	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ24 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ25	CaptureSunSmode5.c	/^    unsigned int    BZ25;$/;"	m	struct:__anon2	file:
+BZ25	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ25 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ26	CaptureSunSmode5.c	/^    unsigned int    BZ26;$/;"	m	struct:__anon2	file:
+BZ26	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ26 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ3	CaptureSunSmode5.c	/^        unsigned BZ3    : 4;  \/* ¸ß8£­11 *\/$/;"	m	struct:__anon29::__anon32	file:
+BZ3	CaptureSunSmode5.c	/^    unsigned int    BZ3;$/;"	m	struct:__anon2	file:
+BZ3	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ3 : 4 ;$/;"	m	struct:__anonstruct_Bit4_32	file:
+BZ3	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ3 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ4	CaptureSunSmode5.c	/^        unsigned BZ4    : 4;  \/* ¸ß12£­15 *\/$/;"	m	struct:__anon29::__anon32	file:
+BZ4	CaptureSunSmode5.c	/^    unsigned int    BZ4;$/;"	m	struct:__anon2	file:
+BZ4	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ4 : 4 ;$/;"	m	struct:__anonstruct_Bit4_32	file:
+BZ4	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ4 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ5	CaptureSunSmode5.c	/^        unsigned BZ5    : 4;  \/* µÍ0£­3 *\/$/;"	m	struct:__anon29::__anon32	file:
+BZ5	CaptureSunSmode5.c	/^    unsigned int    BZ5;$/;"	m	struct:__anon2	file:
+BZ5	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ5 : 4 ;$/;"	m	struct:__anonstruct_Bit4_32	file:
+BZ5	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ5 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ5a	CaptureSunSmode5.c	/^    unsigned int    BZ5a;$/;"	m	struct:__anon2	file:
+BZ5a	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ5a ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ6	CaptureSunSmode5.c	/^        unsigned BZ6    : 4;  \/* µÍ4£­7 *\/$/;"	m	struct:__anon29::__anon32	file:
+BZ6	CaptureSunSmode5.c	/^    unsigned int    BZ6;$/;"	m	struct:__anon2	file:
+BZ6	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ6 : 4 ;$/;"	m	struct:__anonstruct_Bit4_32	file:
+BZ6	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ6 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ7	CaptureSunSmode5.c	/^        unsigned BZ7    : 4;  \/* µÍ8£­11 *\/$/;"	m	struct:__anon29::__anon32	file:
+BZ7	CaptureSunSmode5.c	/^    unsigned int    BZ7;$/;"	m	struct:__anon2	file:
+BZ7	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ7 : 4 ;$/;"	m	struct:__anonstruct_Bit4_32	file:
+BZ7	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ7 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ8	CaptureSunSmode5.c	/^        unsigned BZ8    : 4;  \/* µÍ12£­15 *\/$/;"	m	struct:__anon29::__anon32	file:
+BZ8	CaptureSunSmode5.c	/^    unsigned int    BZ8;$/;"	m	struct:__anon2	file:
+BZ8	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ8 : 4 ;$/;"	m	struct:__anonstruct_Bit4_32	file:
+BZ8	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ8 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZ9	CaptureSunSmode5.c	/^    unsigned int    BZ9;$/;"	m	struct:__anon2	file:
+BZ9	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZ9 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+BZUV	CaptureSunSmode5.c	/^	unsigned int    BZUV;$/;"	m	struct:__anon2	file:
+BZUV	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int BZUV ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+Bae	CaptureSunSmode5.c	/^    float   Bae;        \/*  *\/$/;"	m	struct:__anon10	file:
+Bae	CaptureSunSmode5.cil.after-sim.c	/^   float Bae ;$/;"	m	struct:__anonstruct_GDADATA_10	file:
+BaeT	CaptureSunSmode5.c	/^    float   BaeT;$/;"	m	struct:__anon10	file:
+BaeT	CaptureSunSmode5.cil.after-sim.c	/^   float BaeT ;$/;"	m	struct:__anonstruct_GDADATA_10	file:
+Baf	CaptureSunSmode5.c	/^    float   Baf;        \/*  *\/$/;"	m	struct:__anon10	file:
+Baf	CaptureSunSmode5.cil.after-sim.c	/^   float Baf ;$/;"	m	struct:__anonstruct_GDADATA_10	file:
+Bafcmd	CaptureSunSmode5.c	/^    unsigned int Bafcmd;$/;"	m	struct:__anon10	file:
+Bafcmd	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int Bafcmd ;$/;"	m	struct:__anonstruct_GDADATA_10	file:
+Bbe	CaptureSunSmode5.c	/^    float   Bbe;        \/* ¦Âae;¦Âbe *\/$/;"	m	struct:__anon10	file:
+Bbe	CaptureSunSmode5.cil.after-sim.c	/^   float Bbe ;$/;"	m	struct:__anonstruct_GDADATA_10	file:
+BbeT	CaptureSunSmode5.c	/^    float   BbeT;$/;"	m	struct:__anon10	file:
+BbeT	CaptureSunSmode5.cil.after-sim.c	/^   float BbeT ;$/;"	m	struct:__anonstruct_GDADATA_10	file:
+Bbf	CaptureSunSmode5.c	/^    float   Bbf;        \/* ÌìÏß½Ç¶È¿ØÖÆÖ¸Áî¡£¦Âaf;¦Âbf *\/$/;"	m	struct:__anon10	file:
+Bbf	CaptureSunSmode5.cil.after-sim.c	/^   float Bbf ;$/;"	m	struct:__anonstruct_GDADATA_10	file:
+Bbfcmd	CaptureSunSmode5.c	/^    unsigned int Bbfcmd;$/;"	m	struct:__anon10	file:
+Bbfcmd	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int Bbfcmd ;$/;"	m	struct:__anonstruct_GDADATA_10	file:
+Bit	CaptureSunSmode5.c	/^    } Bit;$/;"	m	union:__anon25	typeref:struct:__anon25::__anon26	file:
+Bit4	CaptureSunSmode5.c	/^    } Bit4;$/;"	m	union:__anon29	typeref:struct:__anon29::__anon32	file:
+Bit4	CaptureSunSmode5.cil.after-sim.c	/^   struct __anonstruct_Bit4_32 Bit4 ;$/;"	m	union:__anonunion_USED_WORD_29	typeref:struct:__anonunion_USED_WORD_29::__anonstruct_Bit4_32	file:
+Bm	CaptureSunSmode5.c	/^    float   Bm;         \/* ×¢ÈëÁ¿£¬³õÖµ90¶È *\/$/;"	m	struct:__anon10	file:
+Bm	CaptureSunSmode5.cil.after-sim.c	/^   float Bm ;$/;"	m	struct:__anonstruct_GDADATA_10	file:
+Byte	CaptureSunSmode5.c	/^    } Byte;$/;"	m	union:__anon29	typeref:struct:__anon29::__anon31	file:
+Byte	CaptureSunSmode5.cil.after-sim.c	/^   struct __anonstruct_Byte_31 Byte ;$/;"	m	union:__anonunion_USED_WORD_29	typeref:struct:__anonunion_USED_WORD_29::__anonstruct_Byte_31	file:
+CB	CaptureSunSmode5.c	/^    float CB[3][3];$/;"	m	struct:__anon28	file:
+CB	CaptureSunSmode5.cil.after-sim.c	/^   float CB[3][3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+CC	Makefile	/^CC=gcc$/;"	m
+CLOSE_VALVE_CS	CaptureSunSmode5.c	39;"	d	file:
+COMMAND_STACK_POINTER_REG	CaptureSunSmode5.c	59;"	d	file:
+CONFIGURATION_1_REG	CaptureSunSmode5.c	56;"	d	file:
+CONFIGURATION_2_REG	CaptureSunSmode5.c	57;"	d	file:
+CONFIGURATION_3_REG	CaptureSunSmode5.c	64;"	d	file:
+CONFIGURATION_4_REG	CaptureSunSmode5.c	65;"	d	file:
+CONFIGURATION_5_REG	CaptureSunSmode5.c	66;"	d	file:
+CONNECT_B_BRANCH_CS	CaptureSunSmode5.c	40;"	d	file:
+CONST_2PI	CaptureSunSmode5.c	130;"	d	file:
+CONST_DMl	CaptureSunSmode5.c	136;"	d	file:
+CONST_DMs	CaptureSunSmode5.c	137;"	d	file:
+CONST_Gm	CaptureSunSmode5.c	142;"	d	file:
+CONST_HalfPI	CaptureSunSmode5.c	132;"	d	file:
+CONST_PI	CaptureSunSmode5.c	131;"	d	file:
+CONST_Rm	CaptureSunSmode5.c	144;"	d	file:
+CONST_ae	CaptureSunSmode5.c	134;"	d	file:
+CONST_as	CaptureSunSmode5.c	135;"	d	file:
+CONST_ee	CaptureSunSmode5.c	138;"	d	file:
+CONST_eeee	CaptureSunSmode5.c	139;"	d	file:
+CONST_es	CaptureSunSmode5.c	140;"	d	file:
+CONST_eses	CaptureSunSmode5.c	141;"	d	file:
+CONST_ie	CaptureSunSmode5.c	143;"	d	file:
+CONST_we	CaptureSunSmode5.c	146;"	d	file:
+CONST_ws	CaptureSunSmode5.c	145;"	d	file:
+CONTROL_10N_CS	CaptureSunSmode5.c	45;"	d	file:
+CONTROL_SDC_CS	CaptureSunSmode5.c	50;"	d	file:
+COS100P54	CaptureSunSmode5.c	123;"	d	file:
+COS133P08	CaptureSunSmode5.c	124;"	d	file:
+COS15	CaptureSunSmode5.c	117;"	d	file:
+COS45	CaptureSunSmode5.c	118;"	d	file:
+COS46P92	CaptureSunSmode5.c	119;"	d	file:
+COS75	CaptureSunSmode5.c	120;"	d	file:
+COS79P45	CaptureSunSmode5.c	121;"	d	file:
+COS90	CaptureSunSmode5.c	122;"	d	file:
+COS_epsilon	CaptureSunSmode5.c	126;"	d	file:
+CSIZE	dump_transitions100.c	3;"	d	file:
+C_UT	CaptureSunSmode5.c	/^    float  C_UT;            \/* ·ÉÂÖµçÑ¹-Á¦¾ØÏµÊı *\/$/;"	m	struct:__anon20	file:
+C_UT	CaptureSunSmode5.cil.after-sim.c	/^   float C_UT ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+CalOrbit	CaptureSunSmode5.c	/^CalOrbitDATA   CalOrbit;$/;"	v
+CalOrbit	CaptureSunSmode5.cil.after-sim.c	/^CalOrbitDATA CalOrbit  ;$/;"	v
+CalOrbitDATA	CaptureSunSmode5.c	/^}CalOrbitDATA;$/;"	t	typeref:struct:__anon6	file:
+CalOrbitDATA	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_CalOrbitDATA_6 CalOrbitDATA;$/;"	t	typeref:struct:__anonstruct_CalOrbitDATA_6	file:
+CaptureSSDATA	CaptureSunSmode5.c	/^}CaptureSSDATA;$/;"	t	typeref:struct:__anon7	file:
+CaptureSSDATA	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_CaptureSSDATA_7 CaptureSSDATA;$/;"	t	typeref:struct:__anonstruct_CaptureSSDATA_7	file:
+CaptureSunSmode5	CaptureSunSmode5.c	/^void    CaptureSunSmode5(CaptureSSDATA*  CaptureSun,$/;"	f
+CaptureSunSmode5	CaptureSunSmode5.cil.after-sim.c	/^void CaptureSunSmode5(CaptureSSDATA *CaptureSun , ATTITUDEDATA *AttiData , INPara *InPara ,$/;"	f
+CloseLV5Num	CaptureSunSmode5.c	/^unsigned int    CloseLV5Num;            \/* ¹Ø±ÕLV5¼ÆÊı *\/$/;"	v
+CloseLV5Num	CaptureSunSmode5.cil.after-sim.c	/^unsigned int CloseLV5Num  ;$/;"	v
+CmdAddrOLD	CaptureSunSmode5.c	/^unsigned int    CmdAddrOLD;$/;"	v
+CmdAddrOLD	CaptureSunSmode5.cil.after-sim.c	/^unsigned int CmdAddrOLD  ;$/;"	v
+CmdL	CaptureSunSmode5.c	/^	unsigned int    CmdL[2];		 \/* ×ó·«°å¿ØÖÆÖ¸Áî *\/$/;"	m	struct:__anon5	file:
+CmdL	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int CmdL[2] ;$/;"	m	struct:__anonstruct_BAPTACTRL_5	file:
+CmdR	CaptureSunSmode5.c	/^	unsigned int    CmdR[2];         \/* ×ó·«°å¿ØÖÆÖ¸Áî *\/$/;"	m	struct:__anon5	file:
+CmdR	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int CmdR[2] ;$/;"	m	struct:__anonstruct_BAPTACTRL_5	file:
+CorrectSTS	CaptureSunSmode5.c	/^    unsigned int    CorrectSTS;         \/* ĞÇÃôĞ£Ê±Ê±¿Ì *\/$/;"	m	struct:__anon33	file:
+CorrectSTS	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int CorrectSTS ;$/;"	m	struct:__anonstruct_TIME_33	file:
+Cv	CaptureSunSmode5.c	/^    float  Cv;$/;"	m	struct:__anon20	file:
+Cv	CaptureSunSmode5.cil.after-sim.c	/^   float Cv ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+CwhXYS	CaptureSunSmode5.c	/^	float  CwhXYS[3][4];$/;"	m	struct:__anon20	file:
+CwhXYS	CaptureSunSmode5.cil.after-sim.c	/^   float CwhXYS[3][4] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+CwhXYZ	CaptureSunSmode5.c	/^	float  CwhXYZ[3][4];$/;"	m	struct:__anon20	file:
+CwhXYZ	CaptureSunSmode5.cil.after-sim.c	/^   float CwhXYZ[3][4] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+CwhXYZS	CaptureSunSmode5.c	/^    float  CwhXYZS[3][4];$/;"	m	struct:__anon20	file:
+CwhXYZS	CaptureSunSmode5.cil.after-sim.c	/^   float CwhXYZS[3][4] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+CwhXZS	CaptureSunSmode5.c	/^	float  CwhXZS[3][4];$/;"	m	struct:__anon20	file:
+CwhXZS	CaptureSunSmode5.cil.after-sim.c	/^   float CwhXZS[3][4] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+CwhYZS	CaptureSunSmode5.c	/^	float  CwhYZS[3][4];$/;"	m	struct:__anon20	file:
+CwhYZS	CaptureSunSmode5.cil.after-sim.c	/^   float CwhYZS[3][4] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+Cyc_Flag	CaptureSunSmode5.c	/^unsigned int    Cyc_Flag;               \/* ¿ØÖÆÖÜÆÚ *\/$/;"	v
+Cyc_Flag	CaptureSunSmode5.cil.after-sim.c	/^unsigned int Cyc_Flag  ;$/;"	v
+D2	CaptureSunSmode5.c	/^    float   D2[3];            \/*  *\/$/;"	m	struct:__anon23	file:
+D2	CaptureSunSmode5.cil.after-sim.c	/^   float D2[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+D3	CaptureSunSmode5.c	/^    float   D3[3];            \/*  *\/$/;"	m	struct:__anon23	file:
+D3	CaptureSunSmode5.cil.after-sim.c	/^   float D3[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+D4	CaptureSunSmode5.c	/^    float   D4[3];            \/*  *\/$/;"	m	struct:__anon23	file:
+D4	CaptureSunSmode5.cil.after-sim.c	/^   float D4[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+DAB	CaptureSunSmode5.c	/^    float DAB[3][3];$/;"	m	struct:__anon28	file:
+DAB	CaptureSunSmode5.cil.after-sim.c	/^   float DAB[3][3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+DBB	CaptureSunSmode5.c	/^    float DBB[3][3];$/;"	m	struct:__anon28	file:
+DBB	CaptureSunSmode5.cil.after-sim.c	/^   float DBB[3][3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+DCB	CaptureSunSmode5.c	/^    float DCB[3][3];$/;"	m	struct:__anon28	file:
+DCB	CaptureSunSmode5.cil.after-sim.c	/^   float DCB[3][3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+DELAYNUM	CaptureSunSmode5.c	147;"	d	file:
+DG	CaptureSunSmode5.c	/^    float  DG[3];$/;"	m	struct:__anon11	file:
+DG	CaptureSunSmode5.cil.after-sim.c	/^   float DG[3] ;$/;"	m	struct:__anonstruct_GYRODATA_11	file:
+DOWNLOAD	CaptureSunSmode5.c	/^}DOWNLOAD;$/;"	t	typeref:struct:__anon8	file:
+DOWNLOAD	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_DOWNLOAD_8 DOWNLOAD;$/;"	t	typeref:struct:__anonstruct_DOWNLOAD_8	file:
+DSSAngle	CaptureSunSmode5.c	/^    float        DSSAngle[2];          \/* Êı×ÖÌ«ÑôÊä³öµÄ×ËÌ¬½Ç¦Á¦Õ,¦Á¦È *\/$/;"	m	struct:__anon27	file:
+DSSAngle	CaptureSunSmode5.cil.after-sim.c	/^   float DSSAngle[2] ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+DSSAngleOld	CaptureSunSmode5.c	/^	float        DSSAngleOld[2];       \/* Êı×ÖÌ«ÑôÊä³öµÄ×ËÌ¬½Ç¦Á¦Õ,¦Á¦È *\/$/;"	m	struct:__anon27	file:
+DSSAngleOld	CaptureSunSmode5.cil.after-sim.c	/^   float DSSAngleOld[2] ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+DSSDataValidFlg	CaptureSunSmode5.c	/^    unsigned int DSSDataValidFlg[2];   \/* Êı×ÖÌ«ÑôÊı¾İÊÇ·ñÓĞĞ§ *\/$/;"	m	struct:__anon27	file:
+DSSDataValidFlg	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int DSSDataValidFlg[2] ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+DThetaL	CaptureSunSmode5.c	/^	float  DThetaL;          \/* ³£Êı *\/$/;"	m	struct:__anon24	file:
+DThetaL	CaptureSunSmode5.cil.after-sim.c	/^   float DThetaL ;$/;"	m	struct:__anonstruct_PHASEPLANE_24	file:
+DThetaLL	CaptureSunSmode5.c	/^	float  DThetaLL;$/;"	m	struct:__anon24	file:
+DThetaLL	CaptureSunSmode5.cil.after-sim.c	/^   float DThetaLL ;$/;"	m	struct:__anonstruct_PHASEPLANE_24	file:
+DThetaV	CaptureSunSmode5.c	/^	float  DThetaV;          \/* ³£Êı *\/$/;"	m	struct:__anon24	file:
+DThetaV	CaptureSunSmode5.cil.after-sim.c	/^   float DThetaV ;$/;"	m	struct:__anonstruct_PHASEPLANE_24	file:
+DeltaA	CaptureSunSmode5.c	/^    float  DeltaA[3];        \/* ×ÏÍâ¼ÆËãµÄ×ËÌ¬Æ«²î *\/$/;"	m	struct:__anon3	file:
+DeltaA	CaptureSunSmode5.cil.after-sim.c	/^   float DeltaA[3] ;$/;"	m	struct:__anonstruct_ATTITUDEDATA_3	file:
+DeltaAlphaF1	CaptureSunSmode5.c	/^    float DeltaAlphaF1; \/* A×é·«°å×ª½ÇÎó²î *\/$/;"	m	struct:__anon4	file:
+DeltaAlphaF1	CaptureSunSmode5.cil.after-sim.c	/^   float DeltaAlphaF1 ;$/;"	m	struct:__anonstruct_BAPTADATA_4	file:
+DeltaAlphaF1Star	CaptureSunSmode5.c	/^    float DeltaAlphaF1Star;$/;"	m	struct:__anon4	file:
+DeltaAlphaF1Star	CaptureSunSmode5.cil.after-sim.c	/^   float DeltaAlphaF1Star ;$/;"	m	struct:__anonstruct_BAPTADATA_4	file:
+DeltaAlphaF2	CaptureSunSmode5.c	/^    float DeltaAlphaF2; \/* B×é·«°å×ª½ÇÎó²î *\/$/;"	m	struct:__anon4	file:
+DeltaAlphaF2	CaptureSunSmode5.cil.after-sim.c	/^   float DeltaAlphaF2 ;$/;"	m	struct:__anonstruct_BAPTADATA_4	file:
+DeltaAlphaF2Star	CaptureSunSmode5.c	/^    float DeltaAlphaF2Star;$/;"	m	struct:__anon4	file:
+DeltaAlphaF2Star	CaptureSunSmode5.cil.after-sim.c	/^   float DeltaAlphaF2Star ;$/;"	m	struct:__anonstruct_BAPTADATA_4	file:
+DeltaAsz	CaptureSunSmode5.c	/^    float  DeltaAsz[3];      \/*  *\/$/;"	m	struct:__anon3	file:
+DeltaAsz	CaptureSunSmode5.cil.after-sim.c	/^   float DeltaAsz[3] ;$/;"	m	struct:__anonstruct_ATTITUDEDATA_3	file:
+DeltaAszS	CaptureSunSmode5.c	/^    float  DeltaAszS[3];     \/*  *\/$/;"	m	struct:__anon3	file:
+DeltaAszS	CaptureSunSmode5.cil.after-sim.c	/^   float DeltaAszS[3] ;$/;"	m	struct:__anonstruct_ATTITUDEDATA_3	file:
+DeltaAz	CaptureSunSmode5.c	/^    float  DeltaAz[3];       \/* ×ÏÍâÎó²î¹À¼Æ *\/$/;"	m	struct:__anon3	file:
+DeltaAz	CaptureSunSmode5.cil.after-sim.c	/^   float DeltaAz[3] ;$/;"	m	struct:__anonstruct_ATTITUDEDATA_3	file:
+DeltaG	CaptureSunSmode5.c	/^    float  DeltaG[8];          \/* ÁùÍÓÂİÒ»¿ØÖÆÖÜÆÚÄÚ½Ç¶ÈÔöÁ¿,+2¸ö¼ÓËÙ¶È¼Æ *\/$/;"	m	struct:__anon11	file:
+DeltaG	CaptureSunSmode5.cil.after-sim.c	/^   float DeltaG[8] ;$/;"	m	struct:__anonstruct_GYRODATA_11	file:
+DeltaH	CaptureSunSmode5.c	/^    float  DeltaH[4];           \/* ¦¤Hx,¦¤Hy,¦¤Hz,¦¤Hs *\/$/;"	m	struct:__anon20	file:
+DeltaH	CaptureSunSmode5.cil.after-sim.c	/^   float DeltaH[4] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+DeltaT	CaptureSunSmode5.c	/^float           DeltaT;$/;"	v
+DeltaT	CaptureSunSmode5.cil.after-sim.c	/^float DeltaT  ;$/;"	v
+DeltaTOld	CaptureSunSmode5.c	/^float           DeltaTOld;$/;"	v
+DeltaTOld	CaptureSunSmode5.cil.after-sim.c	/^float DeltaTOld  ;$/;"	v
+DeltaV1	CaptureSunSmode5.c	/^	int 	DeltaV1;            \/* ¹ì¿ØËÙ¶ÈÔöÁ¿ *\/$/;"	m	struct:__anon21	file:
+DeltaV1	CaptureSunSmode5.cil.after-sim.c	/^   int DeltaV1 ;$/;"	m	struct:__anonstruct_ORBITCOMMAND_21	file:
+DeltaV2	CaptureSunSmode5.c	/^	int 	DeltaV2;            \/* ¹ì¿ØËÙ¶ÈÔöÁ¿ *\/$/;"	m	struct:__anon21	file:
+DeltaV2	CaptureSunSmode5.cil.after-sim.c	/^   int DeltaV2 ;$/;"	m	struct:__anonstruct_ORBITCOMMAND_21	file:
+DeltaVs	CaptureSunSmode5.c	/^    float   DeltaVs;            \/* Ê£ÓàËÙ¶ÈÔöÁ¿ *\/$/;"	m	struct:__anon21	file:
+DeltaVs	CaptureSunSmode5.cil.after-sim.c	/^   float DeltaVs ;$/;"	m	struct:__anonstruct_ORBITCOMMAND_21	file:
+DeltaZA	CaptureSunSmode5.c	/^    float DeltaZA[3];$/;"	m	struct:__anon28	file:
+DeltaZA	CaptureSunSmode5.cil.after-sim.c	/^   float DeltaZA[3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+DeltaZB	CaptureSunSmode5.c	/^    float DeltaZB[3];$/;"	m	struct:__anon28	file:
+DeltaZB	CaptureSunSmode5.cil.after-sim.c	/^   float DeltaZB[3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+DeltaZC	CaptureSunSmode5.c	/^    float DeltaZC[3];$/;"	m	struct:__anon28	file:
+DeltaZC	CaptureSunSmode5.cil.after-sim.c	/^   float DeltaZC[3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+DeltaZR	CaptureSunSmode5.c	/^    float DeltaZR[3]; $/;"	m	struct:__anon28	file:
+DeltaZR	CaptureSunSmode5.cil.after-sim.c	/^   float DeltaZR[3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+DeltaZpst	CaptureSunSmode5.c	/^    float DeltaZpst[3];                $/;"	m	struct:__anon28	file:
+DeltaZpst	CaptureSunSmode5.cil.after-sim.c	/^   float DeltaZpst[3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+Deltaq	CaptureSunSmode5.c	/^    float       Deltaq[4];$/;"	m	struct:__anon2	file:
+Deltaq	CaptureSunSmode5.cil.after-sim.c	/^   float Deltaq[4] ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+DownLoad	CaptureSunSmode5.c	/^DOWNLOAD  DownLoad;                    \/* ÏÂ´«Êı¾İ *\/$/;"	v
+DownLoad	CaptureSunSmode5.cil.after-sim.c	/^DOWNLOAD DownLoad  ;$/;"	v
+Dul0	CaptureSunSmode5.c	/^	float Dul0;$/;"	m	struct:__anon13	file:
+Dul0	CaptureSunSmode5.cil.after-sim.c	/^   float Dul0 ;$/;"	m	struct:__anonstruct_INPara_13	file:
+DwhXYS	CaptureSunSmode5.c	/^    float  DwhXYS[4][3];$/;"	m	struct:__anon20	file:
+DwhXYS	CaptureSunSmode5.cil.after-sim.c	/^   float DwhXYS[4][3] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+DwhXYZ	CaptureSunSmode5.c	/^    float  DwhXYZ[4][3];$/;"	m	struct:__anon20	file:
+DwhXYZ	CaptureSunSmode5.cil.after-sim.c	/^   float DwhXYZ[4][3] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+DwhXYZS	CaptureSunSmode5.c	/^    float  DwhXYZS[4][3];$/;"	m	struct:__anon20	file:
+DwhXYZS	CaptureSunSmode5.cil.after-sim.c	/^   float DwhXYZS[4][3] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+DwhXZS	CaptureSunSmode5.c	/^    float  DwhXZS[4][3];$/;"	m	struct:__anon20	file:
+DwhXZS	CaptureSunSmode5.cil.after-sim.c	/^   float DwhXZS[4][3] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+DwhYZS	CaptureSunSmode5.c	/^    float  DwhYZS[4][3];$/;"	m	struct:__anon20	file:
+DwhYZS	CaptureSunSmode5.cil.after-sim.c	/^   float DwhYZS[4][3] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+E	CaptureSunSmode5.c	/^	float  E;                \/*  *\/$/;"	m	struct:__anon6	file:
+E	CaptureSunSmode5.cil.after-sim.c	/^   float E ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+EXE	Makefile	/^EXE=$(FILE)$/;"	m
+Eb	CaptureSunSmode5.c	/^    float   Eb[3];      \/*  *\/$/;"	m	struct:__anon10	file:
+Eb	CaptureSunSmode5.cil.after-sim.c	/^   float Eb[3] ;$/;"	m	struct:__anonstruct_GDADATA_10	file:
+Eclipse	CaptureSunSmode5.c	/^	unsigned int Eclipse;       \/*  *\/$/;"	m	struct:__anon7	file:
+Eclipse	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int Eclipse ;$/;"	m	struct:__anonstruct_CaptureSSDATA_7	file:
+Ei	CaptureSunSmode5.c	/^	float  Ei[3];			 \/* µØĞÄÊ¸Á¿ÔÚÔÂĞÄµØÇò³àµÀ¹ßĞÔ×ø±êÏµÖĞµÄ·ÖÁ¿ *\/$/;"	m	struct:__anon6	file:
+Ei	CaptureSunSmode5.cil.after-sim.c	/^   float Ei[3] ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+Eo	CaptureSunSmode5.c	/^	float  Eo[3];            \/* µØĞÄ·½Ïòµ¥Î»Ê¸Á¿Eox,Eoy,Eoz *\/$/;"	m	struct:__anon6	file:
+Eo	CaptureSunSmode5.cil.after-sim.c	/^   float Eo[3] ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+ErrorOBDHNum	CaptureSunSmode5.c	/^unsigned int    ErrorOBDHNum;           \/* 4sÓëOBDHÍ¨Ñ¶¹ÊÕÏ¼ÆÊı *\/$/;"	v
+ErrorOBDHNum	CaptureSunSmode5.cil.after-sim.c	/^unsigned int ErrorOBDHNum  ;$/;"	v
+Es	CaptureSunSmode5.c	/^    float   Es[3];      \/*  *\/$/;"	m	struct:__anon10	file:
+Es	CaptureSunSmode5.cil.after-sim.c	/^   float Es[3] ;$/;"	m	struct:__anonstruct_GDADATA_10	file:
+EventMaskType	terminatetask.cil.after-sim.c	/^typedef u32 EventMaskType;$/;"	t	file:
+FILTER	CaptureSunSmode5.c	/^}FILTER;$/;"	t	typeref:struct:__anon9	file:
+FILTER	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_FILTER_9 FILTER;$/;"	t	typeref:struct:__anonstruct_FILTER_9	file:
+FIRSTWORKMODE	CaptureSunSmode5.c	109;"	d	file:
+FailureFlag	CaptureSunSmode5.c	/^unsigned int    FailureFlag;            \/* ÔËĞĞ¶Î¹ÊÕÏ±êÖ¾ *\/$/;"	v
+FailureFlag	CaptureSunSmode5.cil.after-sim.c	/^unsigned int FailureFlag  ;$/;"	v
+FaultFlg1	CaptureSunSmode5.c	/^unsigned int    FaultFlg1;              \/* Òì³£Êı¾İ¿é1´æ·Å±êÖ¾ *\/$/;"	v
+FaultFlg1	CaptureSunSmode5.cil.after-sim.c	/^unsigned int FaultFlg1  ;$/;"	v
+FaultFlg2	CaptureSunSmode5.c	/^unsigned int    FaultFlg2;              \/* Òì³£Êı¾İ¿é2´æ·Å±êÖ¾ *\/$/;"	v
+FaultFlg2	CaptureSunSmode5.cil.after-sim.c	/^unsigned int FaultFlg2  ;$/;"	v
+FaultNum1	CaptureSunSmode5.c	/^unsigned int    FaultNum1;              \/* Òì³£Êı¾İ¿é1´æ·Å¼ÆÊı *\/$/;"	v
+FaultNum1	CaptureSunSmode5.cil.after-sim.c	/^unsigned int FaultNum1  ;$/;"	v
+FaultNum2	CaptureSunSmode5.c	/^unsigned int    FaultNum2;              \/* Òì³£Êı¾İ¿é2´æ·Å¼ÆÊı *\/$/;"	v
+FaultNum2	CaptureSunSmode5.cil.after-sim.c	/^unsigned int FaultNum2  ;$/;"	v
+Filter	CaptureSunSmode5.c	/^FILTER  Filter;$/;"	v
+Filter	CaptureSunSmode5.cil.after-sim.c	/^FILTER Filter  ;$/;"	v
+Float	CaptureSunSmode5.c	/^    float   Float;$/;"	m	union:__anon29	file:
+Float	CaptureSunSmode5.cil.after-sim.c	/^   float Float ;$/;"	m	union:__anonunion_USED_WORD_29	file:
+FloatZero	CaptureSunSmode5.c	127;"	d	file:
+ForInProgram1	CaptureSunSmode5.c	/^unsigned int    ForInProgram1;$/;"	v
+ForInProgram1	CaptureSunSmode5.cil.after-sim.c	/^unsigned int ForInProgram1  ;$/;"	v
+ForInProgram10	CaptureSunSmode5.c	/^float		    ForInProgram10;$/;"	v
+ForInProgram10	CaptureSunSmode5.cil.after-sim.c	/^float ForInProgram10  ;$/;"	v
+ForInProgram2	CaptureSunSmode5.c	/^unsigned int    ForInProgram2;$/;"	v
+ForInProgram2	CaptureSunSmode5.cil.after-sim.c	/^unsigned int ForInProgram2  ;$/;"	v
+ForInProgram3	CaptureSunSmode5.c	/^unsigned int    ForInProgram3;$/;"	v
+ForInProgram3	CaptureSunSmode5.cil.after-sim.c	/^unsigned int ForInProgram3  ;$/;"	v
+ForInProgram4	CaptureSunSmode5.c	/^unsigned int    ForInProgram4;$/;"	v
+ForInProgram4	CaptureSunSmode5.cil.after-sim.c	/^unsigned int ForInProgram4  ;$/;"	v
+ForInProgram5	CaptureSunSmode5.c	/^unsigned int    ForInProgram5;$/;"	v
+ForInProgram5	CaptureSunSmode5.cil.after-sim.c	/^unsigned int ForInProgram5  ;$/;"	v
+ForInProgram6	CaptureSunSmode5.c	/^float		    ForInProgram6;$/;"	v
+ForInProgram6	CaptureSunSmode5.cil.after-sim.c	/^float ForInProgram6  ;$/;"	v
+ForInProgram7	CaptureSunSmode5.c	/^float		    ForInProgram7;$/;"	v
+ForInProgram7	CaptureSunSmode5.cil.after-sim.c	/^float ForInProgram7  ;$/;"	v
+ForInProgram8	CaptureSunSmode5.c	/^float		    ForInProgram8;$/;"	v
+ForInProgram8	CaptureSunSmode5.cil.after-sim.c	/^float ForInProgram8  ;$/;"	v
+ForInProgram9	CaptureSunSmode5.c	/^float		    ForInProgram9;$/;"	v
+ForInProgram9	CaptureSunSmode5.cil.after-sim.c	/^float ForInProgram9  ;$/;"	v
+ForInProgramArray	CaptureSunSmode5.c	/^unsigned int    ForInProgramArray[30];$/;"	v
+ForInProgramArray	CaptureSunSmode5.cil.after-sim.c	/^unsigned int ForInProgramArray[30]  ;$/;"	v
+ForInProgramArrayF	CaptureSunSmode5.c	/^float		    ForInProgramArrayF[30];$/;"	v
+ForInProgramArrayF	CaptureSunSmode5.cil.after-sim.c	/^float ForInProgramArrayF[30]  ;$/;"	v
+GC	CaptureSunSmode5.c	/^    int    GC[6];              \/* ÍÓÂİ¹ÊÕÏÕï¶ÏµÄ»ı·Ö *\/$/;"	m	struct:__anon11	file:
+GC	CaptureSunSmode5.cil.after-sim.c	/^   int GC[6] ;$/;"	m	struct:__anonstruct_GYRODATA_11	file:
+GDA	CaptureSunSmode5.c	/^	unsigned int GDA;       \/* ÌìÏß   flg_valid\/flg_invalid£ºÖ÷·İ\/±¸·İ *\/$/;"	m	struct:__anon16	file:
+GDA	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int GDA ;$/;"	m	struct:__anonstruct_LTUSelectFlg_16	file:
+GDA1	CaptureSunSmode5.c	/^	unsigned int    GDA1[3];       \/* ½ÓÊÕµ½µÄÌìÏß1µÄ×Ô¼ìÊı¾İ *\/$/;"	m	struct:__anon19	file:
+GDA1	CaptureSunSmode5.c	/^	unsigned int GDA1;      	\/* ÌìÏßÖ÷·İ *\/$/;"	m	struct:__anon18	file:
+GDA1	CaptureSunSmode5.c	/^	unsigned int GDA1[5];        \/* ÌìÏßÖ÷·İ *\/$/;"	m	struct:__anon17	file:
+GDA1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int GDA1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+GDA1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int GDA1[3] ;$/;"	m	struct:__anonstruct_LTUSelfCheck_19	file:
+GDA1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int GDA1[5] ;$/;"	m	struct:__anonstruct_LTUDATA_17	file:
+GDA2	CaptureSunSmode5.c	/^	unsigned int    GDA2[3];       \/* ½ÓÊÕµ½µÄÌìÏß2µÄ×Ô¼ìÊı¾İ *\/$/;"	m	struct:__anon19	file:
+GDA2	CaptureSunSmode5.c	/^	unsigned int GDA2;      	\/* ÌìÏß±¸·İ *\/$/;"	m	struct:__anon18	file:
+GDA2	CaptureSunSmode5.c	/^	unsigned int GDA2[5];        \/* ÌìÏß±¸·İ *\/$/;"	m	struct:__anon17	file:
+GDA2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int GDA2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+GDA2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int GDA2[3] ;$/;"	m	struct:__anonstruct_LTUSelfCheck_19	file:
+GDA2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int GDA2[5] ;$/;"	m	struct:__anonstruct_LTUDATA_17	file:
+GDACtrlCmd	CaptureSunSmode5.c	/^unsigned int    GDACtrlCmd[5];$/;"	v
+GDACtrlCmd	CaptureSunSmode5.cil.after-sim.c	/^unsigned int GDACtrlCmd[5]  ;$/;"	v
+GDADATA	CaptureSunSmode5.c	/^}GDADATA;$/;"	t	typeref:struct:__anon10	file:
+GDADATA	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_GDADATA_10 GDADATA;$/;"	t	typeref:struct:__anonstruct_GDADATA_10	file:
+GDAData	CaptureSunSmode5.c	/^GDADATA        GDAData;$/;"	v
+GDAData	CaptureSunSmode5.cil.after-sim.c	/^GDADATA GDAData  ;$/;"	v
+GKFlag	CaptureSunSmode5.c	/^unsigned int    GKFlag;$/;"	v
+GKFlag	CaptureSunSmode5.cil.after-sim.c	/^unsigned int GKFlag  ;$/;"	v
+GNC	CaptureSunSmode5.c	/^        volatile unsigned GNC        : 5;        \/* 0-4 Ô¶³ÌÖÕ¶ËµØÖ· *\/$/;"	m	struct:__anon25::__anon26	file:
+GNCDataNumber	CaptureSunSmode5.c	/^unsigned int 	GNCDataNumber;          \/* ÓĞĞ§Êı¾İ³¤¶È *\/$/;"	v
+GNCDataNumber	CaptureSunSmode5.cil.after-sim.c	/^unsigned int GNCDataNumber  ;$/;"	v
+GNCDataSequenceSave	CaptureSunSmode5.c	/^unsigned int 	GNCDataSequenceSave;    \/* ×¢Èë¹ìµÀÊı¾İ³ö´í¿éºÅ *\/$/;"	v
+GNCDataSequenceSave	CaptureSunSmode5.cil.after-sim.c	/^unsigned int GNCDataSequenceSave  ;$/;"	v
+GNCDataflg	CaptureSunSmode5.c	/^volatile unsigned int    GNCDataflg;     \/* ÊÕµ½ÉÏĞĞ×¢ÈëÊı¾İ±êÖ¾ *\/$/;"	v
+GNCDataflg	CaptureSunSmode5.cil.after-sim.c	/^unsigned int volatile   GNCDataflg  ;$/;"	v
+GNC_Data	CaptureSunSmode5.c	/^USED_WORD   GNC_Data[150];    \/* GNCÊı×ÖÁ¿Ò£²âÊı¾İ»º³åÇø *\/$/;"	v
+GNC_Data	CaptureSunSmode5.cil.after-sim.c	/^USED_WORD GNC_Data[150]  ;$/;"	v
+GPT_Now	CaptureSunSmode5.c	/^    volatile unsigned int    GPT_Now;   \/* ´ÓGPT¶Áµ½µÄÖµnew *\/$/;"	m	struct:__anon33	file:
+GPT_Now	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int volatile   GPT_Now ;$/;"	m	struct:__anonstruct_TIME_33	file:
+GPT_Old	CaptureSunSmode5.c	/^    unsigned int    GPT_Old;            \/* ´ÓGPT¶Áµ½µÄÖµOld *\/$/;"	m	struct:__anon33	file:
+GPT_Old	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int GPT_Old ;$/;"	m	struct:__anonstruct_TIME_33	file:
+GPT_OldInt	CaptureSunSmode5.c	/^    volatile unsigned int    GPT_OldInt;   \/* ´ÓGPT¶Áµ½µÄÖµOld ,½ÓÊÕĞ£Ê±Á¿Ê±µÄoldÖµ *\/ $/;"	m	struct:__anon33	file:
+GPT_OldInt	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int volatile   GPT_OldInt ;$/;"	m	struct:__anonstruct_TIME_33	file:
+GYRODATA	CaptureSunSmode5.c	/^}GYRODATA;$/;"	t	typeref:struct:__anon11	file:
+GYRODATA	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_GYRODATA_11 GYRODATA;$/;"	t	typeref:struct:__anonstruct_GYRODATA_11	file:
+Gda0_a	CaptureSunSmode5.c	/^    float   Gda0_a;     \/* ÌìÏßAÖáÁãÎ»²¹³¥Ö¸Áî *\/$/;"	m	struct:__anon10	file:
+Gda0_a	CaptureSunSmode5.cil.after-sim.c	/^   float Gda0_a ;$/;"	m	struct:__anonstruct_GDADATA_10	file:
+Gda0_b	CaptureSunSmode5.c	/^    float   Gda0_b;     \/* ÌìÏßBÖáÁãÎ»²¹³¥Ö¸Áî *\/$/;"	m	struct:__anon10	file:
+Gda0_b	CaptureSunSmode5.cil.after-sim.c	/^   float Gda0_b ;$/;"	m	struct:__anonstruct_GDADATA_10	file:
+Gmode	CaptureSunSmode5.c	/^    unsigned int Gmode;$/;"	m	struct:__anon21	file:
+Gmode	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int Gmode ;$/;"	m	struct:__anonstruct_ORBITCOMMAND_21	file:
+GyroAcce1	CaptureSunSmode5.c	/^	unsigned int    GyroAcce1[3];  \/* ½ÓÊÕµ½µÄ¹ßĞÔµ¥Ôª1µÄ×Ô¼ìÊı¾İ *\/$/;"	m	struct:__anon19	file:
+GyroAcce1	CaptureSunSmode5.c	/^	unsigned int GyroAcce1; 	\/* ¹ßĞÔÔª¼şÖ÷·İ *\/$/;"	m	struct:__anon18	file:
+GyroAcce1	CaptureSunSmode5.c	/^	unsigned int GyroAcce1; \/* ¹ßĞÔÔª¼şÖ÷·İ *\/$/;"	m	struct:__anon16	file:
+GyroAcce1	CaptureSunSmode5.c	/^	unsigned int GyroAcce1[33];  \/* ¹ßĞÔÔª¼şÖ÷·İ²É¼¯Êı¾İ *\/$/;"	m	struct:__anon17	file:
+GyroAcce1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int GyroAcce1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+GyroAcce1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int GyroAcce1 ;$/;"	m	struct:__anonstruct_LTUSelectFlg_16	file:
+GyroAcce1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int GyroAcce1[33] ;$/;"	m	struct:__anonstruct_LTUDATA_17	file:
+GyroAcce1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int GyroAcce1[3] ;$/;"	m	struct:__anonstruct_LTUSelfCheck_19	file:
+GyroAcce1Old	CaptureSunSmode5.c	/^	unsigned int GyroAcce1Old[18];   \/* ¹ßĞÔÔª¼şÖ÷·İÉÏ´Î´¦Àí³öµÄÂö³åÊı *\/$/;"	m	struct:__anon17	file:
+GyroAcce1Old	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int GyroAcce1Old[18] ;$/;"	m	struct:__anonstruct_LTUDATA_17	file:
+GyroAcce2	CaptureSunSmode5.c	/^	unsigned int    GyroAcce2[3];  \/* ½ÓÊÕµ½µÄ¹ßĞÔµ¥Ôª2µÄ×Ô¼ìÊı¾İ *\/$/;"	m	struct:__anon19	file:
+GyroAcce2	CaptureSunSmode5.c	/^	unsigned int GyroAcce2;		\/* ¹ßĞÔÔª¼ş±¸·İ *\/$/;"	m	struct:__anon18	file:
+GyroAcce2	CaptureSunSmode5.c	/^	unsigned int GyroAcce2;	\/* ¹ßĞÔÔª¼ş±¸·İ *\/$/;"	m	struct:__anon16	file:
+GyroAcce2	CaptureSunSmode5.c	/^	unsigned int GyroAcce2[33];	 \/* ¹ßĞÔÔª¼ş±¸·İ²É¼¯Êı¾İ *\/$/;"	m	struct:__anon17	file:
+GyroAcce2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int GyroAcce2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+GyroAcce2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int GyroAcce2 ;$/;"	m	struct:__anonstruct_LTUSelectFlg_16	file:
+GyroAcce2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int GyroAcce2[33] ;$/;"	m	struct:__anonstruct_LTUDATA_17	file:
+GyroAcce2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int GyroAcce2[3] ;$/;"	m	struct:__anonstruct_LTUSelfCheck_19	file:
+GyroAcce2Old	CaptureSunSmode5.c	/^	unsigned int GyroAcce2Old[18];	 \/* ¹ßĞÔÔª¼ş±¸·İÉÏ´Î´¦Àí³öµÄÂö³åÊı *\/$/;"	m	struct:__anon17	file:
+GyroAcce2Old	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int GyroAcce2Old[18] ;$/;"	m	struct:__anonstruct_LTUDATA_17	file:
+GyroAcceTNum1	CaptureSunSmode5.c	/^unsigned int    GyroAcceTNum1;          \/* ÍÓÂİÊı¾İ´¦Àí¼ä¸ôÖÜÆÚÊı *\/$/;"	v
+GyroAcceTNum1	CaptureSunSmode5.cil.after-sim.c	/^unsigned int GyroAcceTNum1  ;$/;"	v
+GyroAcceTNum2	CaptureSunSmode5.c	/^unsigned int    GyroAcceTNum2;          \/* ÍÓÂİÊı¾İ´¦Àí¼ä¸ôÖÜÆÚÊı *\/$/;"	v
+GyroAcceTNum2	CaptureSunSmode5.cil.after-sim.c	/^unsigned int GyroAcceTNum2  ;$/;"	v
+GyroAcceTele1	CaptureSunSmode5.c	/^	int 		 GyroAcceTele1[8];   \/* ¹ßĞÔÔª¼şÖ÷·İ²É¼¯Êı¾İ *\/$/;"	m	struct:__anon17	file:
+GyroAcceTele1	CaptureSunSmode5.c	/^int             GyroAcceTele1[8];$/;"	v
+GyroAcceTele1	CaptureSunSmode5.cil.after-sim.c	/^   int GyroAcceTele1[8] ;$/;"	m	struct:__anonstruct_LTUDATA_17	file:
+GyroAcceTele1	CaptureSunSmode5.cil.after-sim.c	/^int GyroAcceTele1[8]  ;$/;"	v
+GyroAcceTele2	CaptureSunSmode5.c	/^	int 		 GyroAcceTele2[8];	 \/* ¹ßĞÔÔª¼ş±¸·İ²É¼¯Êı¾İ *\/$/;"	m	struct:__anon17	file:
+GyroAcceTele2	CaptureSunSmode5.cil.after-sim.c	/^   int GyroAcceTele2[8] ;$/;"	m	struct:__anonstruct_LTUDATA_17	file:
+GyroData	CaptureSunSmode5.c	/^GYRODATA       GyroData;$/;"	v
+GyroData	CaptureSunSmode5.cil.after-sim.c	/^GYRODATA GyroData  ;$/;"	v
+GyroZT10	CaptureSunSmode5.c	/^unsigned int    GyroZT10;				\/* ÍÓÂİ¹ÊÕÏÊı¾İ´¦ÀíZT10 *\/$/;"	v
+GyroZT10	CaptureSunSmode5.cil.after-sim.c	/^unsigned int GyroZT10  ;$/;"	v
+H	CaptureSunSmode5.c	/^    float  H[4];                \/* Hx,Hy,Hz,Hs *\/$/;"	m	struct:__anon20	file:
+H	CaptureSunSmode5.cil.after-sim.c	/^   float H[4] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+H0	CaptureSunSmode5.c	/^    float  H0[4];           \/* Hx0,Hy0,Hz0,Hs0 *\/$/;"	m	struct:__anon20	file:
+H0	CaptureSunSmode5.cil.after-sim.c	/^   float H0[4] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+H1	CaptureSunSmode5.c	/^    float   H1[3];            \/*  *\/$/;"	m	struct:__anon23	file:
+H1	CaptureSunSmode5.cil.after-sim.c	/^   float H1[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+H2	CaptureSunSmode5.c	/^    float   H2[3];            \/*  *\/$/;"	m	struct:__anon23	file:
+H2	CaptureSunSmode5.cil.after-sim.c	/^   float H2[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+H3	CaptureSunSmode5.c	/^    float   H3[3];            \/*  *\/$/;"	m	struct:__anon23	file:
+H3	CaptureSunSmode5.cil.after-sim.c	/^   float H3[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+H4	CaptureSunSmode5.c	/^    float   H4[3];            \/*  *\/$/;"	m	struct:__anon23	file:
+H4	CaptureSunSmode5.cil.after-sim.c	/^   float H4[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+H5	CaptureSunSmode5.c	/^    float   H5[3];            \/*  *\/$/;"	m	struct:__anon23	file:
+H5	CaptureSunSmode5.cil.after-sim.c	/^   float H5[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+H6	CaptureSunSmode5.c	/^    float   H6[3];            \/*  *\/$/;"	m	struct:__anon23	file:
+H6	CaptureSunSmode5.cil.after-sim.c	/^   float H6[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+H7	CaptureSunSmode5.c	/^    float   H7[3];            \/*  *\/$/;"	m	struct:__anon23	file:
+H7	CaptureSunSmode5.cil.after-sim.c	/^   float H7[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+HH1	CaptureSunSmode5.c	/^    float   HH1[3];           \/* Î±ËÙÂÊµ÷ÖÆÆ÷¿ØÖÆ²ÎÊı *\/$/;"	m	struct:__anon23	file:
+HH1	CaptureSunSmode5.cil.after-sim.c	/^   float HH1[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+HH2	CaptureSunSmode5.c	/^    float   HH2[3];           \/* Î±ËÙÂÊµ÷ÖÆÆ÷¿ØÖÆ²ÎÊı *\/$/;"	m	struct:__anon23	file:
+HH2	CaptureSunSmode5.cil.after-sim.c	/^   float HH2[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+HT	CaptureSunSmode5.c	/^    float  HT[3];$/;"	m	struct:__anon20	file:
+HT	CaptureSunSmode5.cil.after-sim.c	/^   float HT[3] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+Half	CaptureSunSmode5.c	/^    } Half;$/;"	m	union:__anon29	typeref:struct:__anon29::__anon30	file:
+Half	CaptureSunSmode5.cil.after-sim.c	/^   struct __anonstruct_Half_30 Half ;$/;"	m	union:__anonunion_USED_WORD_29	typeref:struct:__anonunion_USED_WORD_29::__anonstruct_Half_30	file:
+High	CaptureSunSmode5.c	/^        unsigned High   : 16;           \/* ¸ß16Î» *\/$/;"	m	struct:__anon29::__anon30	file:
+High	CaptureSunSmode5.c	/^        volatile unsigned High       : 16;$/;"	m	struct:__anon25::__anon26	file:
+High	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int High : 16 ;$/;"	m	struct:__anonstruct_Half_30	file:
+High_h	CaptureSunSmode5.c	/^        unsigned High_h :8;             \/* ¸ß16Î»ÖĞµÄ¸ß8Î» *\/$/;"	m	struct:__anon29::__anon31	file:
+High_h	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int High_h : 8 ;$/;"	m	struct:__anonstruct_Byte_31	file:
+High_l	CaptureSunSmode5.c	/^        unsigned High_l :8;             \/* ¸ß16Î»ÖĞµÄµÍ8Î» *\/$/;"	m	struct:__anon29::__anon31	file:
+High_l	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int High_l : 8 ;$/;"	m	struct:__anonstruct_Byte_31	file:
+I	CaptureSunSmode5.c	/^    float  I[3];                \/* I¦Õ,I¦È,I¦×*\/$/;"	m	struct:__anon20	file:
+I	CaptureSunSmode5.cil.after-sim.c	/^   float I[3] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+IDCaptureAndPointSun	CaptureSunSmode5.c	165;"	d	file:
+IDDiagnoseLTU	CaptureSunSmode5.c	167;"	d	file:
+IDGyroAroundMoon	CaptureSunSmode5.c	159;"	d	file:
+IDInertialAdjustAtti	CaptureSunSmode5.c	155;"	d	file:
+IDJetPhase	CaptureSunSmode5.c	163;"	d	file:
+IDMWControl	CaptureSunSmode5.c	161;"	d	file:
+IDModifySTS	CaptureSunSmode5.c	166;"	d	file:
+IDNOControl	CaptureSunSmode5.c	168;"	d	file:
+IDOrbitDirection	CaptureSunSmode5.c	156;"	d	file:
+IDPulseJet	CaptureSunSmode5.c	164;"	d	file:
+IDSTSAroundMoon	CaptureSunSmode5.c	158;"	d	file:
+IDStarDirection	CaptureSunSmode5.c	154;"	d	file:
+IDSunDirection	CaptureSunSmode5.c	160;"	d	file:
+IDTask64msOr256ms	CaptureSunSmode5.c	153;"	d	file:
+IDUVAroundMoon	CaptureSunSmode5.c	157;"	d	file:
+IDWorkModeFlgManage	CaptureSunSmode5.c	162;"	d	file:
+INPara	CaptureSunSmode5.c	/^}INPara;$/;"	t	typeref:struct:__anon13	file:
+INPara	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_INPara_13 INPara;$/;"	t	typeref:struct:__anonstruct_INPara_13	file:
+INT2Clear	CaptureSunSmode5.c	5;"	d	file:
+INT2Mask	CaptureSunSmode5.c	4;"	d	file:
+INT2Status	CaptureSunSmode5.c	3;"	d	file:
+INTERRUPT_MASK_REG	CaptureSunSmode5.c	55;"	d	file:
+INTERRUPT_STATUS_REG	CaptureSunSmode5.c	63;"	d	file:
+ISRType	terminatetask.cil.after-sim.c	/^typedef u8 ISRType;$/;"	t	file:
+IStar	CaptureSunSmode5.c	/^    float  IStar[3];            \/* I¦Õ*,I¦È*,I¦×* *\/$/;"	m	struct:__anon20	file:
+IStar	CaptureSunSmode5.cil.after-sim.c	/^   float IStar[3] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+Idle	CaptureSunSmode5.c	/^	unsigned int Idle;$/;"	m	struct:__anon18	file:
+Idle	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int Idle ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+IdleAcce1	CaptureSunSmode5.c	/^	unsigned int IdleAcce1;		\/* ¿Õ *\/$/;"	m	struct:__anon18	file:
+IdleAcce1	CaptureSunSmode5.c	/^	unsigned int IdleAcce1;	\/* ¿Õ¡£ÉèÖÃ¿Õ±äÁ¿µÄÔ­Òò£ºLTUSelect()ÄÚÊ¹ÓÃforÑ­»·£¬$/;"	m	struct:__anon16	file:
+IdleAcce1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int IdleAcce1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+IdleAcce1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int IdleAcce1 ;$/;"	m	struct:__anonstruct_LTUSelectFlg_16	file:
+IdleAcce2	CaptureSunSmode5.c	/^	unsigned int IdleAcce2;		\/* ¿Õ *\/$/;"	m	struct:__anon18	file:
+IdleAcce2	CaptureSunSmode5.c	/^	unsigned int IdleAcce2;	\/* ¿Õ *\/$/;"	m	struct:__anon16	file:
+IdleAcce2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int IdleAcce2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+IdleAcce2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int IdleAcce2 ;$/;"	m	struct:__anonstruct_LTUSelectFlg_16	file:
+IdleGyroAcce1	CaptureSunSmode5.c	/^	unsigned int IdleGyroAcce1;	\/* µ±²»ĞèÒª½øĞĞ´íÎó´ÎÊıÀÛ¼ÆÊ±£¬½«·¢ÉúµÄ´íÎó¶Ñ»ıÖÁIdle *\/$/;"	m	struct:__anon18	file:
+IdleGyroAcce1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int IdleGyroAcce1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+IdleGyroAcce2	CaptureSunSmode5.c	/^	unsigned int IdleGyroAcce2;$/;"	m	struct:__anon18	file:
+IdleGyroAcce2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int IdleGyroAcce2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+IdleMW1	CaptureSunSmode5.c	/^	unsigned int IdleMW1;	\/* ¿Õ *\/$/;"	m	struct:__anon16	file:
+IdleMW1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int IdleMW1 ;$/;"	m	struct:__anonstruct_LTUSelectFlg_16	file:
+IdleMW2	CaptureSunSmode5.c	/^	unsigned int IdleMW2;	\/* ¿Õ *\/$/;"	m	struct:__anon16	file:
+IdleMW2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int IdleMW2 ;$/;"	m	struct:__anonstruct_LTUSelectFlg_16	file:
+IdleMW3	CaptureSunSmode5.c	/^	unsigned int IdleMW3;	\/* ¿Õ *\/$/;"	m	struct:__anon16	file:
+IdleMW3	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int IdleMW3 ;$/;"	m	struct:__anonstruct_LTUSelectFlg_16	file:
+IdleMW4	CaptureSunSmode5.c	/^	unsigned int IdleMW4;	\/* ¿Õ *\/$/;"	m	struct:__anon16	file:
+IdleMW4	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int IdleMW4 ;$/;"	m	struct:__anonstruct_LTUSelectFlg_16	file:
+Ih	CaptureSunSmode5.c	/^    float  Ih[4];               \/* Ihx,Ihy,Ihz,Ihs *\/$/;"	m	struct:__anon20	file:
+Ih	CaptureSunSmode5.cil.after-sim.c	/^   float Ih[4] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+ImpDataRecErrorFlg	CaptureSunSmode5.c	/^unsigned int    ImpDataRecErrorFlg;     \/* ½ÓÊÕÖØÒªÊı¾İ´íÎó±êÖ¾ *\/$/;"	v
+ImpDataRecErrorFlg	CaptureSunSmode5.cil.after-sim.c	/^unsigned int ImpDataRecErrorFlg  ;$/;"	v
+ImpGNC2	CaptureSunSmode5.c	/^unsigned int    ImpGNC2[16];            \/* GNCÖØÒªÊı¾İ2 *\/$/;"	v
+ImpGNC2	CaptureSunSmode5.cil.after-sim.c	/^unsigned int ImpGNC2[16]  ;$/;"	v
+ImpGNC3	CaptureSunSmode5.c	/^unsigned int    ImpGNC3[16];            \/* GNCÖØÒªÊı¾İ3 *\/$/;"	v
+ImpGNC3	CaptureSunSmode5.cil.after-sim.c	/^unsigned int ImpGNC3[16]  ;$/;"	v
+ImpGNC4	CaptureSunSmode5.c	/^unsigned int    ImpGNC4[16];            \/* GNCÖØÒªÊı¾İ4 *\/$/;"	v
+ImpGNC4	CaptureSunSmode5.cil.after-sim.c	/^unsigned int ImpGNC4[16]  ;$/;"	v
+InOrbit	CaptureSunSmode5.c	/^InOrbitDATA    InOrbit;$/;"	v
+InOrbit	CaptureSunSmode5.cil.after-sim.c	/^InOrbitDATA InOrbit  ;$/;"	v
+InOrbitDATA	CaptureSunSmode5.c	/^}InOrbitDATA;$/;"	t	typeref:struct:__anon12	file:
+InOrbitDATA	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_InOrbitDATA_12 InOrbitDATA;$/;"	t	typeref:struct:__anonstruct_InOrbitDATA_12	file:
+InPhase	CaptureSunSmode5.c	/^PHASE   InPhase;$/;"	v
+InPhase	CaptureSunSmode5.cil.after-sim.c	/^PHASE InPhase  ;$/;"	v
+InparaAcceK	CaptureSunSmode5.c	/^float	        InparaAcceK[2];         \/* Acce²É¼¯Êı¾İ×îĞ¡Âëµ±Á¿ *\/$/;"	v
+InparaAcceK	CaptureSunSmode5.cil.after-sim.c	/^float InparaAcceK[2]  ;$/;"	v
+InparaGyro	CaptureSunSmode5.c	/^float	        InparaGyro[6];          \/* Gyro²É¼¯Êı¾İ×îĞ¡Âëµ±Á¿ *\/$/;"	v
+InparaGyro	CaptureSunSmode5.cil.after-sim.c	/^float InparaGyro[6]  ;$/;"	v
+IsPsi1	CaptureSunSmode5.c	/^    unsigned int IsPsi1;               \/*  *\/$/;"	m	struct:__anon27	file:
+IsPsi1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int IsPsi1 ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+IsPsi2	CaptureSunSmode5.c	/^    unsigned int IsPsi2;               \/* Æ«º½Êı×ÖÌ«ÑôÊä³öÊÓ³¡Âë *\/$/;"	m	struct:__anon27	file:
+IsPsi2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int IsPsi2 ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+IsThetea1	CaptureSunSmode5.c	/^    unsigned int IsThetea1;            \/*  *\/$/;"	m	struct:__anon27	file:
+IsThetea1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int IsThetea1 ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+IsThetea2	CaptureSunSmode5.c	/^    unsigned int IsThetea2;            \/* ¸©ÑöÊı×ÖÌ«ÑôÊä³öÊÓ³¡Âë *\/$/;"	m	struct:__anon27	file:
+IsThetea2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int IsThetea2 ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+Ise	CaptureSunSmode5.c	/^    unsigned int Ise;                  \/*  *\/$/;"	m	struct:__anon27	file:
+Ise	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int Ise ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+J0	CaptureSunSmode5.c	/^    float  J0[3][3];$/;"	m	struct:__anon20	file:
+J0	CaptureSunSmode5.cil.after-sim.c	/^   float J0[3][3] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+JPCData	CaptureSunSmode5.c	/^JPC_DATA       JPCData;$/;"	v
+JPCData	CaptureSunSmode5.cil.after-sim.c	/^JPC_DATA JPCData  ;$/;"	v
+JPCPara	CaptureSunSmode5.c	/^PHASEPLANE     JPCPara; 		\/* ÅçÆø¿ª¹ØÏàÆ½ÃæÊı¾İ½á¹¹ *\/$/;"	v
+JPCPara	CaptureSunSmode5.cil.after-sim.c	/^PHASEPLANE JPCPara  ;$/;"	v
+JPC_DATA	CaptureSunSmode5.c	/^}JPC_DATA;$/;"	t	typeref:struct:__anon14	file:
+JPC_DATA	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_JPC_DATA_14 JPC_DATA;$/;"	t	typeref:struct:__anonstruct_JPC_DATA_14	file:
+JetBadNum	CaptureSunSmode5.c	/^unsigned int    JetBadNum[3]; 	        \/* ¸÷Í¨µÀÁ¬ĞøÅçÆø¼ÆÊı *\/$/;"	v
+JetBadNum	CaptureSunSmode5.cil.after-sim.c	/^unsigned int JetBadNum[3]  ;$/;"	v
+JetGoodFlg	CaptureSunSmode5.c	/^unsigned int    JetGoodFlg;$/;"	v
+JetGoodFlg	CaptureSunSmode5.cil.after-sim.c	/^unsigned int JetGoodFlg  ;$/;"	v
+JetStatus	CaptureSunSmode5.c	/^volatile unsigned int    JetStatus;      \/* Åç¹Üµ±Ç°×´Ì¬ *\/$/;"	v
+JetStatus	CaptureSunSmode5.cil.after-sim.c	/^unsigned int volatile   JetStatus  ;$/;"	v
+Jet_Num	CaptureSunSmode5.c	/^	unsigned int    Jet_Num[6];             \/* ¸÷ÖáÅçÆø´ÎÊı *\/$/;"	m	struct:__anon14	file:
+Jet_Num	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int Jet_Num[6] ;$/;"	m	struct:__anonstruct_JPC_DATA_14	file:
+Jet_TotalTime	CaptureSunSmode5.c	/^	unsigned int    Jet_TotalTime[6];       \/* ¸÷ÖáÅçÆø×Ü¼ÆÂö¿í *\/$/;"	m	struct:__anon14	file:
+Jet_TotalTime	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int Jet_TotalTime[6] ;$/;"	m	struct:__anonstruct_JPC_DATA_14	file:
+Jet_TotalTime_Temp	CaptureSunSmode5.c	/^	float           Jet_TotalTime_Temp[6];  \/* ¸÷ÖáÅçÆø×Ü¼ÆÂö¿í *\/$/;"	m	struct:__anon14	file:
+Jet_TotalTime_Temp	CaptureSunSmode5.cil.after-sim.c	/^   float Jet_TotalTime_Temp[6] ;$/;"	m	struct:__anonstruct_JPC_DATA_14	file:
+K	CaptureSunSmode5.c	/^KPara          K;$/;"	v
+K	CaptureSunSmode5.cil.after-sim.c	/^KPara K  ;$/;"	v
+KJ2	CaptureSunSmode5.c	/^	float  KJ2;             \/*  *\/$/;"	m	struct:__anon24	file:
+KJ2	CaptureSunSmode5.cil.after-sim.c	/^   float KJ2 ;$/;"	m	struct:__anonstruct_PHASEPLANE_24	file:
+KPara	CaptureSunSmode5.c	/^}KPara;$/;"	t	typeref:struct:__anon15	file:
+KPara	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_KPara_15 KPara;$/;"	t	typeref:struct:__anonstruct_KPara_15	file:
+KSA	CaptureSunSmode5.c	/^    float KSA[6][3];$/;"	m	struct:__anon28	file:
+KSA	CaptureSunSmode5.cil.after-sim.c	/^   float KSA[6][3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+KSB	CaptureSunSmode5.c	/^    float KSB[6][3];$/;"	m	struct:__anon28	file:
+KSB	CaptureSunSmode5.cil.after-sim.c	/^   float KSB[6][3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+KSC	CaptureSunSmode5.c	/^    float KSC[6][3];$/;"	m	struct:__anon28	file:
+KSC	CaptureSunSmode5.cil.after-sim.c	/^   float KSC[6][3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+K_DC	CaptureSunSmode5.c	/^    float  K_DC[3][3];          \/* K_DCx,K_DCy,K_DCz *\/$/;"	m	struct:__anon20	file:
+K_DC	CaptureSunSmode5.cil.after-sim.c	/^   float K_DC[3][3] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+K_IC	CaptureSunSmode5.c	/^    float  K_IC[3][3];          \/* K_ICx,K_ICy,K_ICz *\/$/;"	m	struct:__anon20	file:
+K_IC	CaptureSunSmode5.cil.after-sim.c	/^   float K_IC[3][3] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+K_IH	CaptureSunSmode5.c	/^    float  K_IH;            \/* ·ÉÂÖ½Ç¶¯Á¿±£³Ö¿ØÖÆI²ÎÊı *\/$/;"	m	struct:__anon20	file:
+K_IH	CaptureSunSmode5.cil.after-sim.c	/^   float K_IH ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+K_PC	CaptureSunSmode5.c	/^    float  K_PC[3][3];          \/* K_PCx,K_PCy,K_PCz *\/$/;"	m	struct:__anon20	file:
+K_PC	CaptureSunSmode5.cil.after-sim.c	/^   float K_PC[3][3] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+K_PH	CaptureSunSmode5.c	/^    float  K_PH;            \/* ·ÉÂÖ½Ç¶¯Á¿±£³Ö¿ØÖÆP²ÎÊı *\/$/;"	m	struct:__anon20	file:
+K_PH	CaptureSunSmode5.cil.after-sim.c	/^   float K_PH ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+Kd	CaptureSunSmode5.c	/^    float   Kd[3];            \/* Âö³åµ÷¿í¿ØÖÆIÏµÊı *\/$/;"	m	struct:__anon23	file:
+Kd	CaptureSunSmode5.cil.after-sim.c	/^   float Kd[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+Kf	CaptureSunSmode5.c	/^    float  Kf[4];               \/* ¶¯Á¿ÂÖµÄ¶¯Ä¦²ÁÁ¦¾ØÏµÊı *\/$/;"	m	struct:__anon20	file:
+Kf	CaptureSunSmode5.cil.after-sim.c	/^   float Kf[4] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+Kfv	CaptureSunSmode5.c	/^    float  Kfv[4];              \/*  *\/$/;"	m	struct:__anon20	file:
+Kfv	CaptureSunSmode5.cil.after-sim.c	/^   float Kfv[4] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+Ki	CaptureSunSmode5.c	/^    float   Ki[3];            \/* Âö³åµ÷¿í¿ØÖÆDÏµÊı*\/$/;"	m	struct:__anon23	file:
+Ki	CaptureSunSmode5.cil.after-sim.c	/^   float Ki[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+Kit	CaptureSunSmode5.c	/^float           Kit[3];$/;"	v
+Kit	CaptureSunSmode5.cil.after-sim.c	/^float Kit[3]  ;$/;"	v
+Kp	CaptureSunSmode5.c	/^    float   Kp[3];            \/* Âö³åµ÷¿í¿ØÖÆPÏµÊı *\/$/;"	m	struct:__anon23	file:
+Kp	CaptureSunSmode5.cil.after-sim.c	/^   float Kp[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+LOmega	CaptureSunSmode5.c	/^	float  LOmega;           \/* ×¢ÈëµÄÒ»×é¶şÌå¹ìµÀ¸ùÊıÖ®Éı½»µã³à¾¶ *\/$/;"	m	struct:__anon12	file:
+LOmega	CaptureSunSmode5.cil.after-sim.c	/^   float LOmega ;$/;"	m	struct:__anonstruct_InOrbitDATA_12	file:
+LOmegae	CaptureSunSmode5.c	/^	float  LOmegae;          \/*  *\/$/;"	m	struct:__anon6	file:
+LOmegae	CaptureSunSmode5.cil.after-sim.c	/^   float LOmegae ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+LOmegal0	CaptureSunSmode5.c	/^	float LOmegal0;             \/* ¹ìµÀ *\/$/;"	m	struct:__anon13	file:
+LOmegal0	CaptureSunSmode5.cil.after-sim.c	/^   float LOmegal0 ;$/;"	m	struct:__anonstruct_INPara_13	file:
+LSSSightValidFlg	CaptureSunSmode5.c	/^    unsigned int LSSSightValidFlg[6];  \/* 0-1Ì«ÑôĞÅÏ¢L11+L15,L12+L14,L14+L22,L23+L25,L13,L21*\/$/;"	m	struct:__anon27	file:
+LSSSightValidFlg	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int LSSSightValidFlg[6] ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+LTUCheck	CaptureSunSmode5.c	/^LTUSelfCheck   LTUCheck;$/;"	v
+LTUCheck	CaptureSunSmode5.cil.after-sim.c	/^LTUSelfCheck LTUCheck  ;$/;"	v
+LTUDATA	CaptureSunSmode5.c	/^}LTUDATA;$/;"	t	typeref:struct:__anon17	file:
+LTUDATA	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_LTUDATA_17 LTUDATA;$/;"	t	typeref:struct:__anonstruct_LTUDATA_17	file:
+LTUData	CaptureSunSmode5.c	/^LTUDATA        LTUData;			 \/* LTUÍ¨Ñ¶Êı¾İ *\/$/;"	v
+LTUData	CaptureSunSmode5.cil.after-sim.c	/^LTUDATA LTUData  ;$/;"	v
+LTUError	CaptureSunSmode5.c	/^}LTUError;$/;"	t	typeref:struct:__anon18	file:
+LTUError	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_LTUError_18 LTUError;$/;"	t	typeref:struct:__anonstruct_LTUError_18	file:
+LTUErrorNum	CaptureSunSmode5.c	/^LTUError       LTUErrorNum;      \/* LTUÍ¨Ñ¶´íÎó¼ÆÊı *\/$/;"	v
+LTUErrorNum	CaptureSunSmode5.cil.after-sim.c	/^LTUError LTUErrorNum  ;$/;"	v
+LTUPowerStatusFlg	CaptureSunSmode5.c	/^unsigned int    LTUPowerStatusFlg;$/;"	v
+LTUPowerStatusFlg	CaptureSunSmode5.cil.after-sim.c	/^unsigned int LTUPowerStatusFlg  ;$/;"	v
+LTUSelect	CaptureSunSmode5.c	/^LTUSelectFlg   LTUSelect;       \/* LTUÑ¡Í¨µÄ±êÖ¾ *\/$/;"	v
+LTUSelect	CaptureSunSmode5.cil.after-sim.c	/^LTUSelectFlg LTUSelect  ;$/;"	v
+LTUSelectFlg	CaptureSunSmode5.c	/^}LTUSelectFlg;$/;"	t	typeref:struct:__anon16	file:
+LTUSelectFlg	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_LTUSelectFlg_16 LTUSelectFlg;$/;"	t	typeref:struct:__anonstruct_LTUSelectFlg_16	file:
+LTUSelfCheck	CaptureSunSmode5.c	/^}LTUSelfCheck;$/;"	t	typeref:struct:__anon19	file:
+LTUSelfCheck	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_LTUSelfCheck_19 LTUSelfCheck;$/;"	t	typeref:struct:__anonstruct_LTUSelfCheck_19	file:
+LTUSelfCheckNum	CaptureSunSmode5.c	/^unsigned int 	LTUSelfCheckNum;		\/* LTU×Ô¼ìË³Ğò¼ÆÊı *\/$/;"	v
+LTUSelfCheckNum	CaptureSunSmode5.cil.after-sim.c	/^unsigned int LTUSelfCheckNum  ;$/;"	v
+LTU_BRSR_CS	CaptureSunSmode5.c	19;"	d	file:
+LTU_MCR_CS	CaptureSunSmode5.c	18;"	d	file:
+LTU_MSR_CS	CaptureSunSmode5.c	20;"	d	file:
+LTU_RBR_CS	CaptureSunSmode5.c	15;"	d	file:
+LTU_SELECT_CS	CaptureSunSmode5.c	23;"	d	file:
+LTU_TBR_CS	CaptureSunSmode5.c	14;"	d	file:
+LTU_UCR_CS	CaptureSunSmode5.c	16;"	d	file:
+LTU_USR_CS	CaptureSunSmode5.c	17;"	d	file:
+LevelType	terminatetask.cil.after-sim.c	/^typedef u8 LevelType;$/;"	t	file:
+Low	CaptureSunSmode5.c	/^        unsigned Low    : 16;           \/* µÍ16Î» *\/$/;"	m	struct:__anon29::__anon30	file:
+Low	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int Low : 16 ;$/;"	m	struct:__anonstruct_Half_30	file:
+Low_h	CaptureSunSmode5.c	/^        unsigned Low_h  :8;             \/* µÍ16Î»ÖĞµÄ¸ß8Î» *\/$/;"	m	struct:__anon29::__anon31	file:
+Low_h	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int Low_h : 8 ;$/;"	m	struct:__anonstruct_Byte_31	file:
+Low_l	CaptureSunSmode5.c	/^        unsigned Low_l  :8;             \/* µÍ16Î»ÖĞµÄµÍ8Î» *\/$/;"	m	struct:__anon29::__anon31	file:
+Low_l	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int Low_l : 8 ;$/;"	m	struct:__anonstruct_Byte_31	file:
+Ls	CaptureSunSmode5.c	/^	unsigned int Ls;$/;"	m	struct:__anon27	file:
+Ls	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int Ls ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+M	CaptureSunSmode5.c	/^	float  M;                \/*  *\/$/;"	m	struct:__anon6	file:
+M	CaptureSunSmode5.c	/^	float  M;                \/* ×¢ÈëµÄÒ»×é¶şÌå¹ìµÀ¸ùÊıÖ®³õÊ¼Æ½½üµã½Ç *\/$/;"	m	struct:__anon12	file:
+M	CaptureSunSmode5.cil.after-sim.c	/^   float M ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+M	CaptureSunSmode5.cil.after-sim.c	/^   float M ;$/;"	m	struct:__anonstruct_InOrbitDATA_12	file:
+MAXL	dump_transitions100.c	2;"	d	file:
+MONITOR_DATA_STACK_ADDR_REG	CaptureSunSmode5.c	68;"	d	file:
+MS	CaptureSunSmode5.c	/^    unsigned int    MS;                 \/* ĞÇÊ±µÄºÁÃë *\/$/;"	m	struct:__anon33	file:
+MS	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int MS ;$/;"	m	struct:__anonstruct_TIME_33	file:
+MSInt	CaptureSunSmode5.c	/^    volatile unsigned int    MSInt;        \/* ĞÇÊ±µÄºÁÃë ,½ÓÊÕµ½µÄĞ£Ê±Á¿*\/$/;"	m	struct:__anon33	file:
+MSInt	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int volatile   MSInt ;$/;"	m	struct:__anonstruct_TIME_33	file:
+MT_TRIGGER_REG	CaptureSunSmode5.c	73;"	d	file:
+MWDATA	CaptureSunSmode5.c	/^}MWDATA;$/;"	t	typeref:struct:__anon20	file:
+MWDATA	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_MWDATA_20 MWDATA;$/;"	t	typeref:struct:__anonstruct_MWDATA_20	file:
+MWData	CaptureSunSmode5.c	/^MWDATA         MWData;$/;"	v
+MWData	CaptureSunSmode5.cil.after-sim.c	/^MWDATA MWData  ;$/;"	v
+MannerData	CaptureSunSmode5.c	/^unsigned int    MannerData;             \/* ·½Ê½´úÂë±êÖ¾ *\/$/;"	v
+MannerData	CaptureSunSmode5.cil.after-sim.c	/^unsigned int MannerData  ;$/;"	v
+MatrixVG	CaptureSunSmode5.c	/^float           MatrixVG[6][3];$/;"	v
+MatrixVG	CaptureSunSmode5.cil.after-sim.c	/^float MatrixVG[6][3]  ;$/;"	v
+Me	CaptureSunSmode5.c	/^	float  Me;               \/*  *\/$/;"	m	struct:__anon6	file:
+Me	CaptureSunSmode5.cil.after-sim.c	/^   float Me ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+Ms	CaptureSunSmode5.c	/^	float  Ms;               \/* Ì«ÑôÔÚ¹ßĞÔ×ø±êÏµµÄ·ÖÁ¿ *\/$/;"	m	struct:__anon6	file:
+Ms	CaptureSunSmode5.cil.after-sim.c	/^   float Ms ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+Ms0	CaptureSunSmode5.c	/^	float Ms0;                  \/* ¹ìµÀ *\/$/;"	m	struct:__anon13	file:
+Ms0	CaptureSunSmode5.cil.after-sim.c	/^   float Ms0 ;$/;"	m	struct:__anonstruct_INPara_13	file:
+NormW	CaptureSunSmode5.c	/^    float  NormW;              \/* ÍÓÂİ½ÇËÙ¶ÈµÄÄ£ *\/     $/;"	m	struct:__anon11	file:
+NormW	CaptureSunSmode5.cil.after-sim.c	/^   float NormW ;$/;"	m	struct:__anonstruct_GYRODATA_11	file:
+NumZm00875	CaptureSunSmode5.c	/^unsigned int 	NumZm00875[3];$/;"	v
+NumZm00875	CaptureSunSmode5.cil.after-sim.c	/^unsigned int NumZm00875[3]  ;$/;"	v
+Number	CaptureSunSmode5.c	/^        volatile unsigned Number     : 5;        \/* 11£­15 Êı¾İ×Ö¼ÆÊı¡¢·½Ê½´úÂë *\/$/;"	m	struct:__anon25::__anon26	file:
+OPEN_VALVE_CS	CaptureSunSmode5.c	38;"	d	file:
+ORBITCOMMAND	CaptureSunSmode5.c	/^}ORBITCOMMAND;$/;"	t	typeref:struct:__anon21	file:
+ORBITCOMMAND	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_ORBITCOMMAND_21 ORBITCOMMAND;$/;"	t	typeref:struct:__anonstruct_ORBITCOMMAND_21	file:
+OldBAPTAL1	CaptureSunSmode5.c	/^	unsigned int OldBAPTAL1;   	\/* ×ó·«°åÖ÷·İ *\/$/;"	m	struct:__anon18	file:
+OldBAPTAL1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int OldBAPTAL1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+OldBAPTAL2	CaptureSunSmode5.c	/^	unsigned int OldBAPTAL2;   	\/* ×ó·«°å±¸·İ *\/$/;"	m	struct:__anon18	file:
+OldBAPTAL2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int OldBAPTAL2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+OldBAPTAR1	CaptureSunSmode5.c	/^	unsigned int OldBAPTAR1;   	\/* ÓÒ·«°åÖ÷·İ *\/$/;"	m	struct:__anon18	file:
+OldBAPTAR1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int OldBAPTAR1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+OldBAPTAR2	CaptureSunSmode5.c	/^	unsigned int OldBAPTAR2;   	\/* ÓÒ·«°å±¸·İ *\/$/;"	m	struct:__anon18	file:
+OldBAPTAR2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int OldBAPTAR2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+OldGDA1	CaptureSunSmode5.c	/^	unsigned int OldGDA1;      	\/* ÌìÏßÖ÷·İ *\/$/;"	m	struct:__anon18	file:
+OldGDA1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int OldGDA1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+OldGDA2	CaptureSunSmode5.c	/^	unsigned int OldGDA2;      	\/* ÌìÏß±¸·İ *\/$/;"	m	struct:__anon18	file:
+OldGDA2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int OldGDA2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+OldGyroAcce1	CaptureSunSmode5.c	/^	unsigned int OldGyroAcce1; 	\/* ¹ßĞÔÔª¼şÖ÷·İ *\/$/;"	m	struct:__anon18	file:
+OldGyroAcce1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int OldGyroAcce1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+OldGyroAcce2	CaptureSunSmode5.c	/^	unsigned int OldGyroAcce2;	\/* ¹ßĞÔÔª¼ş±¸·İ *\/$/;"	m	struct:__anon18	file:
+OldGyroAcce2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int OldGyroAcce2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+OldIdleAcce1	CaptureSunSmode5.c	/^	unsigned int OldIdleAcce1;	\/* ¿Õ *\/$/;"	m	struct:__anon18	file:
+OldIdleAcce1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int OldIdleAcce1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+OldIdleAcce2	CaptureSunSmode5.c	/^	unsigned int OldIdleAcce2;	\/* ¿Õ *\/$/;"	m	struct:__anon18	file:
+OldIdleAcce2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int OldIdleAcce2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+OldInOrbitPointer	CaptureSunSmode5.c	/^unsigned int	OldInOrbitPointer;      \/* ×¢Èë¹ìµÀÊı¾İµÄ´æ·ÅÖ¸Õë *\/$/;"	v
+OldInOrbitPointer	CaptureSunSmode5.cil.after-sim.c	/^unsigned int OldInOrbitPointer  ;$/;"	v
+OldProgrammPointer	CaptureSunSmode5.c	/^unsigned int	OldProgrammPointer;     \/* ×¢Èë³ÌĞòµÄ´æ·ÅÖ¸Õë *\/$/;"	v
+OldProgrammPointer	CaptureSunSmode5.cil.after-sim.c	/^unsigned int OldProgrammPointer  ;$/;"	v
+OldSS1	CaptureSunSmode5.c	/^	unsigned int OldSS1;       	\/* Ì«ÑôÖ÷·İ *\/$/;"	m	struct:__anon18	file:
+OldSS1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int OldSS1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+OldSS2	CaptureSunSmode5.c	/^	unsigned int OldSS2;       	\/* Ì«Ñô±¸·İ *\/$/;"	m	struct:__anon18	file:
+OldSS2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int OldSS2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+OldSTS1	CaptureSunSmode5.c	/^	unsigned int OldSTS1;      	\/* ĞÇÃô1 *\/$/;"	m	struct:__anon18	file:
+OldSTS1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int OldSTS1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+OldSTS2	CaptureSunSmode5.c	/^	unsigned int OldSTS2;      	\/* ĞÇÃô2 *\/$/;"	m	struct:__anon18	file:
+OldSTS2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int OldSTS2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+OldSTS3	CaptureSunSmode5.c	/^	unsigned int OldSTS3;	    \/* ĞÇÃô3 *\/$/;"	m	struct:__anon18	file:
+OldSTS3	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int OldSTS3 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+OldUV1	CaptureSunSmode5.c	/^	unsigned int OldUV1;       	\/* ×ÏÍâ1 *\/$/;"	m	struct:__anon18	file:
+OldUV1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int OldUV1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+OldUV2	CaptureSunSmode5.c	/^	unsigned int OldUV2;       	\/* ×ÏÍâ2 *\/$/;"	m	struct:__anon18	file:
+OldUV2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int OldUV2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+Orbit	CaptureSunSmode5.c	/^	float Orbit[74];            \/* ¹ìµÀ *\/$/;"	m	struct:__anon13	file:
+Orbit	CaptureSunSmode5.cil.after-sim.c	/^   float Orbit[74] ;$/;"	m	struct:__anonstruct_INPara_13	file:
+OrbitCmd	CaptureSunSmode5.c	/^ORBITCOMMAND  OrbitCmd;$/;"	v
+OrbitCmd	CaptureSunSmode5.cil.after-sim.c	/^ORBITCOMMAND OrbitCmd  ;$/;"	v
+P	CaptureSunSmode5.c	/^    float P[3][2];           \/* ×ÏÍâ-Ì«Ñô¶¨×ËÏµÊıĞŞÕıÒò×Ó *\/$/;"	m	struct:__anon15	file:
+P	CaptureSunSmode5.cil.after-sim.c	/^   float P[3][2] ;$/;"	m	struct:__anonstruct_KPara_15	file:
+PHASE	CaptureSunSmode5.c	/^}PHASE;$/;"	t	typeref:struct:__anon22	file:
+PHASE	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_PHASE_22 PHASE;$/;"	t	typeref:struct:__anonstruct_PHASE_22	file:
+PHASEPLANE	CaptureSunSmode5.c	/^}PHASEPLANE;$/;"	t	typeref:struct:__anon24	file:
+PHASEPLANE	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_PHASEPLANE_24 PHASEPLANE;$/;"	t	typeref:struct:__anonstruct_PHASEPLANE_24	file:
+PIDInitFlg	CaptureSunSmode5.c	/^    unsigned int PIDInitFlg;    \/* ÂÖ×ÓPID¿ØÖÆ¼ÆËãÖĞ»ı·ÖÏîÇåÁã±êÖ¾ *\/$/;"	m	struct:__anon20	file:
+PIDInitFlg	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int PIDInitFlg ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+POWER_OFF_490N_CS	CaptureSunSmode5.c	44;"	d	file:
+POWER_ON_490N_CS	CaptureSunSmode5.c	43;"	d	file:
+PR1	CaptureSunSmode5.c	/^    unsigned int    PR1;$/;"	m	struct:__anon2	file:
+PR1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int PR1 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+PR10	CaptureSunSmode5.c	/^    unsigned int    PR10;$/;"	m	struct:__anon2	file:
+PR10	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int PR10 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+PR11	CaptureSunSmode5.c	/^    unsigned int    PR11;$/;"	m	struct:__anon2	file:
+PR11	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int PR11 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+PR12	CaptureSunSmode5.c	/^    unsigned int    PR12;$/;"	m	struct:__anon2	file:
+PR12	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int PR12 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+PR13	CaptureSunSmode5.c	/^    unsigned int    PR13;$/;"	m	struct:__anon2	file:
+PR13	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int PR13 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+PR14	CaptureSunSmode5.c	/^    unsigned int    PR14;$/;"	m	struct:__anon2	file:
+PR14	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int PR14 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+PR15	CaptureSunSmode5.c	/^    unsigned int    PR15;$/;"	m	struct:__anon2	file:
+PR15	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int PR15 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+PR16	CaptureSunSmode5.c	/^    unsigned int    PR16;$/;"	m	struct:__anon2	file:
+PR16	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int PR16 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+PR2	CaptureSunSmode5.c	/^    unsigned int    PR2;$/;"	m	struct:__anon2	file:
+PR2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int PR2 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+PR3	CaptureSunSmode5.c	/^    unsigned int    PR3;$/;"	m	struct:__anon2	file:
+PR3	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int PR3 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+PR4	CaptureSunSmode5.c	/^    unsigned int    PR4;$/;"	m	struct:__anon2	file:
+PR4	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int PR4 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+PR5	CaptureSunSmode5.c	/^    unsigned int    PR5;$/;"	m	struct:__anon2	file:
+PR5	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int PR5 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+PR6	CaptureSunSmode5.c	/^    unsigned int    PR6;$/;"	m	struct:__anon2	file:
+PR6	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int PR6 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+PR7	CaptureSunSmode5.c	/^    unsigned int    PR7;$/;"	m	struct:__anon2	file:
+PR7	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int PR7 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+PR8	CaptureSunSmode5.c	/^    unsigned int    PR8;$/;"	m	struct:__anon2	file:
+PR8	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int PR8 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+PR9	CaptureSunSmode5.c	/^    unsigned int    PR9;$/;"	m	struct:__anon2	file:
+PR9	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int PR9 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+PULSEDATA	CaptureSunSmode5.c	/^}PULSEDATA;$/;"	t	typeref:struct:__anon23	file:
+PULSEDATA	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_PULSEDATA_23 PULSEDATA;$/;"	t	typeref:struct:__anonstruct_PULSEDATA_23	file:
+PW	CaptureSunSmode5.c	/^	float           PW[3];                  \/* ¸÷ÖáÅçÆøÂö¿í *\/$/;"	m	struct:__anon14	file:
+PW	CaptureSunSmode5.cil.after-sim.c	/^   float PW[3] ;$/;"	m	struct:__anonstruct_JPC_DATA_14	file:
+PWI	CaptureSunSmode5.c	/^    float   PWI[3];$/;"	m	struct:__anon23	file:
+PWI	CaptureSunSmode5.cil.after-sim.c	/^   float PWI[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+PhiGK	CaptureSunSmode5.c	/^    float   PhiGK;              \/* ±ä¹ìÏµÊı *\/$/;"	m	struct:__anon21	file:
+PhiGK	CaptureSunSmode5.cil.after-sim.c	/^   float PhiGK ;$/;"	m	struct:__anonstruct_ORBITCOMMAND_21	file:
+PhiGK1	CaptureSunSmode5.c	/^    float   PhiGK1;             \/* ±ä¹ìÏµÊı *\/$/;"	m	struct:__anon21	file:
+PhiGK1	CaptureSunSmode5.cil.after-sim.c	/^   float PhiGK1 ;$/;"	m	struct:__anonstruct_ORBITCOMMAND_21	file:
+ProgrammSequenceSave	CaptureSunSmode5.c	/^unsigned int 	ProgrammSequenceSave;   \/* ×¢Èë³ÌĞò³ö´í¿éºÅ *\/$/;"	v
+ProgrammSequenceSave	CaptureSunSmode5.cil.after-sim.c	/^unsigned int ProgrammSequenceSave  ;$/;"	v
+PulseData	CaptureSunSmode5.c	/^PULSEDATA      PulseData;$/;"	v
+PulseData	CaptureSunSmode5.cil.after-sim.c	/^PULSEDATA PulseData  ;$/;"	v
+Queue	terminatetask.cil.after-sim.c	/^typedef struct sQueue Queue;$/;"	t	typeref:struct:sQueue	file:
+RAD_DEGREE	CaptureSunSmode5.c	128;"	d	file:
+RCV_COMMAND	CaptureSunSmode5.c	/^}RCV_COMMAND;$/;"	t	typeref:union:__anon25	file:
+RD_DUTY_MACHINE_CS	CaptureSunSmode5.c	51;"	d	file:
+RD_MW1_COUNT	CaptureSunSmode5.c	24;"	d	file:
+RD_MW2_COUNT	CaptureSunSmode5.c	25;"	d	file:
+RD_MW3_COUNT	CaptureSunSmode5.c	26;"	d	file:
+RD_MW4_COUNT	CaptureSunSmode5.c	27;"	d	file:
+RD_SLSP_CS1	CaptureSunSmode5.c	34;"	d	file:
+RD_SLSP_CS2	CaptureSunSmode5.c	35;"	d	file:
+RD_SLSP_CS3	CaptureSunSmode5.c	36;"	d	file:
+RD_UPS_STATUS_CS	CaptureSunSmode5.c	37;"	d	file:
+READ_EE_FLAG_CS	CaptureSunSmode5.c	47;"	d	file:
+READ_MW_DIR_CS	CaptureSunSmode5.c	46;"	d	file:
+READ_SDC_HSTATUS_CS	CaptureSunSmode5.c	49;"	d	file:
+READ_SDC_LSTATUS_CS	CaptureSunSmode5.c	48;"	d	file:
+RT_A_BROADCAST_SUBADDR	CaptureSunSmode5.c	80;"	d	file:
+RT_A_CONTROL_WORD_SUBADDR	CaptureSunSmode5.c	81;"	d	file:
+RT_A_RECEIVE_SUBADDR	CaptureSunSmode5.c	78;"	d	file:
+RT_A_TRANSMIT_SUBADDR	CaptureSunSmode5.c	79;"	d	file:
+RT_BIT_WORD_REG	CaptureSunSmode5.c	75;"	d	file:
+RT_COMMAND_STACK_POINT_A	CaptureSunSmode5.c	76;"	d	file:
+RT_DATA_STACK_ADDR_REG	CaptureSunSmode5.c	67;"	d	file:
+RT_LAST_COMMAND_REG	CaptureSunSmode5.c	72;"	d	file:
+RT_STATUS_WORD_REG	CaptureSunSmode5.c	74;"	d	file:
+RT_SUBADDR_CONTROL_WORD_REG	CaptureSunSmode5.c	61;"	d	file:
+RY	CaptureSunSmode5.c	/^    float RY[5][3];          \/* ×ÏÍâ-Ì«Ñô¶¨×ËÏµÊıĞŞÕıÒò×Ó *\/$/;"	m	struct:__anon15	file:
+RY	CaptureSunSmode5.cil.after-sim.c	/^   float RY[5][3] ;$/;"	m	struct:__anonstruct_KPara_15	file:
+Rate	CaptureSunSmode5.c	/^    float  Rate[3];          \/* ×ËÌ¬½ÇËÙ¶È¹ÀÖµ *\/$/;"	m	struct:__anon3	file:
+Rate	CaptureSunSmode5.cil.after-sim.c	/^   float Rate[3] ;$/;"	m	struct:__anonstruct_ATTITUDEDATA_3	file:
+RateC	CaptureSunSmode5.c	/^    float  RateC[3];         \/* ×ËÌ¬½ÇËÙ¶È¿ØÖÆÁ¿ *\/$/;"	m	struct:__anon3	file:
+RateC	CaptureSunSmode5.cil.after-sim.c	/^   float RateC[3] ;$/;"	m	struct:__anonstruct_ATTITUDEDATA_3	file:
+RateC0	CaptureSunSmode5.c	/^    float  RateC0[3];        \/* ×ËÌ¬½ÇËÙ¶È *\/$/;"	m	struct:__anon3	file:
+RateC0	CaptureSunSmode5.cil.after-sim.c	/^   float RateC0[3] ;$/;"	m	struct:__anonstruct_ATTITUDEDATA_3	file:
+Rec8252CommErrorFlg	CaptureSunSmode5.c	/^unsigned int 	Rec8252CommErrorFlg; 	\/* LTUÍ¨Ñ¶8252´í *\/$/;"	v
+Rec8252CommErrorFlg	CaptureSunSmode5.cil.after-sim.c	/^unsigned int Rec8252CommErrorFlg  ;$/;"	v
+RecInSlowRotateCommNum	CaptureSunSmode5.c	/^unsigned int    RecInSlowRotateCommNum; \/* ×¢ÈëµÄÂıĞıÖ¸Áî¼ÆÊı 0.256s *\/$/;"	v
+RecInSlowRotateCommNum	CaptureSunSmode5.cil.after-sim.c	/^unsigned int RecInSlowRotateCommNum  ;$/;"	v
+RecOverTimeErrorFlg	CaptureSunSmode5.c	/^unsigned int 	RecOverTimeErrorFlg; 	\/* LTUÍ¨Ñ¶³¬Ê±´í *\/$/;"	v
+RecOverTimeErrorFlg	CaptureSunSmode5.cil.after-sim.c	/^unsigned int RecOverTimeErrorFlg  ;$/;"	v
+S	CaptureSunSmode5.c	/^    unsigned int    S;                  \/* ĞÇÊ±µÄÃë *\/$/;"	m	struct:__anon33	file:
+S	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int S ;$/;"	m	struct:__anonstruct_TIME_33	file:
+SDCOutput	CaptureSunSmode5.c	/^unsigned int    SDCOutput;              \/* ×¢ÈëµÄSDC¿éµÄÄÚÈİ *\/$/;"	v
+SDCOutput	CaptureSunSmode5.cil.after-sim.c	/^unsigned int SDCOutput  ;$/;"	v
+SDCOutputFlg	CaptureSunSmode5.c	/^unsigned int    SDCOutputFlg;           \/* ×¢ÈëµÄSDC¿éÊÇ·ñ±»ÏàÓ¦µÄ±êÖ¾ *\/$/;"	v
+SDCOutputFlg	CaptureSunSmode5.cil.after-sim.c	/^unsigned int SDCOutputFlg  ;$/;"	v
+SDCOutputZZFlg	CaptureSunSmode5.c	/^unsigned int 	SDCOutputZZFlg;		    \/* ×ÔÖ÷ÅĞ¶Ï³öµÄĞè¼Óµç²¿¼şµÄ±êÖ¾ *\/$/;"	v
+SDCOutputZZFlg	CaptureSunSmode5.cil.after-sim.c	/^unsigned int SDCOutputZZFlg  ;$/;"	v
+SECONDWORKMODE	CaptureSunSmode5.c	110;"	d	file:
+SHUTDOWN_490N_CS	CaptureSunSmode5.c	42;"	d	file:
+SHUT_490Nnum	CaptureSunSmode5.c	/^unsigned int    SHUT_490Nnum;           \/* ¹Ø¹ì¿Ø·¢¶¯»úÂö³å¼ÆÊı *\/$/;"	v
+SHUT_490Nnum	CaptureSunSmode5.cil.after-sim.c	/^unsigned int SHUT_490Nnum  ;$/;"	v
+SIN_epsilon	CaptureSunSmode5.c	125;"	d	file:
+SInt	CaptureSunSmode5.c	/^    volatile unsigned int    SInt;         \/* ĞÇÊ±µÄÃë ,½ÓÊÕµ½µÄĞ£Ê±Á¿ *\/ $/;"	m	struct:__anon33	file:
+SInt	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int volatile   SInt ;$/;"	m	struct:__anonstruct_TIME_33	file:
+SLSPFlg	CaptureSunSmode5.c	/^unsigned int    SLSPFlg;                \/* ĞÇ¼ı·ÖÀëµÄ±êÖ¾ *\/$/;"	v
+SLSPFlg	CaptureSunSmode5.cil.after-sim.c	/^unsigned int SLSPFlg  ;$/;"	v
+SLSPSignalNum	CaptureSunSmode5.c	/^unsigned int    SLSPSignalNum;          \/* Á¬Ğø¿ØÖÆÖÜÆÚµÃµ½µÄ·ÖÀë¼ÆÊı *\/$/;"	v
+SLSPSignalNum	CaptureSunSmode5.cil.after-sim.c	/^unsigned int SLSPSignalNum  ;$/;"	v
+SPsi	CaptureSunSmode5.c	/^    float        SPsi[3];              \/*  *\/$/;"	m	struct:__anon27	file:
+SPsi	CaptureSunSmode5.cil.after-sim.c	/^   float SPsi[3] ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+SRC	Makefile	/^SRC=$(FILE).cil.c$/;"	m
+SS1	CaptureSunSmode5.c	/^	unsigned int    SS1[2];        \/* ½ÓÊÕµ½µÄÌ«Ãô1µÄ×Ô¼ìÊı¾İ *\/$/;"	m	struct:__anon19	file:
+SS1	CaptureSunSmode5.c	/^	unsigned int SS1;       	\/* Ì«ÑôÖ÷·İ *\/$/;"	m	struct:__anon18	file:
+SS1	CaptureSunSmode5.c	/^	unsigned int SS1;       \/* Ì«ÑôÖ÷·İ *\/$/;"	m	struct:__anon16	file:
+SS1	CaptureSunSmode5.c	/^	unsigned int SS1[12];        \/* Ì«ÑôÖ÷·İ *\/$/;"	m	struct:__anon17	file:
+SS1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int SS1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+SS1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int SS1 ;$/;"	m	struct:__anonstruct_LTUSelectFlg_16	file:
+SS1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int SS1[12] ;$/;"	m	struct:__anonstruct_LTUDATA_17	file:
+SS1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int SS1[2] ;$/;"	m	struct:__anonstruct_LTUSelfCheck_19	file:
+SS2	CaptureSunSmode5.c	/^	unsigned int    SS2[2];        \/* ½ÓÊÕµ½µÄÌ«Ãô2µÄ×Ô¼ìÊı¾İ *\/$/;"	m	struct:__anon19	file:
+SS2	CaptureSunSmode5.c	/^	unsigned int SS2;       	\/* Ì«Ñô±¸·İ *\/$/;"	m	struct:__anon18	file:
+SS2	CaptureSunSmode5.c	/^	unsigned int SS2;       \/* Ì«Ñô±¸·İ *\/$/;"	m	struct:__anon16	file:
+SS2	CaptureSunSmode5.c	/^	unsigned int SS2[12];        \/* Ì«Ñô±¸·İ *\/$/;"	m	struct:__anon17	file:
+SS2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int SS2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+SS2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int SS2 ;$/;"	m	struct:__anonstruct_LTUSelectFlg_16	file:
+SS2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int SS2[12] ;$/;"	m	struct:__anonstruct_LTUDATA_17	file:
+SS2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int SS2[2] ;$/;"	m	struct:__anonstruct_LTUSelfCheck_19	file:
+SSDATA	CaptureSunSmode5.c	/^}SSDATA;$/;"	t	typeref:struct:__anon27	file:
+SSDATA	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_SSDATA_27 SSDATA;$/;"	t	typeref:struct:__anonstruct_SSDATA_27	file:
+SSValid	CaptureSunSmode5.c	/^    unsigned int SSValid;              \/* Ì«Ñô¿ÉÓÃĞÔÅĞ¶Ï±êÖ¾ *\/$/;"	m	struct:__anon27	file:
+SSValid	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int SSValid ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+START_FY_COUNT	CaptureSunSmode5.c	29;"	d	file:
+START_GD_COUNT	CaptureSunSmode5.c	28;"	d	file:
+START_GK_COUNT	CaptureSunSmode5.c	31;"	d	file:
+START_MW1_DA_CS	CaptureSunSmode5.c	9;"	d	file:
+START_MW2_DA_CS	CaptureSunSmode5.c	10;"	d	file:
+START_MW3_DA_CS	CaptureSunSmode5.c	11;"	d	file:
+START_MW4_DA_CS	CaptureSunSmode5.c	12;"	d	file:
+START_PH_COUNT	CaptureSunSmode5.c	30;"	d	file:
+START_RESET_REG	CaptureSunSmode5.c	58;"	d	file:
+STS	CaptureSunSmode5.c	/^	int			    STS[3];             \/* ĞÇÃôÒ£²âÊ±¼ä *\/$/;"	m	struct:__anon33	file:
+STS	CaptureSunSmode5.c	/^STSDATA STS;$/;"	v
+STS	CaptureSunSmode5.cil.after-sim.c	/^   int STS[3] ;$/;"	m	struct:__anonstruct_TIME_33	file:
+STS	CaptureSunSmode5.cil.after-sim.c	/^STSDATA STS  ;$/;"	v
+STS1	CaptureSunSmode5.c	/^	unsigned int    STS1[9];       \/* ½ÓÊÕµ½µÄĞÇÃô1µÄ×Ô¼ìÊı¾İ *\/$/;"	m	struct:__anon19	file:
+STS1	CaptureSunSmode5.c	/^	unsigned int STS1;      	\/* ĞÇÃô1 *\/$/;"	m	struct:__anon18	file:
+STS1	CaptureSunSmode5.c	/^	unsigned int STS1;      \/* ĞÇÃô1 *\/$/;"	m	struct:__anon16	file:
+STS1	CaptureSunSmode5.c	/^	unsigned int STS1[30];       \/* ĞÇÃô1 *\/$/;"	m	struct:__anon17	file:
+STS1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int STS1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+STS1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int STS1 ;$/;"	m	struct:__anonstruct_LTUSelectFlg_16	file:
+STS1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int STS1[30] ;$/;"	m	struct:__anonstruct_LTUDATA_17	file:
+STS1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int STS1[9] ;$/;"	m	struct:__anonstruct_LTUSelfCheck_19	file:
+STS2	CaptureSunSmode5.c	/^	unsigned int    STS2[9];       \/* ½ÓÊÕµ½µÄĞÇÃô2µÄ×Ô¼ìÊı¾İ *\/$/;"	m	struct:__anon19	file:
+STS2	CaptureSunSmode5.c	/^	unsigned int STS2;      	\/* ĞÇÃô2 *\/$/;"	m	struct:__anon18	file:
+STS2	CaptureSunSmode5.c	/^	unsigned int STS2;      \/* ĞÇÃô2 *\/$/;"	m	struct:__anon16	file:
+STS2	CaptureSunSmode5.c	/^	unsigned int STS2[30];       \/* ĞÇÃô2 *\/$/;"	m	struct:__anon17	file:
+STS2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int STS2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+STS2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int STS2 ;$/;"	m	struct:__anonstruct_LTUSelectFlg_16	file:
+STS2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int STS2[30] ;$/;"	m	struct:__anonstruct_LTUDATA_17	file:
+STS2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int STS2[9] ;$/;"	m	struct:__anonstruct_LTUSelfCheck_19	file:
+STS3	CaptureSunSmode5.c	/^	unsigned int    STS3[9];       \/* ½ÓÊÕµ½µÄĞÇÃô3µÄ×Ô¼ìÊı¾İ *\/$/;"	m	struct:__anon19	file:
+STS3	CaptureSunSmode5.c	/^	unsigned int STS3;	    	\/* ĞÇÃô3 *\/$/;"	m	struct:__anon18	file:
+STS3	CaptureSunSmode5.c	/^	unsigned int STS3;	    \/* ĞÇÃô3 *\/$/;"	m	struct:__anon16	file:
+STS3	CaptureSunSmode5.c	/^	unsigned int STS3[30];	     \/* ĞÇÃô3 *\/$/;"	m	struct:__anon17	file:
+STS3	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int STS3 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+STS3	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int STS3 ;$/;"	m	struct:__anonstruct_LTUSelectFlg_16	file:
+STS3	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int STS3[30] ;$/;"	m	struct:__anonstruct_LTUDATA_17	file:
+STS3	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int STS3[9] ;$/;"	m	struct:__anonstruct_LTUSelfCheck_19	file:
+STSDATA	CaptureSunSmode5.c	/^}STSDATA;$/;"	t	typeref:struct:__anon28	file:
+STSDATA	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_STSDATA_28 STSDATA;$/;"	t	typeref:struct:__anonstruct_STSDATA_28	file:
+STSDataValidFlg	CaptureSunSmode5.c	/^unsigned int    STSDataValidFlg[3];	    \/* ĞÇÃôÊı¾İÓĞĞ§±êÖ¾ *\/$/;"	v
+STSDataValidFlg	CaptureSunSmode5.cil.after-sim.c	/^unsigned int STSDataValidFlg[3]  ;$/;"	v
+STSflg	CaptureSunSmode5.c	/^    unsigned int    STSflg;             \/* ĞÇÃôÊ±¼äĞèĞ£Ê±±êÖ¾ *\/$/;"	m	struct:__anon33	file:
+STSflg	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int STSflg ;$/;"	m	struct:__anonstruct_TIME_33	file:
+STSqFlag	CaptureSunSmode5.c	/^unsigned int    STSqFlag;	            \/* ½øÈëËÙÂÊ×èÄáÄ£Ê½ºó£¬ÊÇ·ñÖØĞÂ¼ÆËãq³õÖµµÄ±êÖ¾ *\/$/;"	v
+STSqFlag	CaptureSunSmode5.cil.after-sim.c	/^unsigned int STSqFlag  ;$/;"	v
+STheta	CaptureSunSmode5.c	/^    float        STheta[3];            \/*  *\/$/;"	m	struct:__anon27	file:
+STheta	CaptureSunSmode5.cil.after-sim.c	/^   float STheta[3] ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+Sb	CaptureSunSmode5.c	/^    float        Sb[3];                \/* Ì«ÑôÏòÁ¿¹ÀÖµ *\/$/;"	m	struct:__anon27	file:
+Sb	CaptureSunSmode5.cil.after-sim.c	/^   float Sb[3] ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+SbMatrix	CaptureSunSmode5.c	/^    float        SbMatrix[3][3];       \/* ÀíÂÛÊÓ³¡Âë¹ÀËã *\/$/;"	m	struct:__anon27	file:
+SbMatrix	CaptureSunSmode5.cil.after-sim.c	/^   float SbMatrix[3][3] ;$/;"	m	struct:__anonstruct_SSDATA_27	file:
+SendAttiData	CaptureSunSmode5.c	/^USED_WORD   SendAttiData[9];  \/* Òª·¢ËÍµÄ×ËÌ¬Êı¾İ *\/$/;"	v
+SendAttiData	CaptureSunSmode5.cil.after-sim.c	/^USED_WORD SendAttiData[9]  ;$/;"	v
+SendTeleMode	CaptureSunSmode5.c	/^unsigned int    SendTeleMode;           \/* ·½Ê½×Ö *\/$/;"	v
+SendTeleMode	CaptureSunSmode5.cil.after-sim.c	/^unsigned int SendTeleMode  ;$/;"	v
+Shut490PowerNum	CaptureSunSmode5.c	/^unsigned int 	Shut490PowerNum;	    \/* ¶Ï¿ª490NÄ¸ÏßµçÔ´µÄ¼ÆÊı *\/$/;"	v
+Shut490PowerNum	CaptureSunSmode5.cil.after-sim.c	/^unsigned int Shut490PowerNum  ;$/;"	v
+Si	CaptureSunSmode5.c	/^	float  Si[3];            \/* Ì«ÑôÊ¸Á¿ÔÚÔÂĞÄµØÇò³àµÀ¹ßĞÔ×ø±êÏµµÄ·½Î» *\/$/;"	m	struct:__anon6	file:
+Si	CaptureSunSmode5.cil.after-sim.c	/^   float Si[3] ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+Smode	CaptureSunSmode5.c	/^	unsigned int Smode;         \/*  *\/$/;"	m	struct:__anon7	file:
+Smode	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int Smode ;$/;"	m	struct:__anonstruct_CaptureSSDATA_7	file:
+SmodeEQU5Lnum	CaptureSunSmode5.c	/^unsigned int    SmodeEQU5Lnum;$/;"	v
+SmodeEQU5Lnum	CaptureSunSmode5.cil.after-sim.c	/^unsigned int SmodeEQU5Lnum  ;$/;"	v
+SmodeEQU5Rnum	CaptureSunSmode5.c	/^unsigned int    SmodeEQU5Rnum;$/;"	v
+SmodeEQU5Rnum	CaptureSunSmode5.cil.after-sim.c	/^unsigned int SmodeEQU5Rnum  ;$/;"	v
+So	CaptureSunSmode5.c	/^	float  So[3];            \/* Ì«ÑôÏòÁ¿ÔÚ¹ìµÀ×ø±êÏµµÄ·½Î»Sox,Soy,Soz *\/$/;"	m	struct:__anon6	file:
+So	CaptureSunSmode5.cil.after-sim.c	/^   float So[3] ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+SqrtSumDW	CaptureSunSmode5.c	/^	float		 SqrtSumDW;     \/*  *\/$/;"	m	struct:__anon7	file:
+SqrtSumDW	CaptureSunSmode5.cil.after-sim.c	/^   float SqrtSumDW ;$/;"	m	struct:__anonstruct_CaptureSSDATA_7	file:
+StFlag	CaptureSunSmode5.c	/^	unsigned int    StFlag[3];              \/* ¸÷ÖáÅçÆø×´Ì¬ 1 ÕıÅç£¬²úÉúÕıÁ¦¾Ø *\/$/;"	m	struct:__anon14	file:
+StFlag	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int StFlag[3] ;$/;"	m	struct:__anonstruct_JPC_DATA_14	file:
+St_of	CaptureSunSmode5.c	/^unsigned int    St_of[3];$/;"	v
+St_of	CaptureSunSmode5.cil.after-sim.c	/^unsigned int St_of[3]  ;$/;"	v
+St_offm	CaptureSunSmode5.c	/^    unsigned int St_offm;$/;"	m	struct:__anon21	file:
+St_offm	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int St_offm ;$/;"	m	struct:__anonstruct_ORBITCOMMAND_21	file:
+StackType	terminatetask.cil.after-sim.c	/^typedef struct sStackType StackType;$/;"	t	typeref:struct:sStackType	file:
+StartInitFlg	CaptureSunSmode5.c	/^    unsigned int StartInitFlg;  \/* ÂÖ×ÓÆô¶¯Óë±£³Ö¼ÆËãÖĞ»ı·ÖÏîÇåÁã±êÖ¾ *\/$/;"	m	struct:__anon20	file:
+StartInitFlg	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int StartInitFlg ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+StatusType	terminatetask.cil.after-sim.c	/^typedef u8 StatusType;$/;"	t	file:
+Switch_Cmd	CaptureSunSmode5.c	/^unsigned int    Switch_Cmd;             \/* ÓëÏµÍ³Èí¼ş½Ó¿Ú,ÇĞ»úÃüÁî×Ö *\/$/;"	v
+Switch_Cmd	CaptureSunSmode5.cil.after-sim.c	/^unsigned int Switch_Cmd  ;$/;"	v
+Switch_Cmd_Valid	CaptureSunSmode5.c	151;"	d	file:
+T	CaptureSunSmode5.c	/^    unsigned int    T;$/;"	m	struct:__anon33	file:
+T	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int T ;$/;"	m	struct:__anonstruct_TIME_33	file:
+TCB	terminatetask.cil.after-sim.c	/^typedef struct sTCB TCB;$/;"	t	typeref:struct:sTCB	file:
+TCount	CaptureSunSmode5.c	/^	unsigned int TCount;        \/*  *\/$/;"	m	struct:__anon7	file:
+TCount	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int TCount ;$/;"	m	struct:__anonstruct_CaptureSSDATA_7	file:
+TFireoff	CaptureSunSmode5.c	/^    float   TFireoff;           \/* ¹ì¿Ø¿ª¹Ø»úÊ±¼ä²ÎÊı *\/$/;"	m	struct:__anon21	file:
+TFireoff	CaptureSunSmode5.cil.after-sim.c	/^   float TFireoff ;$/;"	m	struct:__anonstruct_ORBITCOMMAND_21	file:
+TFireon	CaptureSunSmode5.c	/^    unsigned int TFireon;       \/* ¹ì¿Ø¿ª»úÊ±¿Ì *\/$/;"	m	struct:__anon21	file:
+TFireon	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int TFireon ;$/;"	m	struct:__anonstruct_ORBITCOMMAND_21	file:
+THIRDWORKMODE	CaptureSunSmode5.c	111;"	d	file:
+TIME	CaptureSunSmode5.c	/^} TIME;$/;"	t	typeref:struct:__anon33	file:
+TIME	CaptureSunSmode5.cil.after-sim.c	/^typedef struct __anonstruct_TIME_33 TIME;$/;"	t	typeref:struct:__anonstruct_TIME_33	file:
+TIME_TAG_REG	CaptureSunSmode5.c	62;"	d	file:
+TJ	CaptureSunSmode5.c	/^	float           TJ[3];                  \/* ¸÷ÖáÅçÆøÂö¿í *\/$/;"	m	struct:__anon14	file:
+TJ	CaptureSunSmode5.cil.after-sim.c	/^   float TJ[3] ;$/;"	m	struct:__anonstruct_JPC_DATA_14	file:
+TR32_WORKMODE	CaptureSunSmode5.c	113;"	d	file:
+TR32_WORKMODE_VALUE	CaptureSunSmode5.c	114;"	d	file:
+TSmode	CaptureSunSmode5.c	/^	unsigned int TSmode;        \/*  *\/$/;"	m	struct:__anon7	file:
+TSmode	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int TSmode ;$/;"	m	struct:__anonstruct_CaptureSSDATA_7	file:
+TaskInfo	terminatetask.cil.after-sim.c	/^typedef struct sTaskInfo TaskInfo;$/;"	t	typeref:struct:sTaskInfo	file:
+TaskType	terminatetask.cil.after-sim.c	/^typedef u8 TaskType;$/;"	t	file:
+Task_FaultData1	CaptureSunSmode5.c	/^unsigned int    *Task_FaultData1;	    \/* Òì³£Êı¾İ¼ÇÂ¼Çø1 *\/$/;"	v
+Task_FaultData1	CaptureSunSmode5.cil.after-sim.c	/^unsigned int *Task_FaultData1  ;$/;"	v
+Task_FaultData2	CaptureSunSmode5.c	/^unsigned int    *Task_FaultData2;	    \/* Òì³£Êı¾İ¼ÇÂ¼Çø2 *\/$/;"	v
+Task_FaultData2	CaptureSunSmode5.cil.after-sim.c	/^unsigned int *Task_FaultData2  ;$/;"	v
+Task_FaultEndAddr1	CaptureSunSmode5.c	/^unsigned int    *Task_FaultEndAddr1;	\/* Òì³£Êı¾İ¼ÇÂ¼Çø1½áÊøµØÖ· *\/$/;"	v
+Task_FaultEndAddr1	CaptureSunSmode5.cil.after-sim.c	/^unsigned int *Task_FaultEndAddr1  ;$/;"	v
+Task_FaultEndAddr2	CaptureSunSmode5.c	/^unsigned int    *Task_FaultEndAddr2;	\/* Òì³£Êı¾İ¼ÇÂ¼Çø2½áÊøµØÖ· *\/$/;"	v
+Task_FaultEndAddr2	CaptureSunSmode5.cil.after-sim.c	/^unsigned int *Task_FaultEndAddr2  ;$/;"	v
+Task_GNCData	CaptureSunSmode5.c	/^USED_WORD   Task_GNCData[150];\/* ´ÓOBDHÊÕµ½µÄÉÏĞĞÊı¾İ¿é *\/$/;"	v
+Task_GNCData	CaptureSunSmode5.cil.after-sim.c	/^USED_WORD Task_GNCData[150]  ;$/;"	v
+Task_GNCOrbitData	CaptureSunSmode5.c	/^USED_WORD   Task_GNCOrbitData[150];\/* ´ÓOBDHÊÕµ½µÄÉÏĞĞ¹ìµÀÊı¾İ¿é *\/$/;"	v
+Task_GNCOrbitData	CaptureSunSmode5.cil.after-sim.c	/^USED_WORD Task_GNCOrbitData[150]  ;$/;"	v
+Task_Now	CaptureSunSmode5.c	/^USED_WORD   Task_Now[255];    \/* ÊÕµ½µÄÉÏĞĞÊı¾İ¿é *\/$/;"	v
+Task_Now	CaptureSunSmode5.cil.after-sim.c	/^USED_WORD Task_Now[255]  ;$/;"	v
+Task_ProgramData	CaptureSunSmode5.c	/^unsigned int    *Task_ProgramData;	    \/* µØÃæÉÏĞĞµÄ³ÌĞò×¢ÈëÇø *\/$/;"	v
+Task_ProgramData	CaptureSunSmode5.cil.after-sim.c	/^unsigned int *Task_ProgramData  ;$/;"	v
+Task_TmpData	CaptureSunSmode5.c	/^unsigned int    *Task_TmpData;		    \/* ´ÓOBDHÊÕµ½µÄÉÏĞĞÊı¾İ¿é *\/$/;"	v
+Task_TmpData	CaptureSunSmode5.cil.after-sim.c	/^unsigned int *Task_TmpData  ;$/;"	v
+Tc	CaptureSunSmode5.c	/^    float   Tc;$/;"	m	struct:__anon21	file:
+Tc	CaptureSunSmode5.cil.after-sim.c	/^   float Tc ;$/;"	m	struct:__anonstruct_ORBITCOMMAND_21	file:
+Tec2	CaptureSunSmode5.c	/^    float           Tec2;               \/* ÒõÓ°Ê±³¤ *\/$/;"	m	struct:__anon33	file:
+Tec2	CaptureSunSmode5.cil.after-sim.c	/^   float Tec2 ;$/;"	m	struct:__anonstruct_TIME_33	file:
+Tec3	CaptureSunSmode5.c	/^    float           Tec3;               \/* ÒõÓ°ÖÜÆÚ *\/$/;"	m	struct:__anon33	file:
+Tec3	CaptureSunSmode5.cil.after-sim.c	/^   float Tec3 ;$/;"	m	struct:__anonstruct_TIME_33	file:
+TeleAttiData	CaptureSunSmode5.c	/^float	        TeleAttiData[17][3];    \/* Ò£²â×ËÌ¬Êı¾İ¼ä¸ôÒ»ÃëÉèÖÃµÄ»º³åÇø *\/$/;"	v
+TeleAttiData	CaptureSunSmode5.cil.after-sim.c	/^float TeleAttiData[17][3]  ;$/;"	v
+TeleMode	CaptureSunSmode5.c	/^volatile unsigned int    TeleMode;       \/* Ò£²âÄ£Ê½ *\/$/;"	v
+TeleMode	CaptureSunSmode5.cil.after-sim.c	/^unsigned int volatile   TeleMode  ;$/;"	v
+TerminateTask	terminatetask.cil.after-sim.c	/^StatusType TerminateTask(void) $/;"	f
+TerminateTask	terminatetask82.2.c	/^StatusType TerminateTask(void)$/;"	f
+Tf	CaptureSunSmode5.c	/^    float  Tf;              \/* ÂÖ¿ØÂË²¨Ê±¼ä³£Êı *\/$/;"	m	struct:__anon20	file:
+Tf	CaptureSunSmode5.cil.after-sim.c	/^   float Tf ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+Tgi	CaptureSunSmode5.c	/^    unsigned int Tgi;           \/* ¹ì¿ØÄ£Ê½¿ªÊ¼Ê±¿Ì *\/$/;"	m	struct:__anon21	file:
+Tgi	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int Tgi ;$/;"	m	struct:__anonstruct_ORBITCOMMAND_21	file:
+Tgon	CaptureSunSmode5.c	/^    unsigned int Tgon;$/;"	m	struct:__anon21	file:
+Tgon	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int Tgon ;$/;"	m	struct:__anonstruct_ORBITCOMMAND_21	file:
+ThetaD	CaptureSunSmode5.c	/^	float  ThetaD;             \/* ³£Êı *\/$/;"	m	struct:__anon24	file:
+ThetaD	CaptureSunSmode5.cil.after-sim.c	/^   float ThetaD ;$/;"	m	struct:__anonstruct_PHASEPLANE_24	file:
+ThetaV	CaptureSunSmode5.c	/^	float  ThetaV;             \/* ³£Êı *\/$/;"	m	struct:__anon24	file:
+ThetaV	CaptureSunSmode5.cil.after-sim.c	/^   float ThetaV ;$/;"	m	struct:__anonstruct_PHASEPLANE_24	file:
+Thetapst	CaptureSunSmode5.c	/^	float           Thetapst[3];            \/* ÉÏÖÜÆÚÅçÆøÊ±µÄ×ËÌ¬Êı¾İ *\/$/;"	m	struct:__anon14	file:
+Thetapst	CaptureSunSmode5.c	/^	float  Thetapst;           \/* ÉÏÒ»ÖÜÆÚ¸ÃÖáµÄ×ËÌ¬½Ç *\/$/;"	m	struct:__anon24	file:
+Thetapst	CaptureSunSmode5.cil.after-sim.c	/^   float Thetapst ;$/;"	m	struct:__anonstruct_PHASEPLANE_24	file:
+Thetapst	CaptureSunSmode5.cil.after-sim.c	/^   float Thetapst[3] ;$/;"	m	struct:__anonstruct_JPC_DATA_14	file:
+Thon	CaptureSunSmode5.c	/^    unsigned int Thon;$/;"	m	struct:__anon21	file:
+Thon	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int Thon ;$/;"	m	struct:__anonstruct_ORBITCOMMAND_21	file:
+Time	CaptureSunSmode5.c	/^TIME    Time;$/;"	v
+Time	CaptureSunSmode5.cil.after-sim.c	/^TIME Time  ;$/;"	v
+Tm	CaptureSunSmode5.c	/^    float   Tm[3];            \/* Î±ËÙÂÊµ÷ÖÆÆ÷¿ØÖÆ²ÎÊı *\/$/;"	m	struct:__anon23	file:
+Tm	CaptureSunSmode5.cil.after-sim.c	/^   float Tm[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+Toff	CaptureSunSmode5.c	/^    float   Toff;               \/*  *\/$/;"	m	struct:__anon21	file:
+Toff	CaptureSunSmode5.cil.after-sim.c	/^   float Toff ;$/;"	m	struct:__anonstruct_ORBITCOMMAND_21	file:
+Tprohoff	CaptureSunSmode5.c	/^    float   Tprohoff;           \/* ¹ì¿Ø¿ª¹Ø»úÊ±¼ä²ÎÊı *\/$/;"	m	struct:__anon21	file:
+Tprohoff	CaptureSunSmode5.cil.after-sim.c	/^   float Tprohoff ;$/;"	m	struct:__anonstruct_ORBITCOMMAND_21	file:
+Tsmode	CaptureSunSmode5.c	/^    unsigned int Tsmode;$/;"	m	struct:__anon21	file:
+Tsmode	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int Tsmode ;$/;"	m	struct:__anonstruct_ORBITCOMMAND_21	file:
+ULS	CaptureSunSmode5.c	/^unsigned int    ULS;                    \/* ÂÖ×ÓĞ¶ÔØ±êÖ¾ *\/$/;"	v
+ULS	CaptureSunSmode5.cil.after-sim.c	/^unsigned int ULS  ;$/;"	v
+USED_WORD	CaptureSunSmode5.c	/^}USED_WORD;$/;"	t	typeref:union:__anon29	file:
+USED_WORD	CaptureSunSmode5.cil.after-sim.c	/^typedef union __anonunion_USED_WORD_29 USED_WORD;$/;"	t	typeref:union:__anonunion_USED_WORD_29	file:
+UV1	CaptureSunSmode5.c	/^	unsigned int    UV1[4];        \/* ½ÓÊÕµ½µÄ×ÏÍâ1µÄ×Ô¼ìÊı¾İ *\/$/;"	m	struct:__anon19	file:
+UV1	CaptureSunSmode5.c	/^	unsigned int UV1;       	\/* ×ÏÍâ1 *\/$/;"	m	struct:__anon18	file:
+UV1	CaptureSunSmode5.c	/^	unsigned int UV1;       \/* ×ÏÍâ1 *\/$/;"	m	struct:__anon16	file:
+UV1	CaptureSunSmode5.c	/^	unsigned int UV1[8];         \/* ×ÏÍâ1 *\/$/;"	m	struct:__anon17	file:
+UV1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int UV1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+UV1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int UV1 ;$/;"	m	struct:__anonstruct_LTUSelectFlg_16	file:
+UV1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int UV1[4] ;$/;"	m	struct:__anonstruct_LTUSelfCheck_19	file:
+UV1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int UV1[8] ;$/;"	m	struct:__anonstruct_LTUDATA_17	file:
+UV1DataValidFlg	CaptureSunSmode5.c	/^unsigned int 	UV1DataValidFlg;	    \/* ×ÏÍâ1Êı¾İÓĞĞ§±êÖ¾ *\/$/;"	v
+UV1DataValidFlg	CaptureSunSmode5.cil.after-sim.c	/^unsigned int UV1DataValidFlg  ;$/;"	v
+UV2	CaptureSunSmode5.c	/^	unsigned int    UV2[4];        \/* ½ÓÊÕµ½µÄ×ÏÍâ2µÄ×Ô¼ìÊı¾İ *\/$/;"	m	struct:__anon19	file:
+UV2	CaptureSunSmode5.c	/^	unsigned int UV2;       	\/* ×ÏÍâ2 *\/$/;"	m	struct:__anon18	file:
+UV2	CaptureSunSmode5.c	/^	unsigned int UV2;       \/* ×ÏÍâ2 *\/$/;"	m	struct:__anon16	file:
+UV2	CaptureSunSmode5.c	/^	unsigned int UV2[8];         \/* ×ÏÍâ2 *\/$/;"	m	struct:__anon17	file:
+UV2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int UV2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+UV2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int UV2 ;$/;"	m	struct:__anonstruct_LTUSelectFlg_16	file:
+UV2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int UV2[4] ;$/;"	m	struct:__anonstruct_LTUSelfCheck_19	file:
+UV2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int UV2[8] ;$/;"	m	struct:__anonstruct_LTUDATA_17	file:
+UV2DataValidFlg	CaptureSunSmode5.c	/^unsigned int 	UV2DataValidFlg;	    \/* ×ÏÍâ2Êı¾İÓĞĞ§±êÖ¾ *\/$/;"	v
+UV2DataValidFlg	CaptureSunSmode5.cil.after-sim.c	/^unsigned int UV2DataValidFlg  ;$/;"	v
+UnloadMode	CaptureSunSmode5.c	/^unsigned int    UnloadMode;             \/* ÂÖ×ÓĞ¶ÔØ±êÖ¾ *\/$/;"	v
+UnloadMode	CaptureSunSmode5.cil.after-sim.c	/^unsigned int UnloadMode  ;$/;"	v
+V	CaptureSunSmode5.c	/^    float  V[4];                \/* Vx,Vy,Vz,Vs *\/$/;"	m	struct:__anon20	file:
+V	CaptureSunSmode5.cil.after-sim.c	/^   float V[4] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+ValveBAPTAL1	CaptureSunSmode5.c	/^	unsigned int ValveBAPTAL1;  \/* ×ó·«°åÖ÷·İ *\/$/;"	m	struct:__anon18	file:
+ValveBAPTAL1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ValveBAPTAL1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+ValveBAPTAL2	CaptureSunSmode5.c	/^	unsigned int ValveBAPTAL2;  \/* ×ó·«°å±¸·İ *\/$/;"	m	struct:__anon18	file:
+ValveBAPTAL2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ValveBAPTAL2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+ValveBAPTAR1	CaptureSunSmode5.c	/^	unsigned int ValveBAPTAR1;  \/* ÓÒ·«°åÖ÷·İ *\/$/;"	m	struct:__anon18	file:
+ValveBAPTAR1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ValveBAPTAR1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+ValveBAPTAR2	CaptureSunSmode5.c	/^	unsigned int ValveBAPTAR2;  \/* ÓÒ·«°å±¸·İ *\/$/;"	m	struct:__anon18	file:
+ValveBAPTAR2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ValveBAPTAR2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+ValveGDA1	CaptureSunSmode5.c	/^	unsigned int ValveGDA1;     \/* ÌìÏßÖ÷·İ *\/$/;"	m	struct:__anon18	file:
+ValveGDA1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ValveGDA1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+ValveGDA2	CaptureSunSmode5.c	/^	unsigned int ValveGDA2;     \/* ÌìÏß±¸·İ *\/$/;"	m	struct:__anon18	file:
+ValveGDA2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ValveGDA2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+ValveGyroAcce1	CaptureSunSmode5.c	/^	unsigned int ValveGyroAcce1;\/* ¹ßĞÔÔª¼şÖ÷·İ *\/$/;"	m	struct:__anon18	file:
+ValveGyroAcce1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ValveGyroAcce1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+ValveGyroAcce2	CaptureSunSmode5.c	/^	unsigned int ValveGyroAcce2;\/* ¹ßĞÔÔª¼ş±¸·İ *\/$/;"	m	struct:__anon18	file:
+ValveGyroAcce2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ValveGyroAcce2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+ValveIdleAcce1	CaptureSunSmode5.c	/^	unsigned int ValveIdleAcce1;\/* ¿Õ *\/$/;"	m	struct:__anon18	file:
+ValveIdleAcce1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ValveIdleAcce1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+ValveIdleAcce2	CaptureSunSmode5.c	/^	unsigned int ValveIdleAcce2;\/* ¿Õ *\/$/;"	m	struct:__anon18	file:
+ValveIdleAcce2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ValveIdleAcce2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+ValveSS1	CaptureSunSmode5.c	/^	unsigned int ValveSS1;      \/* Ì«ÑôÖ÷·İ *\/$/;"	m	struct:__anon18	file:
+ValveSS1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ValveSS1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+ValveSS2	CaptureSunSmode5.c	/^	unsigned int ValveSS2;      \/* Ì«Ñô±¸·İ *\/$/;"	m	struct:__anon18	file:
+ValveSS2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ValveSS2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+ValveSTS1	CaptureSunSmode5.c	/^	unsigned int ValveSTS1;     \/* ĞÇÃô1 *\/$/;"	m	struct:__anon18	file:
+ValveSTS1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ValveSTS1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+ValveSTS2	CaptureSunSmode5.c	/^	unsigned int ValveSTS2;     \/* ĞÇÃô2 *\/$/;"	m	struct:__anon18	file:
+ValveSTS2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ValveSTS2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+ValveSTS3	CaptureSunSmode5.c	/^	unsigned int ValveSTS3;	    \/* ĞÇÃô3 *\/$/;"	m	struct:__anon18	file:
+ValveSTS3	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ValveSTS3 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+ValveUV1	CaptureSunSmode5.c	/^	unsigned int ValveUV1;      \/* ×ÏÍâ1 *\/$/;"	m	struct:__anon18	file:
+ValveUV1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ValveUV1 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+ValveUV2	CaptureSunSmode5.c	/^	unsigned int ValveUV2;      \/* ×ÏÍâ2 *\/$/;"	m	struct:__anon18	file:
+ValveUV2	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ValveUV2 ;$/;"	m	struct:__anonstruct_LTUError_18	file:
+Vc	CaptureSunSmode5.c	/^    float  Vc[3];               \/* Vcx,Vcy,Vcz*\/$/;"	m	struct:__anon20	file:
+Vc	CaptureSunSmode5.cil.after-sim.c	/^   float Vc[3] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+VcStar	CaptureSunSmode5.c	/^    float  VcStar[3];$/;"	m	struct:__anon20	file:
+VcStar	CaptureSunSmode5.cil.after-sim.c	/^   float VcStar[3] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+Vf	CaptureSunSmode5.c	/^    float  Vf[4];               \/* Vfx,Vfy,Vfz,Vfs *\/$/;"	m	struct:__anon20	file:
+Vf	CaptureSunSmode5.cil.after-sim.c	/^   float Vf[4] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+Vf0	CaptureSunSmode5.c	/^    float  Vf0[4];              \/* Vf0>=0,±íÊ¾¶¯Á¿ÂÖ¾²Ä¦²ÁÁ¦¾ØÏàÓ¦µÄ²¹³¥µçÑ¹ *\/$/;"	m	struct:__anon20	file:
+Vf0	CaptureSunSmode5.cil.after-sim.c	/^   float Vf0[4] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+Vh	CaptureSunSmode5.c	/^    float  Vh[4];               \/* Vhx,Vhy,Vhz,Vhs *\/$/;"	m	struct:__anon20	file:
+Vh	CaptureSunSmode5.cil.after-sim.c	/^   float Vh[4] ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+WF1	CaptureSunSmode5.c	/^    float WF1;          \/* A×é·«°åÇı¶¯»ú¹¹Ö¸Áî½ÇËÙ¶È *\/$/;"	m	struct:__anon4	file:
+WF1	CaptureSunSmode5.cil.after-sim.c	/^   float WF1 ;$/;"	m	struct:__anonstruct_BAPTADATA_4	file:
+WF2	CaptureSunSmode5.c	/^    float WF2;          \/* B×é·«°åÇı¶¯»ú¹¹Ö¸Áî½ÇËÙ¶È *\/$/;"	m	struct:__anon4	file:
+WF2	CaptureSunSmode5.cil.after-sim.c	/^   float WF2 ;$/;"	m	struct:__anonstruct_BAPTADATA_4	file:
+WFT	CaptureSunSmode5.c	/^    unsigned int WFT;    \/* ·«°å½ÇËÙ¶ÈÉèÖÃ *\/$/;"	m	struct:__anon4	file:
+WFT	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int WFT ;$/;"	m	struct:__anonstruct_BAPTADATA_4	file:
+WM4Cycle	CaptureSunSmode5.c	/^unsigned int    WM4Cycle;               \/* ¹ì¿Ø64msÄÚÊıÖÜÆÚ¼Æ256ms  *\/$/;"	v
+WM4Cycle	CaptureSunSmode5.cil.after-sim.c	/^unsigned int WM4Cycle  ;$/;"	v
+WMCycleNum	CaptureSunSmode5.c	/^unsigned int    WMCycleNum;$/;"	v
+WMCycleNum	CaptureSunSmode5.cil.after-sim.c	/^unsigned int WMCycleNum  ;$/;"	v
+WMInertiaAttiCycleNum	CaptureSunSmode5.c	/^unsigned int    WMInertiaAttiCycleNum;  \/* ¹ßĞÔµ÷×ËÄ£Ê½¼ÆÊıÆ÷ 600S *\/$/;"	v
+WMInertiaAttiCycleNum	CaptureSunSmode5.cil.after-sim.c	/^unsigned int WMInertiaAttiCycleNum  ;$/;"	v
+WMInitFlg	CaptureSunSmode5.c	/^unsigned int    WMInitFlg;$/;"	v
+WMInitFlg	CaptureSunSmode5.cil.after-sim.c	/^unsigned int WMInitFlg  ;$/;"	v
+WT	CaptureSunSmode5.c	/^	float WT[3];$/;"	m	struct:__anon13	file:
+WT	CaptureSunSmode5.cil.after-sim.c	/^   float WT[3] ;$/;"	m	struct:__anonstruct_INPara_13	file:
+Word	CaptureSunSmode5.c	/^    unsigned int    Word;$/;"	m	union:__anon29	file:
+Word	CaptureSunSmode5.c	/^    volatile unsigned int    Word;$/;"	m	union:__anon25	file:
+Word	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int Word ;$/;"	m	union:__anonunion_USED_WORD_29	file:
+WorkModeFlg	CaptureSunSmode5.c	/^unsigned int WorkModeFlg;$/;"	v
+WorkModeFlg	CaptureSunSmode5.cil.after-sim.c	/^unsigned int WorkModeFlg  ;$/;"	v
+WorkStatus	CaptureSunSmode5.c	/^    unsigned int WorkStatus[6];\/* ÁùÍÓÂİÊı¾İ¹¤×÷×´Ì¬±êÖ¾ *\/$/;"	m	struct:__anon11	file:
+WorkStatus	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int WorkStatus[6] ;$/;"	m	struct:__anonstruct_GYRODATA_11	file:
+X1	CaptureSunSmode5.c	/^    float   X1[3];            \/*  *\/$/;"	m	struct:__anon23	file:
+X1	CaptureSunSmode5.cil.after-sim.c	/^   float X1[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+X2	CaptureSunSmode5.c	/^    float   X2[3];            \/*  *\/$/;"	m	struct:__anon23	file:
+X2	CaptureSunSmode5.cil.after-sim.c	/^   float X2[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+X3	CaptureSunSmode5.c	/^    float   X3[3];            \/*  *\/$/;"	m	struct:__anon23	file:
+X3	CaptureSunSmode5.cil.after-sim.c	/^   float X3[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+X4	CaptureSunSmode5.c	/^    float   X4[3];            \/*  *\/$/;"	m	struct:__anon23	file:
+X4	CaptureSunSmode5.cil.after-sim.c	/^   float X4[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+X5	CaptureSunSmode5.c	/^    float   X5[3];            \/*  *\/$/;"	m	struct:__anon23	file:
+X5	CaptureSunSmode5.cil.after-sim.c	/^   float X5[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+X6	CaptureSunSmode5.c	/^    float   X6[3];            \/*  *\/$/;"	m	struct:__anon23	file:
+X6	CaptureSunSmode5.cil.after-sim.c	/^   float X6[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+X7	CaptureSunSmode5.c	/^    float   X7[3];            \/*  *\/$/;"	m	struct:__anon23	file:
+X7	CaptureSunSmode5.cil.after-sim.c	/^   float X7[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+X8	CaptureSunSmode5.c	/^    float   X8[3];            \/*  *\/$/;"	m	struct:__anon23	file:
+X8	CaptureSunSmode5.cil.after-sim.c	/^   float X8[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+X82	CaptureSunSmode5.c	/^    float   X82[2];$/;"	m	struct:__anon23	file:
+X82	CaptureSunSmode5.cil.after-sim.c	/^   float X82[2] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+X83	CaptureSunSmode5.c	/^    float   X83[2];$/;"	m	struct:__anon23	file:
+X83	CaptureSunSmode5.cil.after-sim.c	/^   float X83[2] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+XAI	CaptureSunSmode5.c	/^    float XAI[3];$/;"	m	struct:__anon28	file:
+XAI	CaptureSunSmode5.cil.after-sim.c	/^   float XAI[3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+XBI	CaptureSunSmode5.c	/^    float XBI[3];$/;"	m	struct:__anon28	file:
+XBI	CaptureSunSmode5.cil.after-sim.c	/^   float XBI[3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+XCI	CaptureSunSmode5.c	/^    float XCI[3];$/;"	m	struct:__anon28	file:
+XCI	CaptureSunSmode5.cil.after-sim.c	/^   float XCI[3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+Y	CaptureSunSmode5.c	/^    float   Y[3];$/;"	m	struct:__anon23	file:
+Y	CaptureSunSmode5.cil.after-sim.c	/^   float Y[3] ;$/;"	m	struct:__anonstruct_PULSEDATA_23	file:
+ZAI	CaptureSunSmode5.c	/^    float ZAI[3];$/;"	m	struct:__anon28	file:
+ZAI	CaptureSunSmode5.cil.after-sim.c	/^   float ZAI[3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+ZBI	CaptureSunSmode5.c	/^    float ZBI[3];$/;"	m	struct:__anon28	file:
+ZBI	CaptureSunSmode5.cil.after-sim.c	/^   float ZBI[3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+ZCI	CaptureSunSmode5.c	/^    float ZCI[3];$/;"	m	struct:__anon28	file:
+ZCI	CaptureSunSmode5.cil.after-sim.c	/^   float ZCI[3] ;$/;"	m	struct:__anonstruct_STSDATA_28	file:
+ZT10	CaptureSunSmode5.c	/^	unsigned int    ZT10;$/;"	m	struct:__anon2	file:
+ZT10	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ZT10 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+ZT14	CaptureSunSmode5.c	/^	unsigned int    ZT14;$/;"	m	struct:__anon2	file:
+ZT14	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ZT14 ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+ZeroFlg	CaptureSunSmode5.c	/^    unsigned int ZeroFlg;\/* ÌìÏßË«ÖáÒÑ¹éÁãµÄ±êÖ¾ *\/$/;"	m	struct:__anon10	file:
+ZeroFlg	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int ZeroFlg ;$/;"	m	struct:__anonstruct_GDADATA_10	file:
+__anonstruct_ACCELERATE_1	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_ACCELERATE_1 {$/;"	s	file:
+__anonstruct_ATTITUDEDATA_3	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_ATTITUDEDATA_3 {$/;"	s	file:
+__anonstruct_ATTI_2	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_ATTI_2 {$/;"	s	file:
+__anonstruct_BAPTACTRL_5	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_BAPTACTRL_5 {$/;"	s	file:
+__anonstruct_BAPTADATA_4	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_BAPTADATA_4 {$/;"	s	file:
+__anonstruct_Bit4_32	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_Bit4_32 {$/;"	s	file:
+__anonstruct_Byte_31	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_Byte_31 {$/;"	s	file:
+__anonstruct_CalOrbitDATA_6	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_CalOrbitDATA_6 {$/;"	s	file:
+__anonstruct_CaptureSSDATA_7	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_CaptureSSDATA_7 {$/;"	s	file:
+__anonstruct_DOWNLOAD_8	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_DOWNLOAD_8 {$/;"	s	file:
+__anonstruct_FILTER_9	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_FILTER_9 {$/;"	s	file:
+__anonstruct_GDADATA_10	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_GDADATA_10 {$/;"	s	file:
+__anonstruct_GYRODATA_11	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_GYRODATA_11 {$/;"	s	file:
+__anonstruct_Half_30	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_Half_30 {$/;"	s	file:
+__anonstruct_INPara_13	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_INPara_13 {$/;"	s	file:
+__anonstruct_InOrbitDATA_12	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_InOrbitDATA_12 {$/;"	s	file:
+__anonstruct_JPC_DATA_14	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_JPC_DATA_14 {$/;"	s	file:
+__anonstruct_KPara_15	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_KPara_15 {$/;"	s	file:
+__anonstruct_LTUDATA_17	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_LTUDATA_17 {$/;"	s	file:
+__anonstruct_LTUError_18	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_LTUError_18 {$/;"	s	file:
+__anonstruct_LTUSelectFlg_16	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_LTUSelectFlg_16 {$/;"	s	file:
+__anonstruct_LTUSelfCheck_19	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_LTUSelfCheck_19 {$/;"	s	file:
+__anonstruct_MWDATA_20	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_MWDATA_20 {$/;"	s	file:
+__anonstruct_ORBITCOMMAND_21	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_ORBITCOMMAND_21 {$/;"	s	file:
+__anonstruct_PHASEPLANE_24	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_PHASEPLANE_24 {$/;"	s	file:
+__anonstruct_PHASE_22	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_PHASE_22 {$/;"	s	file:
+__anonstruct_PULSEDATA_23	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_PULSEDATA_23 {$/;"	s	file:
+__anonstruct_SSDATA_27	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_SSDATA_27 {$/;"	s	file:
+__anonstruct_STSDATA_28	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_STSDATA_28 {$/;"	s	file:
+__anonstruct_TIME_33	CaptureSunSmode5.cil.after-sim.c	/^struct __anonstruct_TIME_33 {$/;"	s	file:
+__anonunion_USED_WORD_29	CaptureSunSmode5.cil.after-sim.c	/^union __anonunion_USED_WORD_29 {$/;"	u	file:
+_cf__getInput	CaptureSunSmode5.cil.after-sim.c	/^void _cf__getInput(unsigned long addr)$/;"	f
+_cf__getInput	bubble.cil.c	/^void _cf__getInput(unsigned long addr)$/;"	f
+_cf__getInput	bubble2.cil.c	/^void _cf__getInput(unsigned long addr)$/;"	f
+_cf__getInput	dump_transitions.cil.after-sim.c	/^void _cf__getInput(unsigned long addr)$/;"	f
+_cf__getInput	terminatetask.cil.after-sim.c	/^void _cf__getInput(unsigned long addr)$/;"	f
+_cf__getInput	test.cil.c	/^void _cf__getInput(unsigned long addr)$/;"	f
+a	CaptureSunSmode5.c	/^	float  a;                \/* ×¢ÈëµÄÒ»×é¶şÌå¹ìµÀ¸ùÊıÖ®°ë³¤Öá *\/$/;"	m	struct:__anon12	file:
+a	CaptureSunSmode5.cil.after-sim.c	/^   float a ;$/;"	m	struct:__anonstruct_InOrbitDATA_12	file:
+a0	CaptureSunSmode5.c	/^	float  a0;          		 \/* ×¢ÈëÊ±¿ÌÑ¡È¡µÄ²Î¿¼¹ìµÀ¸ùÊıÖ®°ë³¤Öá *\/$/;"	m	struct:__anon12	file:
+a0	CaptureSunSmode5.cil.after-sim.c	/^   float a0 ;$/;"	m	struct:__anonstruct_InOrbitDATA_12	file:
+actCount	terminatetask.cil.after-sim.c	/^   u8 actCount ;$/;"	m	struct:sTCB	file:
+as	CaptureSunSmode5.c	/^    float   as[2];              \/* ¼ÓËÙ¶È¼ÆÊä³ö *\/$/;"	m	struct:__anon1	file:
+as	CaptureSunSmode5.cil.after-sim.c	/^   float as[2] ;$/;"	m	struct:__anonstruct_ACCELERATE_1	file:
+as0	CaptureSunSmode5.c	/^    float   as0[2];             \/* ¼ÓËÙ¶È¼ÆÁãÎ»Æ«²î *\/$/;"	m	struct:__anon1	file:
+as0	CaptureSunSmode5.cil.after-sim.c	/^   float as0[2] ;$/;"	m	struct:__anonstruct_ACCELERATE_1	file:
+b	CaptureSunSmode5.c	/^    float  b[3];               \/* XYZÖáÍÓÂİ³£ÖµÆ¯ÒÆ *\/$/;"	m	struct:__anon11	file:
+b	CaptureSunSmode5.cil.after-sim.c	/^   float b[3] ;$/;"	m	struct:__anonstruct_GYRODATA_11	file:
+bubble	bubble.cil.c	/^void bubble(int *v , int n ) $/;"	f
+bubble	bubble.cil.orig.c	/^void bubble(int *v , int n ) $/;"	f
+bubble	bubble2.cil.c	/^void bubble(int *v , int n ) $/;"	f
+channelL	CaptureSunSmode5.c	/^	unsigned int    channelL;        \/* ×ó·«°åÍ¨µÀºÅ *\/$/;"	m	struct:__anon5	file:
+channelL	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int channelL ;$/;"	m	struct:__anonstruct_BAPTACTRL_5	file:
+channelR	CaptureSunSmode5.c	/^	unsigned int    channelR;        \/* ÓÒ·«°åÍ¨µÀºÅ *\/$/;"	m	struct:__anon5	file:
+channelR	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int channelR ;$/;"	m	struct:__anonstruct_BAPTACTRL_5	file:
+cover_foo	test.cil.c	/^int cover_foo(int *x , int y ) $/;"	f
+d	CaptureSunSmode5.c	/^    float d[3];              \/* ×ÏÍâÂË²¨ÏµÊıµÄĞŞÕıÒò×Ó dx,dy,dz *\/$/;"	m	struct:__anon15	file:
+d	CaptureSunSmode5.cil.after-sim.c	/^   float d[3] ;$/;"	m	struct:__anonstruct_KPara_15	file:
+deltaMS	CaptureSunSmode5.c	/^    unsigned int    deltaMS;            \/*  *\/   $/;"	m	struct:__anon33	file:
+deltaMS	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int deltaMS ;$/;"	m	struct:__anonstruct_TIME_33	file:
+dt	CaptureSunSmode5.c	/^	float  dt;               \/*  *\/$/;"	m	struct:__anon6	file:
+dt	CaptureSunSmode5.cil.after-sim.c	/^   float dt ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+dump_transitions	dump_transitions.cil.after-sim.c	/^void dump_transitions(char *file , int *state , int csize , int *ecgroup ) $/;"	f
+dump_transitions	dump_transitions100.c	/^void dump_transitions( char file[MAXL], int state[MAXL], int csize, int ecgroup[CSIZE+1] )$/;"	f
+e	CaptureSunSmode5.c	/^	float  e;                \/* ×¢ÈëµÄÒ»×é¶şÌå¹ìµÀ¸ùÊıÖ®Æ«ĞÄÂÊ *\/$/;"	m	struct:__anon12	file:
+e	CaptureSunSmode5.cil.after-sim.c	/^   float e ;$/;"	m	struct:__anonstruct_InOrbitDATA_12	file:
+entry	terminatetask.cil.after-sim.c	/^   void (*entry)(void) ;$/;"	m	struct:sTaskInfo	file:
+f	CaptureSunSmode5.c	/^	float  f;                \/* ÎÀĞÇ¸ùÊıÖ®Õæ½üµã½Ç *\/$/;"	m	struct:__anon6	file:
+f	CaptureSunSmode5.cil.after-sim.c	/^   float f ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+flgAllTOEE	CaptureSunSmode5.c	/^unsigned int    flgAllTOEE;             \/* Ì«Ñô¶¨ÏòÄ£Ê½ÖĞ£¬Í¨ÖªÕûĞÇ½øÓ¦¼±±êÖ¾*\/	$/;"	v
+flgAllTOEE	CaptureSunSmode5.cil.after-sim.c	/^unsigned int flgAllTOEE  ;$/;"	v
+flgCLoseValve	CaptureSunSmode5.c	/^unsigned int    flgCLoseValve;          \/* 80ÃëÅÅÆøºó,¹ØÅç¹Ü±êÖ¾ *\/$/;"	v
+flgCLoseValve	CaptureSunSmode5.cil.after-sim.c	/^unsigned int flgCLoseValve  ;$/;"	v
+flgCloseLV5	CaptureSunSmode5.c	/^unsigned int    flgCloseLV5;            \/* ¹Ø×ÔËø·§5µÄ±êÖ¾ *\/$/;"	v
+flgCloseLV5	CaptureSunSmode5.cil.after-sim.c	/^unsigned int flgCloseLV5  ;$/;"	v
+flgOpenLV14	CaptureSunSmode5.c	/^unsigned int    flgOpenLV14;            \/* ¿ª×ÔËø·§1,4µÄ±êÖ¾ *\/$/;"	v
+flgOpenLV14	CaptureSunSmode5.cil.after-sim.c	/^unsigned int flgOpenLV14  ;$/;"	v
+flgOpenLV14Num	CaptureSunSmode5.c	/^unsigned int    flgOpenLV14Num;         \/* ¿ªLV1,4¼ÆÊı *\/$/;"	v
+flgOpenLV14Num	CaptureSunSmode5.cil.after-sim.c	/^unsigned int flgOpenLV14Num  ;$/;"	v
+flgOrbitData	CaptureSunSmode5.c	/^unsigned int    flgOrbitData;           \/* ¹ìµÀÊı¾İ¿é×¢Èë±êÖ¾ *\/$/;"	v
+flgOrbitData	CaptureSunSmode5.cil.after-sim.c	/^unsigned int flgOrbitData  ;$/;"	v
+flgProgramm	CaptureSunSmode5.c	/^unsigned int    flgProgramm;            \/* ÊÕµ½×¢Èë³ÌĞòÊÇ·ñÕıÈ·±êÖ¾ *\/$/;"	v
+flgProgramm	CaptureSunSmode5.cil.after-sim.c	/^unsigned int flgProgramm  ;$/;"	v
+flgReceiveTime	CaptureSunSmode5.c	/^unsigned int	flgReceiveTime;         \/* ½ÓÊÕµ½Ğ£Ê±µÄ±êÖ¾ *\/$/;"	v
+flgReceiveTime	CaptureSunSmode5.cil.after-sim.c	/^unsigned int flgReceiveTime  ;$/;"	v
+flgRequirData	CaptureSunSmode5.c	/^unsigned int    flgRequirData;          \/* ÉêÇëÖØÒªÊı¾İ»Ö¸´±êÖ¾ *\/$/;"	v
+flgRequirData	CaptureSunSmode5.cil.after-sim.c	/^unsigned int flgRequirData  ;$/;"	v
+flgSaveData	CaptureSunSmode5.c	/^unsigned int    flgSaveData;            \/* ÉêÇëÖØÒªÊı¾İ±£´æ±êÖ¾ *\/$/;"	v
+flgSaveData	CaptureSunSmode5.cil.after-sim.c	/^unsigned int flgSaveData  ;$/;"	v
+flgSetFire80	CaptureSunSmode5.c	/^volatile unsigned int    flgSetFire80;   \/* 80sµã»ğ±êÖ¾ *\/$/;"	v
+flgSetFire80	CaptureSunSmode5.cil.after-sim.c	/^unsigned int volatile   flgSetFire80  ;$/;"	v
+flg_invalid	CaptureSunSmode5.c	150;"	d	file:
+flg_valid	CaptureSunSmode5.c	149;"	d	file:
+foo	test.cil.c	/^int foo(int *x , int y ) $/;"	f
+foo	test.cil.orig.c	/^int foo(int *x , int y ) $/;"	f
+fooo	test.cil.c	/^int fooo(int predicate ) $/;"	f
+fooo	test.cil.orig.c	/^int fooo(int predicate ) $/;"	f
+get_test_case_array_Queue	terminatetask.cil.after-sim.c	/^void get_test_case_array_Queue(unsigned long addr, int index)$/;"	f
+get_test_case_array_TCB	terminatetask.cil.after-sim.c	/^void get_test_case_array_TCB(unsigned long addr, int index)$/;"	f
+get_test_case_array_char	dump_transitions.cil.after-sim.c	/^void get_test_case_array_char(unsigned long addr, int index)$/;"	f
+get_test_case_array_float	CaptureSunSmode5.cil.after-sim.c	/^void get_test_case_array_float(unsigned long addr, int index)$/;"	f
+get_test_case_array_int	bubble.cil.c	/^void get_test_case_array_int(unsigned long addr, int index)$/;"	f
+get_test_case_array_int	bubble2.cil.c	/^void get_test_case_array_int(unsigned long addr, int index)$/;"	f
+get_test_case_array_int	dump_transitions.cil.after-sim.c	/^void get_test_case_array_int(unsigned long addr, int index)$/;"	f
+get_test_case_array_unsigned_int	CaptureSunSmode5.cil.after-sim.c	/^void get_test_case_array_unsigned_int(unsigned long addr, int index)$/;"	f
+get_test_case_ptr_ATTITUDEDATA_of_level_1	CaptureSunSmode5.cil.after-sim.c	/^void get_test_case_ptr_ATTITUDEDATA_of_level_1(unsigned long addr_old)$/;"	f
+get_test_case_ptr_CaptureSSDATA_of_level_1	CaptureSunSmode5.cil.after-sim.c	/^void get_test_case_ptr_CaptureSSDATA_of_level_1(unsigned long addr_old)$/;"	f
+get_test_case_ptr_INPara_of_level_1	CaptureSunSmode5.cil.after-sim.c	/^void get_test_case_ptr_INPara_of_level_1(unsigned long addr_old)$/;"	f
+get_test_case_ptr_SSDATA_of_level_1	CaptureSunSmode5.cil.after-sim.c	/^void get_test_case_ptr_SSDATA_of_level_1(unsigned long addr_old)$/;"	f
+get_test_case_ptr_int_of_level_1	test.cil.c	/^void get_test_case_ptr_int_of_level_1(unsigned long addr_old)$/;"	f
+get_test_case_ptr_u16_of_level_1	terminatetask.cil.after-sim.c	/^void get_test_case_ptr_u16_of_level_1(unsigned long addr_old)$/;"	f
+get_test_case_struct___anonstruct_ATTITUDEDATA_3	CaptureSunSmode5.cil.after-sim.c	/^void get_test_case_struct___anonstruct_ATTITUDEDATA_3(unsigned long address)$/;"	f
+get_test_case_struct___anonstruct_CaptureSSDATA_7	CaptureSunSmode5.cil.after-sim.c	/^void get_test_case_struct___anonstruct_CaptureSSDATA_7(unsigned long address)$/;"	f
+get_test_case_struct___anonstruct_INPara_13	CaptureSunSmode5.cil.after-sim.c	/^void get_test_case_struct___anonstruct_INPara_13(unsigned long address)$/;"	f
+get_test_case_struct___anonstruct_SSDATA_27	CaptureSunSmode5.cil.after-sim.c	/^void get_test_case_struct___anonstruct_SSDATA_27(unsigned long address)$/;"	f
+get_test_case_struct_sQueue	terminatetask.cil.after-sim.c	/^void get_test_case_struct_sQueue(unsigned long address)$/;"	f
+get_test_case_struct_sTCB	terminatetask.cil.after-sim.c	/^void get_test_case_struct_sTCB(unsigned long address)$/;"	f
+head	terminatetask.cil.after-sim.c	/^   u8 head ;$/;"	m	struct:sQueue	file:
+i	CaptureSunSmode5.c	/^	float  i;                \/* ×¢ÈëµÄÒ»×é¶şÌå¹ìµÀ¸ùÊıÖ®Çã½Ç *\/$/;"	m	struct:__anon12	file:
+i	CaptureSunSmode5.cil.after-sim.c	/^   float i ;$/;"	m	struct:__anonstruct_InOrbitDATA_12	file:
+id	terminatetask.cil.after-sim.c	/^   u8 id ;$/;"	m	struct:sTaskInfo	file:
+ie	CaptureSunSmode5.c	/^	float ie;                   \/* °×µÀÏà¶Ô³àµÀµÄÆ½¾ùÇã½Ç *\/$/;"	m	struct:__anon13	file:
+ie	CaptureSunSmode5.cil.after-sim.c	/^   float ie ;$/;"	m	struct:__anonstruct_INPara_13	file:
+initPrio	terminatetask.cil.after-sim.c	/^   u8 initPrio ;$/;"	m	struct:sTaskInfo	file:
+internalCeiling	terminatetask.cil.after-sim.c	/^   u8 internalCeiling ;$/;"	m	struct:sTaskInfo	file:
+mDeltaH	CaptureSunSmode5.c	/^    float  mDeltaH;         \/* ·ÉÂÖÅçÆøĞ¶ÔØ·§ÖµµÄĞŞÕıÒò×Ó *\/$/;"	m	struct:__anon20	file:
+mDeltaH	CaptureSunSmode5.cil.after-sim.c	/^   float mDeltaH ;$/;"	m	struct:__anonstruct_MWDATA_20	file:
+mKJ2	CaptureSunSmode5.c	/^    float   mKJ2;           \/* ÏàÆ½Ãæ²ÎÊıKJ2ĞŞÕıÏµÊı *\/$/;"	m	struct:__anon22	file:
+mKJ2	CaptureSunSmode5.cil.after-sim.c	/^   float mKJ2 ;$/;"	m	struct:__anonstruct_PHASE_22	file:
+mKSAb	CaptureSunSmode5.c	/^    float   mKSAb;          \/* ÂË²¨ÏµÊıKSAºóÈıĞĞĞŞÕıÒò×Ó *\/$/;"	m	struct:__anon9	file:
+mKSAb	CaptureSunSmode5.cil.after-sim.c	/^   float mKSAb ;$/;"	m	struct:__anonstruct_FILTER_9	file:
+mKSAq	CaptureSunSmode5.c	/^    float   mKSAq;          \/* ÂË²¨ÏµÊıKSAÇ°ÈıĞĞĞŞÕıÒò×Ó *\/$/;"	m	struct:__anon9	file:
+mKSAq	CaptureSunSmode5.cil.after-sim.c	/^   float mKSAq ;$/;"	m	struct:__anonstruct_FILTER_9	file:
+mKSBb	CaptureSunSmode5.c	/^    float   mKSBb;          \/* ÂË²¨ÏµÊıKSBºóÈıĞĞĞŞÕıÒò×Ó *\/$/;"	m	struct:__anon9	file:
+mKSBb	CaptureSunSmode5.cil.after-sim.c	/^   float mKSBb ;$/;"	m	struct:__anonstruct_FILTER_9	file:
+mKSBq	CaptureSunSmode5.c	/^    float   mKSBq;          \/* ÂË²¨ÏµÊıKSBÇ°ÈıĞĞĞŞÕıÒò×Ó *\/$/;"	m	struct:__anon9	file:
+mKSBq	CaptureSunSmode5.cil.after-sim.c	/^   float mKSBq ;$/;"	m	struct:__anonstruct_FILTER_9	file:
+mKSCb	CaptureSunSmode5.c	/^    float   mKSCb;          \/* ÂË²¨ÏµÊıKSCºóÈıĞĞĞŞÕıÒò×Ó *\/$/;"	m	struct:__anon9	file:
+mKSCb	CaptureSunSmode5.cil.after-sim.c	/^   float mKSCb ;$/;"	m	struct:__anonstruct_FILTER_9	file:
+mKSCq	CaptureSunSmode5.c	/^    float   mKSCq;          \/* ÂË²¨ÏµÊıKSCÇ°ÈıĞĞĞŞÕıÒò×Ó *\/$/;"	m	struct:__anon9	file:
+mKSCq	CaptureSunSmode5.cil.after-sim.c	/^   float mKSCq ;$/;"	m	struct:__anonstruct_FILTER_9	file:
+mThetaD	CaptureSunSmode5.c	/^    float   mThetaD;        \/* ÏàÆ½ÃæËÀÇø·§ÖµĞŞÕıÒò×Ó *\/$/;"	m	struct:__anon22	file:
+mThetaD	CaptureSunSmode5.cil.after-sim.c	/^   float mThetaD ;$/;"	m	struct:__anonstruct_PHASE_22	file:
+mThetaDL	CaptureSunSmode5.c	/^    float   mThetaDL;       \/* ÏàÆ½ÃæÏŞËÙ·§ÖµĞŞÕıÒò×Ó *\/$/;"	m	struct:__anon22	file:
+mThetaDL	CaptureSunSmode5.cil.after-sim.c	/^   float mThetaDL ;$/;"	m	struct:__anonstruct_PHASE_22	file:
+mThetaDV	CaptureSunSmode5.c	/^    float   mThetaDV;       \/* ÏàÆ½Ãæ²½½øÇø·§ÖµĞŞÕıÒò×Ó *\/$/;"	m	struct:__anon22	file:
+mThetaDV	CaptureSunSmode5.cil.after-sim.c	/^   float mThetaDV ;$/;"	m	struct:__anonstruct_PHASE_22	file:
+mThetaV	CaptureSunSmode5.c	/^    float   mThetaV;        \/* ÏàÆ½Ãæ²½½ø·§ÖµĞŞÕıÒò×Ó *\/$/;"	m	struct:__anon22	file:
+mThetaV	CaptureSunSmode5.cil.after-sim.c	/^   float mThetaV ;$/;"	m	struct:__anonstruct_PHASE_22	file:
+main	CaptureSunSmode5.cil.after-sim.c	/^void main(int argc, char *argv[])$/;"	f
+main	bubble.cil.c	/^void main(int argc, char *argv[])$/;"	f
+main	bubble2.cil.c	/^void main(int argc, char *argv[])$/;"	f
+main	dump_transitions.cil.after-sim.c	/^void main(int argc, char *argv[])$/;"	f
+main	terminatetask.cil.after-sim.c	/^void main(int argc, char *argv[])$/;"	f
+main	test.cil.c	/^void main(int argc, char *argv[])$/;"	f
+max	terminatetask.cil.after-sim.c	/^   u8 max ;$/;"	m	struct:sQueue	file:
+maxAct	terminatetask.cil.after-sim.c	/^   u8 maxAct ;$/;"	m	struct:sTaskInfo	file:
+mg	CaptureSunSmode5.c	/^	float mg;                   \/* ÍÓÂİ¹ÊÕÏÅĞ±ğ·§ÖµÒò×Ó *\/$/;"	m	struct:__anon13	file:
+mg	CaptureSunSmode5.cil.after-sim.c	/^   float mg ;$/;"	m	struct:__anonstruct_INPara_13	file:
+mkpLimit	CaptureSunSmode5.c	/^float           mkpLimit;               \/* Âö¿íµ÷ÖÆ±ÈÀıÏîÊäÈëÏŞ·ùÖµ *\/       $/;"	v
+mkpLimit	CaptureSunSmode5.cil.after-sim.c	/^float mkpLimit  ;$/;"	v
+mqa	CaptureSunSmode5.c	/^	float mqa;                  \/* ÏµÍ³¹ÊÕÏÅĞ±ğ·§ÖµÒò×Ó *\/$/;"	m	struct:__anon13	file:
+mqa	CaptureSunSmode5.cil.after-sim.c	/^   float mqa ;$/;"	m	struct:__anonstruct_INPara_13	file:
+num	CaptureSunSmode5.c	/^    volatile unsigned int num;         \/* ÏÂ´«Êı¾İ×Ö½ÚµÄ³¤¶È *\/$/;"	m	struct:__anon8	file:
+num	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int volatile   num ;$/;"	m	struct:__anonstruct_DOWNLOAD_8	file:
+num80s	CaptureSunSmode5.c	/^unsigned int    num80s;                 \/* 80sµã»ğ¼ÆÊı *\/$/;"	v
+num80s	CaptureSunSmode5.cil.after-sim.c	/^unsigned int num80s  ;$/;"	v
+numAttiRate	CaptureSunSmode5.c	/^unsigned int    numAttiRate;            \/* »º³åÇø´ò°ü¼ä¸ô4´ÎµÄ¼ÆÊı *\/$/;"	v
+numAttiRate	CaptureSunSmode5.cil.after-sim.c	/^unsigned int numAttiRate  ;$/;"	v
+numDeltaZ	CaptureSunSmode5.c	/^unsigned int    numDeltaZ;              \/* Á¬Ğø2´Î´óÓÚ0.017 *\/$/;"	v
+numDeltaZ	CaptureSunSmode5.cil.after-sim.c	/^unsigned int numDeltaZ  ;$/;"	v
+numEE	CaptureSunSmode5.c	/^unsigned int    numEE;                  \/* Ó¦¼±¼Óµç¼ÆÊı>=5ÓĞĞ§ *\/$/;"	v
+numEE	CaptureSunSmode5.cil.after-sim.c	/^unsigned int numEE  ;$/;"	v
+numFireOff	CaptureSunSmode5.c	/^unsigned int 	numFireOff;             \/* µã»ğºóµÄ¼ÆÊ±Ê±¼ä *\/$/;"	v
+numFireOff	CaptureSunSmode5.cil.after-sim.c	/^unsigned int numFireOff  ;$/;"	v
+numImpGNCData	CaptureSunSmode5.c	/^unsigned int    numImpGNCData;          \/* ÖØÒªÊı¾İ¶¨ÆÚ±£´æ¼ÆÊı 10s *\/$/;"	v
+numImpGNCData	CaptureSunSmode5.cil.after-sim.c	/^unsigned int numImpGNCData  ;$/;"	v
+numRequirData	CaptureSunSmode5.c	/^unsigned int    numRequirData;          \/* ÉêÇëÖØÒªÊı¾İ¼ÆÊı *\/$/;"	v
+numRequirData	CaptureSunSmode5.cil.after-sim.c	/^unsigned int numRequirData  ;$/;"	v
+numSTSTime	CaptureSunSmode5.c	/^float           numSTSTime;             \/* ĞÇÃô30SĞ£Ê±¼ÆÊı *\/$/;"	v
+numSTSTime	CaptureSunSmode5.cil.after-sim.c	/^float numSTSTime  ;$/;"	v
+numWM4STS	CaptureSunSmode5.c	/^unsigned int    numWM4STS;              \/* ĞÇÃô¸ĞÆ÷²É¼¯£¬ÔÚÄ£Ê½4ÖĞµÄ¼ÆÊı *\/$/;"	v
+numWM4STS	CaptureSunSmode5.cil.after-sim.c	/^unsigned int numWM4STS  ;$/;"	v
+osActivateQueue_0	terminatetask.cil.after-sim.c	/^TaskType osActivateQueue_0[2]  ;$/;"	v
+osActivateQueue_0	terminatetask82.2.c	/^	TaskType osActivateQueue_0[2];$/;"	v
+osActivateQueue_1	terminatetask.cil.after-sim.c	/^TaskType osActivateQueue_1[2]  ;$/;"	v
+osActivateQueue_1	terminatetask82.2.c	/^	TaskType osActivateQueue_1[2];$/;"	v
+osActivateQueue_2	terminatetask.cil.after-sim.c	/^TaskType osActivateQueue_2[2]  ;$/;"	v
+osActivateQueue_2	terminatetask82.2.c	/^	TaskType osActivateQueue_2[2];$/;"	v
+osActivateQueue_3	terminatetask.cil.after-sim.c	/^TaskType osActivateQueue_3[2]  ;$/;"	v
+osActivateQueue_3	terminatetask82.2.c	/^	TaskType osActivateQueue_3[2];$/;"	v
+osActivateQueue_4	terminatetask.cil.after-sim.c	/^TaskType osActivateQueue_4[2]  ;$/;"	v
+osActivateQueue_4	terminatetask82.2.c	/^	TaskType osActivateQueue_4[2];$/;"	v
+osActivateQueue_5	terminatetask.cil.after-sim.c	/^TaskType osActivateQueue_5[2]  ;$/;"	v
+osActivateQueue_5	terminatetask82.2.c	/^	TaskType osActivateQueue_5[2];$/;"	v
+osActivateQueue_6	terminatetask.cil.after-sim.c	/^TaskType osActivateQueue_6[2]  ;$/;"	v
+osActivateQueue_6	terminatetask82.2.c	/^	TaskType osActivateQueue_6[2];$/;"	v
+osActivateQueue_7	terminatetask.cil.after-sim.c	/^TaskType osActivateQueue_7[2]  ;$/;"	v
+osActivateQueue_7	terminatetask82.2.c	/^	TaskType osActivateQueue_7[2];$/;"	v
+osActivateQueue_8	terminatetask.cil.after-sim.c	/^TaskType osActivateQueue_8[2]  ;$/;"	v
+osActivateQueue_8	terminatetask82.2.c	/^	TaskType osActivateQueue_8[2];$/;"	v
+osDisableAPI	terminatetask.cil.after-sim.c	/^u8 osDisableAPI  =    (unsigned char)0;$/;"	v
+osDisableAPI	terminatetask.cil.after-sim.c	/^u8 osDisableAPI ;$/;"	v
+osDisableAPI	terminatetask82.2.c	/^u8 osDisableAPI=0;$/;"	v
+osIntNestDepth	terminatetask.cil.after-sim.c	/^u32 osIntNestDepth  =    0ULL;$/;"	v
+osIntNestDepth	terminatetask.cil.after-sim.c	/^u32 osIntNestDepth ;$/;"	v
+osIntNestDepth	terminatetask82.2.c	/^u32 osIntNestDepth =0; \/* Ã–ÃÂ¶ÃÃ‡Â¶ÃŒÃ—ÃŠÃ½*\/$/;"	v
+osLevel	terminatetask.cil.after-sim.c	/^LevelType osLevel  ;$/;"	v
+osLevel	terminatetask82.2.c	/^LevelType osLevel;		\/* ÂµÂ±Ã‡Â°ÃˆÃÃÃ±Ã”ÃšÃˆÃÃÃ±Å’Â¶Â»Â¹ÃŠÃ‡Ã–ÃÂ¶ÃÅ’Â¶ *\/$/;"	v
+osLockDispatcher	terminatetask.cil.after-sim.c	/^u8 osLockDispatcher  ;$/;"	v
+osLockDispatcher	terminatetask82.2.c	/^u8 osLockDispatcher;$/;"	v
+osMapTable	terminatetask.cil.after-sim.c	/^u8 const   osMapTable[256]  = $/;"	v
+osMapTable	terminatetask82.2.c	/^u8 const osMapTable[]={$/;"	v
+osReadyIndex	terminatetask.cil.after-sim.c	/^u8 osReadyIndex  =    (unsigned char)0;$/;"	v
+osReadyIndex	terminatetask82.2.c	/^u8 osReadyIndex = 0;	\/* Ã“Ã…ÃÃˆÅ’Â¶Ã‹Ã·Ã’Ã½ÃÂ»ÃÅ’ *\/$/;"	v
+osReadyMap	terminatetask.cil.after-sim.c	/^u8 osReadyMap[2]  ;$/;"	v
+osReadyMap	terminatetask82.2.c	/^u8 osReadyMap[PRIORITY_MAX\/8+1];	\/* Ã“Ã…ÃÃˆÅ’Â¶ÃÂ»ÃÅ’ *\/$/;"	v
+osReadyMark	terminatetask.cil.after-sim.c	/^Queue osReadyMark[9]  = $/;"	v
+osReadyMark	terminatetask.cil.after-sim.c	/^Queue osReadyMark[9] ;$/;"	v
+osReadyMark	terminatetask82.2.c	/^Queue osReadyMark[PRIORITY_MAX]={$/;"	v
+osReadyQueue	terminatetask.cil.after-sim.c	/^TaskType *osReadyQueue[9]  = $/;"	v
+osReadyQueue	terminatetask.cil.after-sim.c	/^TaskType *osReadyQueue[9] ;$/;"	v
+osReadyQueue	terminatetask82.2.c	/^TaskType *osReadyQueue[PRIORITY_MAX]={$/;"	v
+osReadyTable	terminatetask82.2.c	/^TaskType osReadyTable[PRIORITY_MAX];	\/* ä¼˜å…ˆçº§è¡¨ï¼Œå…¶ä¸­å…ƒç´ æŒ‡å‘osTcbä¸­å…ƒç´  *\/$/;"	v
+osRunningISR	terminatetask.cil.after-sim.c	/^ISRType osRunningISR  ;$/;"	v
+osRunningISR	terminatetask82.2.c	/^ISRType osRunningISR;	\/* Ã•Ã½Ã”ÃšÅ½Å Ã€Ã­ÂµÃ„ISR *\/$/;"	v
+osRunningNext	terminatetask.cil.after-sim.c	/^TaskType osRunningNext  ;$/;"	v
+osRunningNext	terminatetask82.2.c	/^TaskType osRunningNext; \/* Ã•Ã½Ã”ÃšÃ–Å½ÃÃÂµÃ„ÃˆÃÃÃ±Â»Ã²ISR *\/$/;"	v
+osRunningTask	terminatetask.cil.after-sim.c	/^TaskType osRunningTask  ;$/;"	v
+osRunningTask	terminatetask82.2.c	/^TaskType osRunningTask;	\/* Ã•Ã½Ã”ÃšÃ”Ã‹ÃÃÂµÃ„ÃˆÃÃÃ± *\/$/;"	v
+osStart	terminatetask.cil.after-sim.c	/^u8 osStart  =    (unsigned char)0;$/;"	v
+osStart	terminatetask.cil.after-sim.c	/^u8 osStart ;$/;"	v
+osStart	terminatetask82.2.c	/^BOOL osStart=0;	\/* Â²Ã™Ã—Ã·ÃÂµÃÂ³ÃŠÃ‡Â·Ã±Ã†Ã´Â¶Â¯ *\/$/;"	v
+osSystemSp	terminatetask.cil.after-sim.c	/^void *osSystemSp  ;$/;"	v
+osSystemSp	terminatetask82.2.c	/^void * osSystemSp;$/;"	v
+osSystemStack	terminatetask.cil.after-sim.c	/^StackType osSystemStack  =    {(AddressType )(systembp), 100U};$/;"	v
+osSystemStack	terminatetask82.2.c	/^StackType osSystemStack={systembp,100};$/;"	v
+osTask	terminatetask.cil.after-sim.c	/^TaskInfo const   osTask[4]  = {      {(void (*)(void))0, (unsigned char)0, (unsigned char)1, (unsigned char)0, (unsigned char)1,$/;"	v
+osTask	terminatetask.cil.after-sim.c	/^TaskInfo const   osTask[4] ;$/;"	v
+osTask	terminatetask82.2.c	/^const TaskInfo osTask[TASK_MAX+ISR_MAX]={$/;"	v
+osTcb	terminatetask.cil.after-sim.c	/^TCB osTcb[4]  ;$/;"	v
+osTcb	terminatetask82.2.c	/^TCB osTcb[TASK_MAX+ISR_MAX];	\/* ä»»åŠ¡æ§åˆ¶å— *\/$/;"	v
+osTcbEventMask	terminatetask.cil.after-sim.c	/^EventMaskType osTcbEventMask[2]  ;$/;"	v
+osTcbEventMask	terminatetask82.2.c	/^EventMaskType osTcbEventMask[1];$/;"	v
+osTcbEventMask	terminatetask82.2.c	/^EventMaskType osTcbEventMask[TASK_EXTENDED_NUM];$/;"	v
+osTcbWaitEventMask	terminatetask.cil.after-sim.c	/^EventMaskType osTcbWaitEventMask[2]  ;$/;"	v
+osTcbWaitEventMask	terminatetask82.2.c	/^EventMaskType osTcbWaitEventMask[1];$/;"	v
+osTcbWaitEventMask	terminatetask82.2.c	/^EventMaskType osTcbWaitEventMask[TASK_EXTENDED_NUM];$/;"	v
+ptr	terminatetask.cil.after-sim.c	/^   AddressType ptr ;$/;"	m	struct:sStackType	file:
+q	CaptureSunSmode5.c	/^    float       q[4];$/;"	m	struct:__anon2	file:
+q	CaptureSunSmode5.cil.after-sim.c	/^   float q[4] ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+qBO	CaptureSunSmode5.c	/^    float       qBO[4];$/;"	m	struct:__anon2	file:
+qBO	CaptureSunSmode5.cil.after-sim.c	/^   float qBO[4] ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+qBT	CaptureSunSmode5.c	/^    float       qBT[4];$/;"	m	struct:__anon2	file:
+qBT	CaptureSunSmode5.cil.after-sim.c	/^   float qBT[4] ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+qBTabs	CaptureSunSmode5.c	/^float           qBTabs;$/;"	v
+qBTabs	CaptureSunSmode5.cil.after-sim.c	/^float qBTabs  ;$/;"	v
+qGI	CaptureSunSmode5.c	/^    float       qGI[4];$/;"	m	struct:__anon2	file:
+qGI	CaptureSunSmode5.cil.after-sim.c	/^   float qGI[4] ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+qOI	CaptureSunSmode5.c	/^    float       qOI[4];$/;"	m	struct:__anon2	file:
+qOI	CaptureSunSmode5.cil.after-sim.c	/^   float qOI[4] ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+qTI	CaptureSunSmode5.c	/^    float       qTI[4];$/;"	m	struct:__anon2	file:
+qTI	CaptureSunSmode5.cil.after-sim.c	/^   float qTI[4] ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+qg	CaptureSunSmode5.c	/^	float       qg[4];$/;"	m	struct:__anon2	file:
+qg	CaptureSunSmode5.cil.after-sim.c	/^   float qg[4] ;$/;"	m	struct:__anonstruct_ATTI_2	file:
+r	CaptureSunSmode5.c	/^	float  r;                \/* ÔÂĞÄ¾à Ã× *\/$/;"	m	struct:__anon6	file:
+r	CaptureSunSmode5.cil.after-sim.c	/^   float r ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+rEM	CaptureSunSmode5.c	/^	float  rEM;              \/* µØÔÂ¾à *\/$/;"	m	struct:__anon6	file:
+rEM	CaptureSunSmode5.cil.after-sim.c	/^   float rEM ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+rES	CaptureSunSmode5.c	/^	float  rES;              \/*  *\/$/;"	m	struct:__anon6	file:
+rES	CaptureSunSmode5.cil.after-sim.c	/^   float rES ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+resCount	terminatetask.cil.after-sim.c	/^   u8 resCount ;$/;"	m	struct:sTCB	file:
+rho	CaptureSunSmode5.c	/^	float  rho;              \/* ÔÂÇò°ëÕÅ½Ç¦Ñ rad*\/$/;"	m	struct:__anon6	file:
+rho	CaptureSunSmode5.cil.after-sim.c	/^   float rho ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+runPrio	terminatetask.cil.after-sim.c	/^   u8 runPrio ;$/;"	m	struct:sTCB	file:
+sQueue	terminatetask.cil.after-sim.c	/^struct sQueue {$/;"	s	file:
+sStackType	terminatetask.cil.after-sim.c	/^struct sStackType {$/;"	s	file:
+sTCB	terminatetask.cil.after-sim.c	/^struct sTCB {$/;"	s	file:
+sTaskInfo	terminatetask.cil.after-sim.c	/^struct sTaskInfo {$/;"	s	file:
+size	terminatetask.cil.after-sim.c	/^   u16 size ;$/;"	m	struct:sStackType	file:
+sp	terminatetask.cil.after-sim.c	/^   AddressType sp ;$/;"	m	struct:sTCB	file:
+stackBottom	terminatetask.cil.after-sim.c	/^   AddressType stackBottom ;$/;"	m	struct:sTCB	file:
+stackid	terminatetask.cil.after-sim.c	/^   u8 stackid ;$/;"	m	struct:sTaskInfo	file:
+state	terminatetask.cil.after-sim.c	/^   u8 state ;$/;"	m	struct:sTCB	file:
+systembp	terminatetask.cil.after-sim.c	/^u32 systembp[100]  ;$/;"	v
+systembp	terminatetask82.2.c	/^u32 systembp[100];$/;"	v
+t0	CaptureSunSmode5.c	/^	unsigned int  t0;        \/* ³õÊ¼²ÎÊı×¢ÈëÊ±¿Ì *\/$/;"	m	struct:__anon12	file:
+t0	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int t0 ;$/;"	m	struct:__anonstruct_InOrbitDATA_12	file:
+tail	terminatetask.cil.after-sim.c	/^   u8 tail ;$/;"	m	struct:sQueue	file:
+tec1	CaptureSunSmode5.c	/^    unsigned int    tec1;               \/* ½øÒõÓ°Ê±¿Ì *\/$/;"	m	struct:__anon33	file:
+tec1	CaptureSunSmode5.cil.after-sim.c	/^   unsigned int tec1 ;$/;"	m	struct:__anonstruct_TIME_33	file:
+testme	CaptureSunSmode5.c	/^void testme(){$/;"	f
+testme	CaptureSunSmode5.cil.after-sim.c	/^void testme(void) $/;"	f
+testme	bubble.cil.c	/^void testme(void) $/;"	f
+testme	bubble.cil.orig.c	/^void testme(void) $/;"	f
+testme	bubble2.cil.c	/^void testme(void) $/;"	f
+testme	dump_transitions.cil.after-sim.c	/^void testme(void) $/;"	f
+testme	dump_transitions100.c	/^void testme()$/;"	f
+testme	terminatetask.cil.after-sim.c	/^void testme(void) $/;"	f
+testme	terminatetask82.2.c	/^void testme(){$/;"	f
+testme	test.cil.c	/^void testme(void) $/;"	f
+testme	test.cil.orig.c	/^void testme(void) $/;"	f
+tr	CaptureSunSmode5.c	/^        volatile unsigned tr         : 1;        \/* 5    ·¢ËÍ\/½ÓÊÕÎ» *\/$/;"	m	struct:__anon25::__anon26	file:
+type	terminatetask.cil.after-sim.c	/^   u8 type ;$/;"	m	struct:sTaskInfo	file:
+u	CaptureSunSmode5.c	/^	float  u;                \/*  *\/$/;"	m	struct:__anon6	file:
+u	CaptureSunSmode5.cil.after-sim.c	/^   float u ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+u16	terminatetask.cil.after-sim.c	/^typedef unsigned int u16;$/;"	t	file:
+u32	terminatetask.cil.after-sim.c	/^typedef unsigned long long u32;$/;"	t	file:
+u8	terminatetask.cil.after-sim.c	/^typedef unsigned char u8;$/;"	t	file:
+ue	CaptureSunSmode5.c	/^	float  ue;               \/*  *\/$/;"	m	struct:__anon6	file:
+ue	CaptureSunSmode5.cil.after-sim.c	/^   float ue ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+ul0	CaptureSunSmode5.c	/^	float ul0;$/;"	m	struct:__anon13	file:
+ul0	CaptureSunSmode5.cil.after-sim.c	/^   float ul0 ;$/;"	m	struct:__anonstruct_INPara_13	file:
+us	CaptureSunSmode5.c	/^	float  us;               \/* Ì«ÑôÔÚ¹ßĞÔ×ø±êÏµµÄ·ÖÁ¿ *\/$/;"	m	struct:__anon6	file:
+us	CaptureSunSmode5.cil.after-sim.c	/^   float us ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+w	CaptureSunSmode5.c	/^	float  w;                \/* ×¢ÈëµÄÒ»×é¶şÌå¹ìµÀ¸ùÊıÖ®½üµØµã·ù½Ç *\/$/;"	m	struct:__anon12	file:
+w	CaptureSunSmode5.cil.after-sim.c	/^   float w ;$/;"	m	struct:__anonstruct_InOrbitDATA_12	file:
+w0	CaptureSunSmode5.c	/^	float  w0;               \/* ÎÀĞÇ¹ìµÀ½ÇËÙ¶È¦Ø0 *\/$/;"	m	struct:__anon6	file:
+w0	CaptureSunSmode5.cil.after-sim.c	/^   float w0 ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+wGK	CaptureSunSmode5.c	/^    float   wGK[3];             \/* ±ä¹ìÏµÊı  *\/$/;"	m	struct:__anon21	file:
+wGK	CaptureSunSmode5.cil.after-sim.c	/^   float wGK[3] ;$/;"	m	struct:__anonstruct_ORBITCOMMAND_21	file:
+we	CaptureSunSmode5.c	/^	float  we;               \/*  *\/$/;"	m	struct:__anon6	file:
+we	CaptureSunSmode5.cil.after-sim.c	/^   float we ;$/;"	m	struct:__anonstruct_CalOrbitDATA_6	file:
+xw	CaptureSunSmode5.c	/^    float  xw[3];              \/* ĞŞÕıºóµÄÍÓÂİÈıÖá½ÇËÙ¶È *\/$/;"	m	struct:__anon11	file:
+xw	CaptureSunSmode5.cil.after-sim.c	/^   float xw[3] ;$/;"	m	struct:__anonstruct_GYRODATA_11	file:
+xwBT	CaptureSunSmode5.c	/^    float  xwBT[3];            \/*  *\/$/;"	m	struct:__anon11	file:
+xwBT	CaptureSunSmode5.cil.after-sim.c	/^   float xwBT[3] ;$/;"	m	struct:__anonstruct_GYRODATA_11	file:
+xwTI	CaptureSunSmode5.c	/^    float  xwTI[3];            \/*  *\/$/;"	m	struct:__anon11	file:
+xwTI	CaptureSunSmode5.cil.after-sim.c	/^   float xwTI[3] ;$/;"	m	struct:__anonstruct_GYRODATA_11	file:

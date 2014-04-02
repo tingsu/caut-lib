@@ -1,0 +1,21 @@
+id: 0, iteration: 1, covered: 1
+id: 1, iteration: 2, covered: 6
+id: 2, iteration: 3, covered: 7
+id: 3, iteration: 4, covered: 7
+id: 4, iteration: 5, covered: 7
+id: 5, iteration: 6, covered: 7
+id: 6, iteration: 7, covered: 7
+id: 7, iteration: 8, covered: 7
+id: 8, iteration: 9, covered: 7
+id: 9, iteration: 10, covered: 8
+#12[0] YES #12[1] YES #14[0] YES #14[1] YES #17[0] YES #17[1] YES #15[0] YES #15[1] YES 
+
+Branch Coverage Testing:
+all/covered branch: 8/8 
+Coverage:100.000000%
+All explored execution paths: 10
+Explored execution paths[no duplicate]: 10
+Program Iteration: 10
+Constraint Solved: 78
+Test Cases: 10
+Average Search Depth: 14.100000

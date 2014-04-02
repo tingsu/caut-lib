@@ -1,0 +1,38 @@
+rm -rf *.o *.a
+gcc -g -I ../../include/core/ -c mcdc_coverage.c
+gcc -g -I ../../include/core/ -c cfg.c
+gcc -g -I ../../include/core/ -c path.c
+gcc -g -I ../../include/core/ -c dump.c
+gcc -g -I ../../include/core/ -c symbolic.c
+gcc -g -I ../../include/core/ -c constraint_solve.c
+gcc -g -I ../../include/core/ -c constraint_optimize.c
+gcc -g -I ../../include/core/ -c get_test_case.c
+gcc -g -I ../../include/core/ -c runtime.c
+gcc -g -I ../../include/core/ -c fitness.c
+ar -rcs caut-mcdc.a mcdc_coverage.o cfg.o path.o dump.o symbolic.o constraint_solve.o constraint_optimize.o get_test_case.o runtime.o fitness.o ../../Sqlite/sqlite3.o ../DataStructure/list.o ../DataStructure/stack.o
+bubble
+rm -rf bubble *.tpl *.lst *.cautlog *.append *.cil.orig.c *.*~ *.i *~ cover_status.txt
+gcc -g -o bubble -I .. -L ../lpsolve bubble.cil.c ../src/core/caut-mcdc.a -llpsolve55 -ldl -lpthread 
+
+
+
+
+		--> cmp_branch_to_cs_node (branch) <--> cmp_cs_node_by_id (mcdc)
+
+../src/core/caut-mcdc.a(path.o): In function `cal_dist_to_uncovered_goals':
+/work/tingsucaut/src/core/path.c:1708: undefined reference to `cmp_branch_to_crest_branch'
+/work/tingsucaut/src/core/path.c:1718: undefined reference to `cmp_branch_to_cs_node'
+/work/tingsucaut/src/core/path.c:1726: undefined reference to `cmp_branch_to_crest_branch'
+/work/tingsucaut/src/core/path.c:1742: undefined reference to `cmp_branch_to_crest_branch'
+                  --> no definition in mcdc_coverage.c
+
+../src/core/caut-mcdc.a(path.o): In function `cal_min_dist_to_uncovered_goals':
+/work/tingsucaut/src/core/path.c:1773: undefined reference to `cmp_branch_to_cs_node'
+		
+
+
+
+collect2: ld returned 1 exit status
+make: *** [bubble] Error 1
+bash: ./bubble: No such file or directory
+mv: cannot stat `cover_status.txt': No such file or directory
