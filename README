@@ -25,11 +25,11 @@ You can get news and announcements at CAUT's homepage:
 	Up to now, CAUT is only tested on Linux-Ubuntu 32 bit.
 	But we think it is easy to port it to other unix supported platforms with a little modification.
 
--- How to build the source code (or directly use caut library) ?
+-- How to build the caut library ?
 
 Note: If encountering some building errors, you can contact tsuletgo@gmail.com
 
-	1. (necessary for both usages) build c-ocaml-sqlite-lib, which is used to create an sqlite interface in Ocaml. 
+	1. build c-ocaml-sqlite-lib, which is used to create an sqlite interface in Ocaml. 
 	   step1: cd ./tools/c-ocaml-sqlite-lib
            step2: make clean --> make --> sudo make install
 	   default lib directory : /usr/lib/ocaml, refer to ./tools/c-ocaml-sqlite-lib for details.
