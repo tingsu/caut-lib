@@ -99,7 +99,7 @@ Note: If encountering some building errors, you can contact tsuletgo@gmail.com
 	   
 	3. Predictive Path Search strategy based on the Coverage Structure
 
-	   For details: refer to our technical report
+	   For details: refer to our SERE'14 paper: automated coverage-driven test data generation via dynamic symbolic execution.
 
 	4. other search strategies: DFS (depth-first search)
 				    BFS (breath-first search)
