@@ -1,12 +1,12 @@
 
 Thanks for downloading and trying CAUT.
 
-You can get the latest version of CAUT, as well as news and announcements at CAUT's homepage: 
+You can get news and announcements at CAUT's homepage: 
 	http://www.lab205.org/caut/
 	
 --What it does? 
 	
-	CAUT is a DSE(dynamic symbolic execution)-based tool to automatically generate test data for C program at unit/program testing level.
+	CAUT is a DSE(dynamic symbolic execution)-based engine to automatically generate test data for C program at unit/program testing level.
 	It currently supports the coverage-driven testing on branch and MC/DC criteria.
 	And it's easy to be extended to support other logical coverage criteria, like condition, condition/decision or multiple coverage.
 	Up to now, serveral path exploration strategies have been implemented on CAUT. 
@@ -110,4 +110,3 @@ Note: If encountering some building errors, you can contact tsuletgo@gmail.com
 	5. fitness guided search strategy(experimental stage, not stable)
 
 	   For details: Fitness-Guided Path Exploration in Dynamic Symbolic Execution. Xie et al.
-
