@@ -34,7 +34,7 @@ Note: If encountering some building errors, you can contact tsuletgo@gmail.com
            step2: make clean --> make --> sudo make install
 	   default lib directory : /usr/lib/ocaml, refer to ./tools/c-ocaml-sqlite-lib for details.
 
-    2. CAUT includes a modified version of CIL executable. 
+        2. CAUT includes a modified version of CIL executable. 
 
 	  CIL source code is available at: http://kerneis.github.com/cil/doc/html/cil/. 
 	  It is distributed under the revised BSD license. See cil/LICENSE for details.
